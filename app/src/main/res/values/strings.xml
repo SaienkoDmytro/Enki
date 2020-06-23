@@ -16,4 +16,5 @@
     <string name="menu_gear">Gear, Jewels, Flasks</string>
     <string name="menu_mapping">Mapping, Bossfights</string>
     <string name="text_video"><a href="https://www.youtube.com/watch?v=cJBzFVqPMBM">3.11 setup preview (recorded in 3.10)</a></string>
+    <string name="text_video1">I\'m also going to start in Harvest SSFHC with this build live at twitch.tv/enki91</string>
 </resources>
