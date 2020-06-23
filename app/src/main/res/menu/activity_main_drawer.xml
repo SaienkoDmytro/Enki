@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_videos"
+            android:icon="@drawable/ic_video"
+            android:title="@string/menu_videos" />
+        <item
+            android:id="@+id/menu_pob"
+            android:icon="@drawable/ic_pob"
+            android:title="@string/menu_pob" />
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/menu_about" />
+        <item
+            android:id="@+id/menu_leveling"
+            android:icon="@drawable/ic_lvl"
+            android:title="@string/menu_leveling" />
+        <item
+            android:id="@+id/menu_passive"
+            android:icon="@drawable/ic_asc"
+            android:title="@string/menu_passive" />
+        <item
+            android:id="@+id/menu_gem"
+            android:icon="@drawable/ic_gem"
+            android:title="@string/menu_gem" />
+        <item
+            android:id="@+id/menu_gear"
+            android:icon="@drawable/ic_gear"
+            android:title="@string/menu_gear" />
+        <item
+            android:id="@+id/menu_mapping"
+            android:icon="@drawable/ic_map"
+            android:title="@string/menu_mapping" />
+    </group>
+</menu>

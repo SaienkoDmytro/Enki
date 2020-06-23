@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Enki\'s Arc Witch</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Enki\'s Arc Witch</string>
+    <string name="nav_header_subtitle">A beginner, SSF-friendly Lightning Caster</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_videos">Videos</string>
+    <string name="menu_pob">Path of Building</string>
+    <string name="menu_about">About this Build</string>
+    <string name="menu_leveling">Leveling this Build</string>
+    <string name="menu_passive">Passive Tree, Ascendancy, Pantheon</string>
+    <string name="menu_gem">Gem Setup</string>
+    <string name="menu_gear">Gear, Jewels, Flasks</string>
+    <string name="menu_mapping">Mapping, Bossfights</string>
+    <string name="text_video"><a href="https://www.youtube.com/watch?v=cJBzFVqPMBM">3.11 setup preview (recorded in 3.10)</a></string>
+</resources>
