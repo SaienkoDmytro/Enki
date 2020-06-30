@@ -1,6 +1,7 @@
 package com.example.test1;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.widget.ImageView;
@@ -12,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Text_Content_Activity extends AppCompatActivity {
     private int category;
     private TextView text_content;
+    private Typeface face1;
     private int position;
     private int [] array_video = {R.string.text_video, R.string.text_video1, R.string.text_PB, R.string.text_PBD,R.string.text_pros,R.string.text_mech};
     private ImageView imageContent;
@@ -33,6 +35,7 @@ public class Text_Content_Activity extends AppCompatActivity {
         text_content = findViewById(R.id.text_youtube);
         imageContent = findViewById(R.id.imageContent);
         reciveIntent();
+        init();
     }
     private void reciveIntent() {
 Intent i = getIntent();
@@ -72,5 +75,11 @@ imageContent.setImageResource(array_image[position]);
 
         break;
 }
+    }
+    private void init(){
+        text_content = findViewById(R.id.text_youtube);
+        imageContent = findViewById(R.id.imageContent);
+        face1 = Typeface.createFromAsset(this.getAssets(), "fonts/Spartan-Regular.ttf");
+        text_content.setTypeface(face1);
     }
 }

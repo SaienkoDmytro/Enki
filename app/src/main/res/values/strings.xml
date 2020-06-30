@@ -6,7 +6,7 @@
     <string name="nav_header_subtitle">A beginner, SSF-friendly Lightning Caster</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
+    <string name="button_start">START</string>
     <string name="menu_videos">Videos</string>
     <string name="menu_pob">Path of Building</string>
     <string name="menu_about">About this Build</string>
@@ -26,7 +26,7 @@ a second nearby enemy from where it can\'t chain further. The amount of times Ar
         \n\n‣ <b>Mana:</b> By default, mana is used to cover skill costs and -reservation. This build however couples heavy mana investment with several gems and keystones for various offensive and defensive purposes. Mind over Matter redirects 30% of the damage we take to our life to mana instead while the Agnostic spends mana to heal our life back to full, the gems will be covered later in the guide. This makes our mana investment very efficient and augments the value of the base 6 mana we gain per level, but it also creates a high demand for sustain beyond the base 1.8% of mana being regenerated per second which we mostly cover through our ascendancy, flasks and passives.
         \n\n‣ <b>Block:</b> Another defensive layer which comes in two ways, Chance to Block Attacks and Chance to Block Spells, each with a base cap of 75%. Blocking hits prevents all damage and status effects except for stun, however non-hitbased damage over time can\'t be blocked. While we won\'t reach the block cap, it\'s still enough damage prevention coupled with some ways to heal us on block.
         \n\n‣ <b>Elemental Overload:</b> This keystone provides a 40% more damage multiplier in exchange for removing all critical strike multiplier, with the condition to crit atleast once within 8 seconds. While the damage potential is lower compared to scaling crits, the damage is also way more consistent and only takes small investment, which allows us to invest more heavily into mana.
-        \n\n‣ <b>Spiritual Aid:</b> A notable that applies all stats with the wording "Minions deal #% increased Damage" and "Minions deal #% reduced Damage" to our damage. This gives some more liberties while gearing and makes said stat from our ascendancy not go to waste. Note that minion damage stats with different wording, such as "Golems deal #% increased Damage", "Minions deal #% more Damage" or "Minions deal # to # additional Lightning Damage" won\'t apply to us!</string>
+        \n\n‣ <b>Spiritual Aid:</b> A notable that applies all stats with the wording \"Minions deal #% increased Damage\" and \"Minions deal #% reduced Damage\" to our damage. This gives some more liberties while gearing and makes said stat from our ascendancy not go to waste. Note that minion damage stats with different wording, such as \"Golems deal #% increased Damage\", \"Minions deal #% more Damage\" or \"Minions deal # to # additional Lightning Damage\" won\'t apply to us!</string>
 <string name="text_lvl1">Here\'s a small collection of generic advice for newer players:
 
 ‣ Information: Knowledge is a strong skill in Path of Exile, and it helps to know where to find it. First there\'s the ingame Help Panel, which you can reach through its icon next to your skillbar.
