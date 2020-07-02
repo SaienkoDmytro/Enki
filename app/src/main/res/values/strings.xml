@@ -20,7 +20,7 @@
     <string name="text_PB">Path of Building link and Browser Version\n<a href="https://pastebin.com/r3EEZjCa">Link to build</a> (<b><i>read the Notes after importing!</i></b>)\n<a href="https://pob.party/">Browser Version</a>\n<b><i>I know that some people jump straight to the PoB without ever reading the guide, which often leads to failure and is then blamed on the build. Don\'t be that person!</i></b>\nI\'ve invested lots of time into this guide and find it very rude when people just disregard that
 and ask about things that are already well explained. This unfortunately keeps happening.</string>
     <string name="text_PBD">Path of Building is a tool that lets you fully plan characters from scratch, check out other peoples setups or import your own character to check DPS and defenses or compare potential upgrades.\n<a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases">Path of Building Community Fork</a> (<b><i>required for the POB above</i></b>)\n<a href="https://imgur.com/OeTuAhL">How to import builds</a></string>
-<string name="text_pros">+ smooth gameplay and progression\n+ cheap and fully SSF-capable\n+ can get really tanky\n+ capable to do all bossfights\n- boss DPS is a bit lacking\n- can\'t run all mapmods</string>
+<string name="text_pros"><font color='green'>+ smooth gameplay and progression\n+ cheap and fully SSF-capable\n+ can get really tanky\n+ capable to do all bossfights</font>\n<font color='red'>- boss DPS is a bit lacking\n- can\'t run all mapmods</font></string>
     <string name="text_mech"><b>‣ Chaining:</b> Arc is a lightning-based spell with the ability to chain from monsters and destroyable objects, even around corners and out of your line of sight! Each time it chains, it will also split to
 a second nearby enemy from where it can\'t chain further. The amount of times Arc can chain depends on its gem level and can be increased by enchantments.
         \n\n‣ <b>Mana:</b> By default, mana is used to cover skill costs and -reservation. This build however couples heavy mana investment with several gems and keystones for various offensive and defensive purposes. Mind over Matter redirects 30% of the damage we take to our life to mana instead while the Agnostic spends mana to heal our life back to full, the gems will be covered later in the guide. This makes our mana investment very efficient and augments the value of the base 6 mana we gain per level, but it also creates a high demand for sustain beyond the base 1.8% of mana being regenerated per second which we mostly cover through our ascendancy, flasks and passives.
@@ -195,270 +195,230 @@ From now on, start each bossfight by casting Desecrate twice then use Arcane Clo
 
 <b>Act 6</b>\n\n
 
-‣ Clear the Twilight Strand to unlock Lilly as Skillgem Vendor
-‣ Get to Mud Flats and kill the Dishonored Queen
-‣ Enter Karui Fortress, kill Tukohama and get Skillpoint in town
-‣ Use Soul of Tukohama
-‣ Finish Trial of Ascendancy in Prison and kill Shavronne
-‣ Enter Prisoner\'s Gate, kill Abberath and get Skillpoint in town
-‣ Get Riverways Waypoint
-‣ Enter Wetlands, kill Puppet Mistress and get Skillpoint in town
-‣ Light the Beacon and kill the Brine King
-‣ Use Soul of the Brine King
+‣ Clear the Twilight Strand to unlock Lilly as Skillgem Vendor\n
+‣ Get to Mud Flats and kill the Dishonored Queen\n
+‣ Enter Karui Fortress, kill Tukohama and get Skillpoint in town\n
+‣ Use Soul of Tukohama\n
+‣ Finish Trial of Ascendancy in Prison and kill Shavronne\n
+‣ Enter Prisoner\'s Gate, kill Abberath and get Skillpoint in town\n
+‣ Get Riverways Waypoint\n
+‣ Enter Wetlands, kill Puppet Mistress and get Skillpoint in town\n
+‣ Light the Beacon and kill the Brine King\n
+‣ Use Soul of the Brine King\n\n
 
-Passive Tree Goal
+<b>Passive Tree Goal</b>\n\n
 
-Exp Farming Zone: The Southern Forest
-
-
-Act 7
-
-Start looking out for a shield to replace one weapon. Once you\'ve found a good one, get Tempest Shield from Lilly, link it to the Cast when Damage taken setup and don\'t level it up.
-
-‣ Find the Silver Locket in Broken Bridge and get Granite Flask in town
-‣ Replace your low item level Quicksilver Flask with Granite Flask
-‣ Enter Crossroads, get Waypoint then enter Crypt through Fellshrine Ruins
-‣ Finish Trial of Ascendancy and find Maligaro\'s Map
-‣ Go back to Crossroads and enter Chamber of Sins
-‣ Kill Maligaro in Maligaro\'s Sanctum
-‣ Finish Trial of Ascendancy in Chamber of Sins Level 2 and enter the Den
-‣ Make your way to Ashen Fields and kill Greust, then get Skillpoint in town
-‣ Get Northern Forest Waypoint and enter Dread Thicket
-‣ Collect all Fireflies and kill Gruthkul, then get Skillpoint in town
-‣ Find Kishara\'s Star in Causeway and get Skillpoint in town
-‣ Get the Vaal City Waypoint, enter Temple of Decay and go back to town
-‣ Finish the second Labyrinth and get Mistress of Sacrifice
-‣ Get Bone Offering and Arcanist Brand, and link them together with Desecrate
-‣ Use this from time to time for additional defenses, mostly during bossfights
-‣ Get back to the Temple of Decay and kill Arakaali
-
-Passive Tree Goal
-
-Exp Farming Zone: The Northern Forest
+<b>Exp Farming Zone: The Southern Forest</b>\n\n
 
 
-Act 8
+<b>Act 7</b>\n\n
 
-‣ Enter the Toxic Conduits and kill Doedre
-‣ Go for Quay first, find Ankh of Eternity, kill Tolman and get Skillpoint in town
-‣ Kill the Gemling Legionnaires in Grain Gate and get Skillpoint in town
-‣ Enter Solaris Temple, get Sun Orb then enter Solaris Concourse and get Waypoint
-‣ Go back to Doedre\'s Cesspool and go for the Grand Promenade now
-‣ Get Bath House Waypoint and finish Trial of Ascendancy
-‣ Enter High Gardens, kill Yugul and get Skillpoint in town
-‣ Enter Lunaris Temple through Lunaris Concourse and get Moon Orb
-‣ Go to Harbour Bridge and kill Solaris and Lunaris
+Start looking out for a shield to replace one weapon. Once you\'ve found a good one, get Tempest Shield from Lilly, link it to the Cast when Damage taken setup and don\'t level it up.\n\n
 
-Passive Tree Goal
+‣ Find the Silver Locket in Broken Bridge and get Granite Flask in town\n
+‣ Replace your low item level Quicksilver Flask with Granite Flask\n
+‣ Enter Crossroads, get Waypoint then enter Crypt through Fellshrine Ruins\n
+‣ Finish Trial of Ascendancy and find Maligaro\'s Map\n
+‣ Go back to Crossroads and enter Chamber of Sins\n
+‣ Kill Maligaro in Maligaro\'s Sanctum\n
+‣ Finish Trial of Ascendancy in Chamber of Sins Level 2 and enter the Den\n
+‣ Make your way to Ashen Fields and kill Greust, then get Skillpoint in town\n
+‣ Get Northern Forest Waypoint and enter Dread Thicket\n
+‣ Collect all Fireflies and kill Gruthkul, then get Skillpoint in town\n
+‣ Find Kishara\'s Star in Causeway and get Skillpoint in town\n
+‣ Get the Vaal City Waypoint, enter Temple of Decay and go back to town\n
+‣ Finish the second Labyrinth and get Mistress of Sacrifice\n
+‣ Get Bone Offering and Arcanist Brand, and link them together with Desecrate\n
+‣ Use this from time to time for additional defenses, mostly during bossfights\n
+‣ Get back to the Temple of Decay and kill Arakaali\n\n
 
-Exp Farming Zone: The Harbour Bridge
+<b>Passive Tree Goal</b>\n\n
 
-
-Act 9
-
-‣ Find the Storm Blade in Vastiri Desert and speak to Petarus and Vanja in town
-‣ Look for a blocked entrance in Vastiri Desert
-‣ Go to town, talk to Sin and then to Petarus and Vanja
-‣ Kill Shakari and get Skillpoint in town
-‣ Get Foothills Waypoint, enter Boiling Lake and get Basilisk Acid
-‣ Enter the Tunnel and finish Trial of Ascendancy
-‣ Get Quarry Waypoint, enter Refinery and get Trarthan Powder
-‣ Go back to Quarry and kill Garukhan and get Sekhema Feather
-‣ Go to town and give the feather to either Tasuni or Irasha, get Skillpoint
-‣ Enter Belly of the Beast and kill the Depraved Trinity
-
-Passive Tree Goal
-
-Exp Farming Zone: The Blood Aqueduct
+<b>Exp Farming Zone: The Northern Forest</b>\n\n
 
 
-Act 10
+<b>Act 8</b>\n\n
 
-‣ Go left on Cathedral Rooftop and kill Plaguewing
-‣ Now go right, enter the Ravaged Square and go south
-‣ Enter the Control Blocks, kill Vilenta and get Skillpoint in town
-‣ Optionally find the Teardrop in Reliquary
-‣ Go back to Ravaged Square and get its Waypoint in the upper part
-‣ Enter Ossuary and complete Trial of Ascendancy
-‣ Get to Desecrated Chamber through Torched Courts and kill Avarius
-‣ Finish the third Labyrinth and get Plaguebringer
-‣ Enter the Canals and make your way to the final bossfight
-‣ You will suffer another permanent -30% resistance penalty after this fight
+‣ Enter the Toxic Conduits and kill Doedre\n
+‣ Go for Quay first, find Ankh of Eternity, kill Tolman and get Skillpoint in town\n
+‣ Kill the Gemling Legionnaires in Grain Gate and get Skillpoint in town\n
+‣ Enter Solaris Temple, get Sun Orb then enter Solaris Concourse and get Waypoint\n
+‣ Go back to Doedre\'s Cesspool and go for the Grand Promenade now\n
+‣ Get Bath House Waypoint and finish Trial of Ascendancy\n
+‣ Enter High Gardens, kill Yugul and get Skillpoint in town\n
+‣ Enter Lunaris Temple through Lunaris Concourse and get Moon Orb\n
+‣ Go to Harbour Bridge and kill Solaris and Lunaris\n\n
 
-Passive Tree Goal
+<b>Passive Tree Goal</b>\n\n
 
-Exp Farming Zone: The Desecrated Chambers
+<b>Exp Farming Zone: The Harbour Bridge</b>\n\n
 
 
-Epilogue
+<b>Act 9</b>\n\n
 
-‣ Talk to Lani for two Skillpoints
-‣ Find Kirac in the Templar Laboratory and finish his quest
-‣ Now it\'s time to look at the second part of this guide!
-‣ Gear up for endgame and switch to the endgame gem setup
+‣ Find the Storm Blade in Vastiri Desert and speak to Petarus and Vanja in town\n
+‣ Look for a blocked entrance in Vastiri Desert\n
+‣ Go to town, talk to Sin and then to Petarus and Vanja\n
+‣ Kill Shakari and get Skillpoint in town\n
+‣ Get Foothills Waypoint, enter Boiling Lake and get Basilisk Acid\n
+‣ Enter the Tunnel and finish Trial of Ascendancy\n
+‣ Get Quarry Waypoint, enter Refinery and get Trarthan Powder\n
+‣ Go back to Quarry and kill Garukhan and get Sekhema Feather\n
+‣ Go to town and give the feather to either Tasuni or Irasha, get Skillpoint\n
+‣ Enter Belly of the Beast and kill the Depraved Trinity\n\n
+
+<b>Passive Tree Goal</b>\n\n
+
+<b>Exp Farming Zone: The Blood Aqueduct</b>\n\n
+
+
+<b>Act 10</b>\n\n
+
+‣ Go left on Cathedral Rooftop and kill Plaguewing\n
+‣ Now go right, enter the Ravaged Square and go south\n
+‣ Enter the Control Blocks, kill Vilenta and get Skillpoint in town\n
+‣ Optionally find the Teardrop in Reliquary\n
+‣ Go back to Ravaged Square and get its Waypoint in the upper part\n
+‣ Enter Ossuary and complete Trial of Ascendancy\n
+‣ Get to Desecrated Chamber through Torched Courts and kill Avarius\n
+‣ Finish the third Labyrinth and get Plaguebringer\n
+‣ Enter the Canals and make your way to the final bossfight\n
+‣ You will suffer another permanent -30% resistance penalty after this fight\n\n
+
+<b>Passive Tree Goal</b>\n\n
+
+<b>Exp Farming Zone: The Desecrated Chambers</b>\n\n
+
+
+<b>Epilogue</b>\n\n
+
+‣ Talk to Lani for two Skillpoints\n
+‣ Find Kirac in the Templar Laboratory and finish his quest\n
+‣ Now it\'s time to look at the second part of this guide!\n
+‣ Gear up for endgame and switch to the endgame gem setup\n
 ‣ If you lack currency, run Currency Delve nodes and/or start doing the Chaos Orb recipe</string>
-    <string name="text_lvl3">Spark -> Arc
-+ Arcane Surge -> Lightning Penetration
-+ Added Lightning Damage -> Archmage
-+ Spell Echo
+    <string name="text_lvl3"><font color='blue'>Spark -> Arc\n
++ Arcane Surge -> Lightning Penetration\n
++ Added Lightning Damage -> Archmage\n
++ Spell Echo\n\n
 
-Orb of Storms
-+ Elemental Focus
-+ Archmage
-+ Lightning Penetration
+Orb of Storms\n
++ Elemental Focus\n
++ Archmage\n
++ Lightning Penetration\n\n
 
-Frostblink -> Flame Dash
-+ Second Wind
-+ Arcane Surge (Lv6)
+Frostblink -> Flame Dash\n</font>
+<font color='green'>+ Second Wind</font>\n
+<font color='blue'>+ Arcane Surge (Lv6)\n\n
 
-Clarity
+Clarity\n\n
 
-Arcane Cloak
-+ Arcane Surge
+Arcane Cloak\n
++ Arcane Surge\n\n</font>
 
-Cast when Damage taken (Lv1)
-+ Tempest Shield (Lv1)
-+ Wave of Conviction (Lv1)
+<font color='red'>Cast when Damage taken (Lv1)\n</font>
+<font color='blue'>+ Tempest Shield (Lv1)\n
++ Wave of Conviction (Lv1)\n\n</font>
 
-Desecrate (Lv1) after Normal Labyrinth
-+ Bone Offering after Cruel Labyrinth
-+ Arcanist Brand after Cruel Labyrinth
+<font color='green'>Desecrate (Lv1)</font> <i>after Normal Labyrinth</i>\n
+<font color='blue'>+ Bone Offering</font> <i>after Cruel Labyrinth</i>\n
+<font color='blue'>+ Arcanist Brand</font> <i>after Cruel Labyrinth</i>\n\n
 
-Herald of Thunder until Archmage
+<font color='blue'>Herald of Thunder</font> <i>until Archmage</i>\n\n
 
 
-Life Flask
-Mana Flask
-Mana Flask -> Silver Flask
-Quicksilver Flask -> Granite Flask
-Quicksilver Flask
+Life Flask\n
+Mana Flask\n
+Mana Flask -> Silver Flask\n
+Quicksilver Flask -> Granite Flask\n
+Quicksilver Flask\n\n
 
-Kill Kraityn - Kill Oak - Kill Alira
+Kill Kraityn - Kill Oak - Kill Alira\n\n
 
-Act 1 Passives
-Act 2 Passives
-Act 3 Passives
-Act 4 Passives
-Act 5 Passives
-Act 6 Passives
-Act 7 Passives
-Act 8 Passives
-Act 9 Passives
-Act 10 Passives</string>
-    <string name="text_asc1">Passives
+<b>Act 1 Passives</b>\n
+<b>Act 2 Passives</b>\n
+<b>Act 3 Passives</b>\n
+<b>Act 4 Passives</b>\n
+<b>Act 5 Passives</b>\n
+<b>Act 6 Passives</b>\n
+<b>Act 7 Passives</b>\n
+<b>Act 8 Passives</b>\n
+<b>Act 9 Passives</b>\n
+<b>Act 10 Passives</b></string>
+    <string name="text_asc1"><b>Passives</b>
 
 ‣ Lv70 Passives
 ‣ Lv80 Passives
 ‣ Lv90 Passives
 ‣ Lv100 Passives
 
-This progression isn\'t set in stone! F.e. it\'s fine to get jewel sockets earlier if you have good ones.</string>
-    <string name="text_asc2">Ascendancy Essence Glutton (Normal): The main reason why we choose Necromancer. Provides tons of mana sustain with the right setup, and even some extra mana on top of that. Mistress of Sacrifice (Cruel): Another reason for Necromancer. Applies offerings to us with slightly lowered effect and increases skill duration. Plaguebringer (Merciless): Reduces enemy damage while increasing our damage output and provides some AoE, as long as there are corpses nearby and we\'ve consumed one. Corpse Pact (Eternal): Shocks enemies for another 15% increased damage taken, chills them for 10% reduced action speed and gives us some damage and cast speed.</string>
-<string name="text_asc3">Pantheon
+<i>This progression isn\'t set in stone! F.e. it\'s fine to get jewel sockets earlier if you have good ones.</i></string>
+    <string name="text_asc2"><b>Ascendancy</b> <b>Essence Glutton</b> <i>(Normal)</i>: The main reason why we choose Necromancer. Provides tons of mana sustain with the right setup, and even some extra mana on top of that. 
+        <b>Mistress of Sacrifice</b> <i>(Cruel)</i>: Another reason for Necromancer. Applies offerings to us with slightly lowered effect and increases skill duration. 
+        <b>Plaguebringer</b> <i>(Merciless)</i>: Reduces enemy damage while increasing our damage output and provides some AoE, as long as there are corpses nearby and we\'ve consumed one. 
+        <b>Corpse Pact</b> <i>(Eternal)</i>: Shocks enemies for another 15% increased damage taken, chills them for 10% reduced action speed and gives us some damage and cast speed.</string>
+<string name="text_asc3"><b>Pantheon</b>
 
-‣ Soul of the Brine King (Major): Prevents us from getting stunlocked and shortens stun duration.
+‣ <b>Soul of the Brine King</b> <i>(Major)</i>: Prevents us from getting stunlocked and shortens stun duration.
 
-‣ Soul of Tukohama (Minor): Additional physical damage mitigation and life regeneration.
+‣ <b>Soul of Tukohama</b> <i>(Minor)</i>: Additional physical damage mitigation and life regeneration.
 
-‣ Soul of Ryslatha (Minor): Life Flask sustain for longer bossfights.
+‣ <b>Soul of Ryslatha</b> <i>(Minor)</i>: Life Flask sustain for longer bossfights.
 
-You can have 1x major and 1x minor Pantheon node active at once.</string>
-<string name="text_gem1">Non-corrupted Lv20 Gems can be upgraded to Lv1 20% by vendoring them together with a Gemcutters Prism. Do this with all gems that are marked with a *
+<i>You can have 1x major and 1x minor Pantheon node active at once.</i></string>
+<string name="text_gem1"><i>Non-corrupted Lv20 Gems can be upgraded to Lv1 20% by vendoring them together with a Gemcutters Prism. Do this with all gems that are marked with a *\n\n
 
-All gems are worth corrupting at Lv20 20%, for the ones not needing quality just do it at Lv20.
+All gems are worth corrupting at Lv20 20%, for the ones not needing quality just do it at Lv20.\n\n
 
-Any Awakened Gem versions of listed support gems are worth using.
+Any Awakened Gem versions of listed support gems are worth using.</i>
 
-______________________________________________________________________
-
-
-
-
-
-
-
-
-
-Arc is our main skill - it has high base damage, decent cast time and a more damage modifier for each remaining chain. This simply means that if for example your Arc can chain 7x and there\'s nothing to chain to, it will get a 105% (7*15%) more damage multiplier for that hit.
+<b>Arc</b> is our main skill - it has high base damage, decent cast time and a more damage modifier for each remaining chain. This simply means that if for example your Arc can chain 7x and there\'s nothing to chain to, it will get a 105% (7*15%) more damage multiplier for that hit.
 
 We can also use Vaal Arc, which grants both the regular Arc skill and a buffed up Vaal Arc that grants us the Lucky Buff. This buff counters our high lightning damage range by rolling each damage roll twice and taking the higher one. However, it can still happen that it rolls two low values and you end up getting a few small hits.
 
 To help with this decision, a Lv21 Arc is always better than a Lv20 Vaal Arc. Since Vaal Arc is corrupted by default, the only reliable way to get it at Lv21 is using the Lapidary Lense on an uncorrupted Lv20 Arc gem in the Temple of Atzoatl, although it\'s not a guaranteed outcome.
 
-Archmage* increases our mana cost and adds flat lightning damage based on mana cost at 80% value because of Arcs damage effectiveness. This synergizes extremely well with mana stacking and makes up the majority of our damage, but also creates a huge demand for sustain.
-Spell Echo* substantially boosts our cast speed and repeats each skill use without consuming mana for the repeated cast, all at the cost of a minimal damage penalty.
-Lightning Penetration* is a hidden damage increase - it doesn\'t affect our tooltip damage, but rather acts as a dynamic more multiplier by reducing the enemies lightning resistance during damage calculations, and can even drop it into negative values.
+<b>Archmage*</b> increases our mana cost and adds flat lightning damage based on mana cost at 80% value because of Arcs damage effectiveness. This synergizes extremely well with mana stacking and makes up the majority of our damage, but also creates a huge demand for sustain.
+<b>Spell Echo*</b> substantially boosts our cast speed and repeats each skill use without consuming mana for the repeated cast, all at the cost of a minimal damage penalty.
+<b>Lightning Penetration*</b> is a hidden damage increase - it doesn\'t affect our tooltip damage, but rather acts as a dynamic more multiplier by reducing the enemies lightning resistance during damage calculations, and can even drop it into negative values.
 
-5th Link: Elemental Focus* provides a huge damage multiplier but removes the ability to inflict ailments with the linked skill, but not other sources such as from Corpse Pact.
+5th Link: <b>Elemental Focus*</b> provides a huge damage multiplier but removes the ability to inflict ailments with the linked skill, but not other sources such as from Corpse Pact.
 
-6th Link: Controlled Destruction* gives another damage multiplier with a crit chance penalty. The distinction between "less" and "reduced" is important, 100% less would mean we\'d lose all crit chance while 100% reduced means it\'s additive with all "increased crit chance" multipliers.
-
-______________________________________________________________________
+6th Link: <b>Controlled Destruction*</b> gives another damage multiplier with a crit chance penalty. The distinction between "less" and "reduced" is important, 100% less would mean we\'d lose all crit chance while 100% reduced means it\'s additive with all "increased crit chance" multipliers.
 
 
+<b>Orb of Storms*</b> is a duration-based spell that we use for some extra damage during bossfights. It releases bolts at enemies within its radius, plus additional bolts if we cast a lightning skill such as Arc while within its radius. This also makes it a great skill to proc Elemental Overload with.
+
+<b>Archmage*, Lightning Penetration*</b> and <b>Elemental Focus*</b> are explained above.
 
 
+<b>Arcane Cloak*</b> spends a percentage of our mana and temporarily grants us a damage absorbing buff and flat lightning damage based on mana spent. This is great for extra burst damage during bossfights or to soak up some incoming damage.
+
+<b>Arcane Surge</b> grants a temporary buff after spending a certain amount of mana, which grants a more damage multiplier, cast speed and mana regeneration. Since Arcane Cloak spends lots of mana, we can proc a max level Arcane Surge within a single skill use.
+<b>Increased Duration*</b> increased both buff durations.
+<b>Second Wind*</b> slightly reduces Arcane Cloaks cooldown to help with uptime during bossfights.
 
 
+<b>Clarity</b> is an aura that grants mana regeneration to help with sustain. Unlike most other auras, it reserves a flat amount of mana based on its level. We simply level it all the way up, which also prevents it to interfere with the next gems.
 
-Orb of Storms* is a duration-based spell that we use for some extra damage during bossfights. It releases bolts at enemies within its radius, plus additional bolts if we cast a lightning skill such as Arc while within its radius. This also makes it a great skill to proc Elemental Overload with.
-
-Archmage*, Lightning Penetration* and Elemental Focus* are explained above.
-
-______________________________________________________________________
-
-
-
-
-
-
-
-Arcane Cloak* spends a percentage of our mana and temporarily grants us a damage absorbing buff and flat lightning damage based on mana spent. This is great for extra burst damage during bossfights or to soak up some incoming damage.
-
-Arcane Surge grants a temporary buff after spending a certain amount of mana, which grants a more damage multiplier, cast speed and mana regeneration. Since Arcane Cloak spends lots of mana, we can proc a max level Arcane Surge within a single skill use.
-Increased Duration* increased both buff durations.
-Second Wind* slightly reduces Arcane Cloaks cooldown to help with uptime during bossfights.
-
-______________________________________________________________________
-
-
-
-
-
-
-
-Clarity is an aura that grants mana regeneration to help with sustain. Unlike most other auras, it reserves a flat amount of mana based on its level. We simply level it all the way up, which also prevents it to interfere with the next gems.
-
-Cast when Damage taken triggers linked spells after receiving enough damage from hits to surpass the listed treshold. The spells also need to have their required level within the listed level requirement. In this case, we simply keep everything at Lv1.
-Tempest Shield grants additional Chance to Block Attacks and Chance to Block Spells.
+<b>Cast when Damage taken</b> triggers linked spells after receiving enough damage from hits to surpass the listed treshold. The spells also need to have their required level within the listed level requirement. In this case, we simply keep everything at Lv1.
+<b>Tempest Shield</b> grants additional Chance to Block Attacks and Chance to Block Spells.
 Its damaging aspect isn\'t important for us, so we simply keep it at Lv1.
-Wave of Conviction debuffs enemies with Exposure based on its highest elemental damage.
+<b>Wave of Conviction</b> debuffs enemies with Exposure based on its highest elemental damage.
 It deals base physical damage with inherent 25% Fire and 25% Lightning Conversion, with any Lightning Damage to Spells or -multiplier on gear we can ensure to get Lightning Exposure.
 To stay safe from physical reflect and keep the skill within proc restrictions, we keep it at Lv1.
 
-______________________________________________________________________
-
-
-
 Verified
 
+<b>Arcanist Brand*</b> triggers linked spells while being attached to an enemy. We simply use it for utility to gain various buffs during bossfights, or whenever else it\'s needed. Eventually we aim to replace this gems purpose with a weapon craft, which will be mentioned later in the guide.
+
+<b>Desecrate</b> spawns 5 corpses on use, with a maximum of 10. These are needed for Essence Glutton, Plaguebringer and Corpse Pact from our ascendancy and the following gem. We don\'t gain anything from leveling it, so we keep it at Lv1 for low dexterity requirements.
+<b>Bone Offering*</b> grants us a large amount of Chance to Block Attacks and Chance to Block Spells, and recovers a flat amount of life when we block.
 
 
-Arcanist Brand* triggers linked spells while being attached to an enemy. We simply use it for utility to gain various buffs during bossfights, or whenever else it\'s needed. Eventually we aim to replace this gems purpose with a weapon craft, which will be mentioned later in the guide.
+<b>Flame Dash*</b> is our movement skill of choice, it has three uses and a short cooldown. Additionally, it removes Grasping Vines and prevents us from taking damage from stationary damage over time sources when dashing through.
 
-Desecrate spawns 5 corpses on use, with a maximum of 10. These are needed for Essence Glutton, Plaguebringer and Corpse Pact from our ascendancy and the following gem. We don\'t gain anything from leveling it, so we keep it at Lv1 for low dexterity requirements.
-Bone Offering* grants us a large amount of Chance to Block Attacks and Chance to Block Spells, and recovers a flat amount of life when we block.
-
-______________________________________________________________________
-
-
-
-
-
-
-Flame Dash* is our movement skill of choice, it has three uses and a short cooldown. Additionally, it removes Grasping Vines and prevents us from taking damage from stationary damage over time sources when dashing through.
-
-Second Wind* adds another use to Flame Dash and reduces its cooldown.
-Arcane Surge was explained earlier already, just this time we want to use a lower level gem to still gain a minor Arcane Surge buff while Arcane Cloak wasn\'t used. Keep it at Lv6 this time, or Lv7 if you have the Forethought notable already.</string>
+<b>Second Wind*</b> adds another use to Flame Dash and reduces its cooldown.
+<b>Arcane Surge</b> was explained earlier already, just this time we want to use a lower level gem to still gain a minor Arcane Surge buff while Arcane Cloak wasn\'t used. Keep it at Lv6 this time, or Lv7 if you have the Forethought notable already.</string>
     <string name="text_gear1"></string>
 </resources>
