@@ -42,7 +42,7 @@ private int category_index;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         list = findViewById(R.id.listView);
-        array = getResources().getStringArray(R.array.arr_video);
+        array = getResources().getStringArray(R.array.arr_about);
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, new ArrayList<String>(Arrays.asList(array)));
         list.setAdapter(adapter);
         toolbar = findViewById(R.id.toolbar);
@@ -71,7 +71,7 @@ startActivity(intent);
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
-        toolbar.setTitle(R.string.menu_videos);
+        toolbar.setTitle(R.string.menu_about);
         return true;
     }
 
@@ -79,65 +79,33 @@ startActivity(intent);
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
-        if (id==R.id.menu_videos){
+        if (id==R.id.menu_about){
             // Toast.makeText(this, "Pressed", Toast.LENGTH_SHORT).show();
-            toolbar.setTitle(R.string.menu_videos);
-            array = getResources().getStringArray(R.array.arr_video);
-            adapter.clear();
-            adapter.addAll(array);
-            adapter.notifyDataSetChanged();
-            category_index = 0;
+            fillArray(R.string.menu_about, R.array.arr_about, 0);
         } else if (id == R.id.menu_pob){
-            toolbar.setTitle(R.string.menu_pob);
-            array = getResources().getStringArray(R.array.arr_pob);
-            adapter.clear();
-            adapter.addAll(array);
-            adapter.notifyDataSetChanged();
-            category_index = 1;
-        } else if (id == R.id.menu_about){
-            toolbar.setTitle(R.string.menu_about);
-            array = getResources().getStringArray(R.array.arr_about);
-            adapter.clear();
-            adapter.addAll(array);
-            adapter.notifyDataSetChanged();
-            category_index = 2;
+            fillArray(R.string.menu_pob, R.array.arr_pob, 1);
+        } else if (id == R.id.menu_videos){
+            fillArray(R.string.menu_videos, R.array.arr_video, 2);
         } else if (id == R.id.menu_leveling){
-            toolbar.setTitle(R.string.menu_leveling);
-            array = getResources().getStringArray(R.array.arr_lvl);
-            adapter.clear();
-            adapter.addAll(array);
-            adapter.notifyDataSetChanged();
-            category_index = 3;
+            fillArray(R.string.menu_leveling, R.array.arr_lvl, 3);
         } else if (id == R.id.menu_passive){
-            toolbar.setTitle(R.string.menu_passive);
-            array = getResources().getStringArray(R.array.arr_asc);
-            adapter.clear();
-            adapter.addAll(array);
-            adapter.notifyDataSetChanged();
-            category_index = 4;
+            fillArray(R.string.menu_passive, R.array.arr_asc, 4);
         } else if (id == R.id.menu_gem){
-            toolbar.setTitle(R.string.menu_gem);
-            array = getResources().getStringArray(R.array.arr_gem);
-            adapter.clear();
-            adapter.addAll(array);
-            adapter.notifyDataSetChanged();
-            category_index = 5;
+            fillArray(R.string.menu_gem, R.array.arr_gem, 5);
         } else if (id == R.id.menu_gear){
-            toolbar.setTitle(R.string.menu_gear);
-            array = getResources().getStringArray(R.array.arr_gear);
-            adapter.clear();
-            adapter.addAll(array);
-            adapter.notifyDataSetChanged();
-            category_index = 6;
+            fillArray(R.string.menu_gear, R.array.arr_gear, 6);
         } else if (id == R.id.menu_mapping) {
-            toolbar.setTitle(R.string.menu_mapping);
-            array = getResources().getStringArray(R.array.arr_map);
-            adapter.clear();
-            adapter.addAll(array);
-            adapter.notifyDataSetChanged();
-            category_index = 7;
+            fillArray(R.string.menu_mapping, R.array.arr_map, 7);
         }
 drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+    private void fillArray (int title, int arrayList, int index){
+        toolbar.setTitle(title);
+        array = getResources().getStringArray(arrayList);
+        adapter.clear();
+        adapter.addAll(array);
+        adapter.notifyDataSetChanged();
+        category_index = index;
     }
 }

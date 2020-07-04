@@ -5,17 +5,17 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/menu_videos"
-            android:icon="@drawable/ic_video"
-            android:title="@string/menu_videos" />
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/menu_about" />
         <item
             android:id="@+id/menu_pob"
             android:icon="@drawable/ic_pob"
             android:title="@string/menu_pob" />
         <item
-            android:id="@+id/menu_about"
-            android:icon="@drawable/ic_about"
-            android:title="@string/menu_about" />
+            android:id="@+id/menu_videos"
+            android:icon="@drawable/ic_video"
+            android:title="@string/menu_videos" />
         <item
             android:id="@+id/menu_leveling"
             android:icon="@drawable/ic_lvl"

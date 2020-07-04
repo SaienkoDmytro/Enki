@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="arr_video">
-        <item>Youtube</item>
-        <item>Twitch</item>
+    <string-array name="arr_about">
+        <item>Pros/Cons</item>
+        <item>Main Mechanics in this Build</item>
+        <item>About this Build, App and Thanks</item>
     </string-array>
     <string-array name="arr_pob">
         <item>Pastebin and Browser Version</item>
         <item>POB download</item>
     </string-array>
-    <string-array name="arr_about">
-        <item>Pros/Cons</item>
-        <item>Main Mechanics in this Build</item>
+    <string-array name="arr_video">
+        <item>Youtube</item>
+        <item>Twitch</item>
     </string-array>
     <string-array name="arr_lvl">
         <item>Before you start</item>
