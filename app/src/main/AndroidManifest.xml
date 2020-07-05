@@ -21,6 +21,7 @@
         </activity>
         <activity android:name=".Text_Content_Activity" />
         <activity android:name=".MainActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Settings.settingsActivity" />
     </application>
 
 </manifest>

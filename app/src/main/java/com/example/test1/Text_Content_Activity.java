@@ -1,20 +1,24 @@
 package com.example.test1;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.os.PersistableBundle;
+import android.preference.PreferenceManager;
 import android.text.method.LinkMovementMethod;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Text_Content_Activity extends AppCompatActivity {
-    private ActionBar actionBar;
     private int category;
+    private SharedPreferences def_pref;
+    private ActionBar actionBar;
     private TextView text_content;
     private Typeface face1;
     private int position;
@@ -87,9 +91,35 @@ imageContent.setImageResource(array_image_about[position]);
 }
     }
     private void init(){
+        def_pref = PreferenceManager.getDefaultSharedPreferences(this);
         text_content = findViewById(R.id.text_youtube);
         imageContent = findViewById(R.id.imageContent);
         face1 = Typeface.createFromAsset(this.getAssets(), "fonts/Spartan-Regular.ttf");
         text_content.setTypeface(face1);
+        if(getSupportActionBar() !=null) {
+            actionBar = getSupportActionBar();
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+        String text = def_pref.getString("main_text_size", "Regular");
+        if(text != null) {
+            switch (text) {
+                case "Big":
+                    text_content.setTextSize(24);
+                    break;
+                case "Regular":
+                    text_content.setTextSize(18);
+                    break;
+                case "Small":
+                    text_content.setTextSize(14);
+                    break;
+            }
+        }
+    }
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == android.R.id.home){
+            finish();
+        }
+        return true;
     }
 }

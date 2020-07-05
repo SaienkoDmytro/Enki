@@ -37,4 +37,10 @@
         <item>Mapmods</item>
         <item>Bossfights</item>
     </string-array>
+
+    <string-array name="text_size_array">
+        <item>Big</item>
+        <item>Regular</item>
+        <item>Small</item>
+    </string-array>
 </resources>
