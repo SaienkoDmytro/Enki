@@ -434,9 +434,7 @@ To stay safe from physical reflect and keep the skill within proc restrictions, 
 <b>Second Wind*</b> adds another use to Flame Dash and reduces its cooldown.\n
 <b>Arcane Surge</b> was explained earlier already, just this time we want to use a lower level gem to still gain a minor Arcane Surge buff while Arcane Cloak wasn\'t used. Keep it at Lv6 this time, or Lv7 if you have the Forethought notable already.</string>
     
-<string name="text_gear1"><i>Gearing in Path of Exile is all about opportunity cost - sure, that unique item may look good,
-but is it better than all other options? Can you make up the loss of vital stats somewhere else?
-    In this section I want to give you a quick rundown on what to look out for in each slot.</i>\n\n
+<string name="text_gear1"><i>Gearing in Path of Exile is all about opportunity cost - sure, that unique item may look good, but is it better than all other options? Can you make up the loss of vital stats somewhere else? In this section I want to give you a quick rundown on what to look out for in each slot.</i>\n\n
 
 <b>Basic Information about Gear</b> \n
 
@@ -616,7 +614,7 @@ Culling Strike W\n
 
 Nothing new here, just get as much life, mana, movement speed and resistances as you can. Two-Toned Boots grant some extra resistance implicit.\n
 
-Best enchantment is hands down \"#% increased Mana Regeneration Rate if you've cast a Spell recently\", don\'t settle with anything else.\n\n
+Best enchantment is hands down \"#% increased Mana Regeneration Rate if you\'ve cast a Spell recently\", don\'t settle with anything else.\n\n
 
 <b>Affix Priority \n\n
 
@@ -731,22 +729,22 @@ Minions deal #% increased Damage\n
 Attributes\n
 Resistances\n\n
 
-<b>Watcher's Eye</b> is a highend option that gives Life, Mana and two or three aura-related affixes.
+<b>Watcher\'s Eye</b> is a highend option that gives Life, Mana and two or three aura-related affixes.
 Best choice for us is #% increased Mana Recovery Rate while affected by Clarity, even without any other useful affixes it\'s worth using one of those and they\'re normally cheap to get.
 They can only drop from the <a href="https://pathofexile.gamepedia.com/The_Elder">the Elder (2-affix)</a> or <a href="https://pathofexile.gamepedia.com/The_Elder#Uber_Elder">Uber Elder (3-affix)</a>.\n\n
 
 Useful affixes for this build are:\n
 
-<b>Affix Priority<b>\n\n
+<b>Affix Priority</b>\n\n
 
 #% increased Mana Recovery Rate while affected by Clarity\n
 #% of Damage taken gained as Mana over 4 seconds when Hit while affected by Clarity\n
 Damage Penetrates #% Lightning Resistance while affected by Wrath\n
 #% increased Lightning Damage while affected by Wrath\n
 #% increased Critical Strike Chance while affected by Wrath</string>
-    <string name="text_gear3">Cluster Jewels expand the passive tree by adding new branches when socketed in any outer 3-point jewel socket. There's three types, Large-, Medium- and Small Cluster Jewels, each with their own implicits and pool of notables. They only drop from <a href="https://pathofexile.gamepedia.com/Delirium">Delirium</a> encounters and need to be crafted first, therefore i'm including them as optional choices rather than an integral part.\n\n
+    <string name="text_gear3">Cluster Jewels expand the passive tree by adding new branches when socketed in any outer 3-point jewel socket. There\'s three types, Large-, Medium- and Small Cluster Jewels, each with their own implicits and pool of notables. They only drop from <a href="https://pathofexile.gamepedia.com/Delirium">Delirium</a> encounters and need to be crafted first, therefore i\'m including them as optional choices rather than an integral part.\n\n
 
-If you've done the math you'll realize that we won't have enough passive points to use them on top of the regular passive tree, so we'll have to remove some nodes. Depending on how many jewels you plan to run, start removing everything beyond the Constitution cluster, then Light of Divinity and Divine Judgement.\n\n
+If you\'ve done the math you\'ll realize that we won\'t have enough passive points to use them on top of the regular passive tree, so we\'ll have to remove some nodes. Depending on how many jewels you plan to run, start removing everything beyond the Constitution cluster, then Light of Divinity and Divine Judgement.\n\n
     
    Our Large Cluster needs to be Lightning Damage based and ideally has only 8 added passives, but not more than 10. Item level matters, it needs to be ilvl75+ to be able to roll 2 jewel sockets.\n\n
 
@@ -758,7 +756,7 @@ On this one we want Distilled Perfection to increase life- and mana flask recove
 Our Small Clusters can be either life, mana or chaos resistance based with 3 added passives.\n\n
 
 We want Blessed here, which gives life, mana and chaos resistance. In best case we get that together with atleast 25% increased Effect for Small Passives.\n\n
-        Kitava's Teachings grants a keystone that consumes a corpse every second and recovers 5% of our life and mana when doing so, but makes us take 10% more damage if we haven't consumed any corpses within 4s. This works incredibly well once we got our trigger weapon craft.
+        Kitava\'s Teachings grants a keystone that consumes a corpse every second and recovers 5% of our life and mana when doing so, but makes us take 10% more damage if we haven\'t consumed any corpses within 4s. This works incredibly well once we got our trigger weapon craft.
 It can only drop from <a href="https://pathofexile.gamepedia.com/Delirium">Delirium bosses</a></string>
     
 <string name="text_gear4">I\'ve already briefly explained flasks earlier in the guide, just as a reminder they\'re more than just Healing Pots that you may know from other ARPG\'s.\n\n

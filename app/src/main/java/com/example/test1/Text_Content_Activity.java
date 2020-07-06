@@ -35,8 +35,8 @@ public class Text_Content_Activity extends AppCompatActivity {
     private int [] array_image_asc = {R.drawable.youtube, R.drawable.youtube, R.drawable.youtube};
     private int [] array_gem = {R.string.text_gem1};
     private int [] array_image_gem = {R.drawable.youtube};
-    private int [] array_gear = {R.string.text_gear1};
-    private int [] array_image_gear = {R.drawable.youtube};
+    private int [] array_gear = {R.string.text_gear1, R.string.text_gear2, R.string.text_gear3, R.string.text_gear4, R.string.text_gear5};
+    private int [] array_image_gear = {R.drawable.youtube, R.drawable.youtube, R.drawable.youtube, R.drawable.youtube, R.drawable.youtube};
     private int [] array_map = {R.string.text_mapping, R.string.text_mapmods,R.string.text_boss};
     private int [] array_image_map = {R.drawable.youtube, R.drawable.youtube, R.drawable.youtube};
     @Override

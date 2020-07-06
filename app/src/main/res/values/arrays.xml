@@ -31,6 +31,7 @@
         <item>Jewels</item>
         <item>Cluster Jewels</item>
         <item>Flasks</item>
+        <item>Upgrade Order</item>
     </string-array>
     <string-array name="arr_map">
         <item>Mapping</item>
