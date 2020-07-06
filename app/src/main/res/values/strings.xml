@@ -29,7 +29,20 @@ a second nearby enemy from where it can\'t chain further. The amount of times Ar
         \n\n‣ <b>Block:</b> Another defensive layer which comes in two ways, Chance to Block Attacks and Chance to Block Spells, each with a base cap of 75%. Blocking hits prevents all damage and status effects except for stun, however non-hitbased damage over time can\'t be blocked. While we won\'t reach the block cap, it\'s still enough damage prevention coupled with some ways to heal us on block.
         \n\n‣ <b>Elemental Overload:</b> This keystone provides a 40% more damage multiplier in exchange for removing all critical strike multiplier, with the condition to crit atleast once within 8 seconds. While the damage potential is lower compared to scaling crits, the damage is also way more consistent and only takes small investment, which allows us to invest more heavily into mana.
         \n\n‣ <b>Spiritual Aid:</b> A notable that applies all stats with the wording \"Minions deal #% increased Damage\" and \"Minions deal #% reduced Damage\" to our damage. This gives some more liberties while gearing and makes said stat from our ascendancy not go to waste. Note that minion damage stats with different wording, such as \"Golems deal #% increased Damage\", \"Minions deal #% more Damage\" or \"Minions deal # to # additional Lightning Damage\" won\'t apply to us!</string>
-<string name="text_thanks">Thanks!</string>
+<string name="text_thanks">Welcome to my Arc guide!\n\n
+
+With this guide I want to provide a simple and balanced caster build for beginners and veterans
+that is fun and easy to play, scales well into endgame and has as few restrictions as possible.
+It\'s not the strongest caster build out there, but it perfectly fits the niche I want it to be in.\n\n
+
+Instead of just showcasing a build, this guide is made to be a comprehensive learning experience.
+There\'s many indepth explanations and links to various wiki pages for new players to understand.
+I\'ve tried to keep it short, but some things just can\'t be explained properly with only a few words.\n\n
+
+If you have any questions, please ask them in this thread or my <a href="https://www.twitch.tv/enki91">stream!</a>\n\n
+    <i>A few words from the creator of this application. First of all, thanks a lot to Enki for this build and permission to use it here. I\'m a fan of POE and I really liked this build, I\'m new to Android development, but nevertheless decided to put this build to the masses in Google Play.\n I will keep up-to-date information here and update functions in the future. I ask you not to judge strictly, and in case of errors or your wishes to the functional, write to me directly!\n
+    I hope you enjoy this build as much as I do and you will find the benefit in this application for yourself.</i>   
+    </string>
     <string name="text_lvl1">Here\'s a small collection of generic advice for newer players:\n\n
 <b>‣ Information:</b> Knowledge is a strong skill in Path of Exile, and it helps to know where to find it. First there\'s the ingame Help Panel, which you can reach through its icon next to your skillbar.
 The Path of Exile Wiki should be your first stop for further information, poedb for plain data.
@@ -420,7 +433,392 @@ To stay safe from physical reflect and keep the skill within proc restrictions, 
 
 <b>Second Wind*</b> adds another use to Flame Dash and reduces its cooldown.\n
 <b>Arcane Surge</b> was explained earlier already, just this time we want to use a lower level gem to still gain a minor Arcane Surge buff while Arcane Cloak wasn\'t used. Keep it at Lv6 this time, or Lv7 if you have the Forethought notable already.</string>
-    <string name="text_gear1"></string>
+    
+<string name="text_gear1"><i>Gearing in Path of Exile is all about opportunity cost - sure, that unique item may look good,
+but is it better than all other options? Can you make up the loss of vital stats somewhere else?
+    In this section I want to give you a quick rundown on what to look out for in each slot.</i>\n\n
+
+<b>Basic Information about Gear</b> \n
+
+‣ Rare item names are randomly generated out of a gearslot-tied wordpool and meaningless\n
+
+‣ Rare items can have up to six <a href="https://pathofexile.gamepedia.com/Item_affix">affixes</a>, split into three prefixes and three suffixes\n
+
+‣ <a href="https://pathofexile.gamepedia.com/Item_level">Item level</a> decides which affixes can roll, and up to which tier\n
+
+‣ Socket color probability is tied to attribute requirements: <font color='red'>Strength</font>, <font color='green'>Dexterity</font>, <font color='blue'>Intelligence</font>\n
+
+‣ Quality increases the probability to hit the maximum number of sockets and links\n
+
+‣ Corrupted Items can\'t be modified outside of socket amount, -links and -colors\n
+
+‣ Affixes saying \"attacks\" don\'t affect Spells, flat damage on weapons only if it\'s \"to Spells\"\n
+
+‣ Unique Items aren\'t best in slot unless mentioned otherwise\n
+
+‣ Each Unique that\'s not listed here is either too weak to compete with better choices,
+too expensive for too little gain or simply doesn\'t synergize at all with this build\n
+
+‣ The Crafting Bench can add powerful affixes for cheap, which is especially helpful to create
+Life + Mana gear and weapons. Use <a href="https://poedb.tw/us/mod.php">poedb</a> to figure out open affix slots\n\n
+
+<b>How to read this Section</b> \n\n
+
+All relevant affixes are listed in Affix Priority and sorted by their approximate strength.\n\n
+
+<b>Required affixes are in bold.</b>\n\n
+
+The following tags mean which crafting method or influence type is required for that affix:\n
+
+<i>N = Normal, B = Crafting Bench, Es = Essence, S = Shaper, E = Elder,
+    C = Crusader, R = Redeemer, H = Hunter, W = Warlord </i>\n\n
+
+If you want to learn how to craft items, check out my (currently outdated) <a href="https://pastebin.com/pV5v0aJw">Crafting Tutorial</a>.\n\n
+
+
+We\'re pretty open with weapon choices, Wands, Sceptres and Rune Daggers all work, although the latter may require too much dexterity. Mana isn\'t the best damage affix but it also raises our survivability, which makes it highest priority to get. The rest is just pretty basic spellcaster stuff.\n\n
+
+<b>Cybil\'s Paw</b> is a solid starter weapon, just the healing aspect is a little outdated.\n\n
+
+Eventually we want a rare weapon with \"Trigger a Socketed Spell when you use a Skill\" to automate our Desecrate + Bone Offering for a more convenient playstyle. With that setup, replace Arcanist Brand with Spell Cascade for better Essence Glutton sustain. This suffix can only be <a href="https://pathofexile.gamepedia.com/Veiled_modifier">unveiled</a> and crafted with the Crafting Bench once unlocked, so there\'s no need to look for weapons with it already crafted on the market.\n\n
+
+<b>Affix Priority</b> \n\n
+
+<i><b>Prefix</b></i>\n
+80+ to maximum Mana N B\n
+# to Level of all Spell Skill Gems N\n
+# to Level of all Lightning Spell Skill Gems N\n
+#% increased Spell Damage N B Es\n
+#% increased Lightning Damage N B\n
+Minions deal #% increased Damage Es\n
+Damage Penetrates #% Lightning Resistance C Es\n
+Damage Penetrates #% Elemental Resistances S\n
+Gain #% of Lightning Damage as Extra Chaos Damage N B\n
+Gain #% of Elemental Damage as Extra Chaos Damage S\n
+Adds # to # Lightning Damage to Spells N B Es\n\n
+
+
+<i><b>Suffix</b></i>\n
+Trigger a Socketed Spell when you use a Skill B\n
+#% increased Cast Speed N B Es\n
+Wrath has #% increased Aura Effect C\n
+Curse Enemies with Level # Conductivity on Hit C\n
+#% increased Mana Regeneration Rate N B\n
+#% increased Critical Strike Chance for Spells N B Es\n
+#% increased Lightning Damage N B\n\n
+
+
+
+Any shield works, but preferably we\'d get one with a spell damage <a href="https://pathofexile.gamepedia.com/Modifiers#Implicit_modifiers">implicit</a> such as Fossilised Spirit Shields for example. Life and mana are the main focus, fill the rest with resistances or damage.\n
+
+Later on we want \"Recover #% of your maximum Mana when you Block\", which gives us an additional layer of mana sustain while tanking stuff. Optionally we can also add \"Recover #% of Life when you Block\" to that, but the former has priority.\n\n
+
+<b>Affix Priority \n\n
+
+<i>Prefix</i>\n
+70+ to maximum Life N B Es\n
+50+ to maximum Mana N B</b>\n
+# to Level of all Lightning Spell Skill Gems N\n
+#% increased Spell Damage N\n
+#% increased Lightning Damage N\n
+Gain #% of Lightning Damage as Extra Chaos Damage N B\n
+#% to all maximum Resistances S H\n\n
+
+
+<i><b>Suffix</b></i>\n
+Recover #% of your maximum Mana when you Block S R\n
+Recover #% of Life when you Block S W\n
+Resistances N B Es\n
+#% Chance to Block Spell Damage N B\n
+#% Chance to Block N B Es\n
+#% increased Cast Speed N B\n
+#% increased Mana Regeneration Rate N Es\n
+#% increased Critical Strike Chance for Spells N Es\n\n
+
+
+
+Any intelligence-based body armour works for us, otherwise getting six blue sockets would be too hard. Occultist Vestment is the best base for some extra spell damage, but it\'s not too important. Once again, just focus on life, mana and resistances.\n
+
+Offering effect is great to push the build further into endgame, as it gives us Chance to Block Attacks, Chance to Block Spells and more life recovered on block. The Life % + Mana % veiled prefix finalizes a great endgame body armour.\n
+
+<b>Loreweave</b> is an interesting choice. Its life and mana are fairly low, but it comes with some other useful stats and most importantly, raises our maximum resistances to up to 78 (the linked one is legacy, 80% is not possible anymore). To put that into perspective, compared to the base 75% resistances this is a 12% damage reduction. The downside is that getting six blue sockets is not easy here. It can only be obtained through a recipe, by selling any 60x identified unique rings to a vendor at the same time.\n\n
+
+<b>Affix Priority</b> \n\n
+
+<i><b>Prefix</b></i>\n
+80+ to maximum Life N B Es\n
+50+ to maximum Mana N B Es\n
+#% increased maximum Life E H B\n
+#% increased maximum Mana S C B\n
+#% Chance to Block Attack Damage B\n\n
+
+
+<i><b>Suffix</b></i>\n
+#% increased Effect of Offerings H\n
+Resistances N B Es\n\n
+
+
+
+Start with a very basic life, mana and resistances helmet. Bone Helmets give us a free 20% damage implicit thanks to Spiritual Aid, but it\'s not required.\n\n
+
+<b>Kitava\'s Thirst</b> can be used to skip the tedious process of casting Arcanist Brand for our buffs, with the downside of losing some cast speed and potential life and resistances from our helmet.\n
+It does pretty much the same as \"Trigger a Socketed Spell when you use a Skill\" weapon craft which we eventually want, so this helmet is just a temporary solution until then.\n
+With this helmet, put Desecrate, Spell Cascade and Bone Offering into the helmet, last socket can be filled with Enfeeble, Warlord\'s Mark or Temporal Chains depending on which colors you get. Arcane Cloak, Arcane Surge and Increased Duration need to go into weapon, losing Second Wind.\n\n
+
+A highend helmet can have either of the resistance-reducing suffixes or simply stack the essential affixes with lots of resistances to allow us to get more damage suffixes on other gear pieces.\n
+
+Only relevant <a href="https://pathofexile.gamepedia.com/Labyrinth_Enchantment">enchantments</a> are \"Arc chains an additional time\", \"Arcane Cloak spends an additional #% of current Mana\" and \"#% increased Flame Dash Cooldown Recovery Speed\".\n\n
+
+<b>Affix Priority</b> \n\n
+
+<b><i>Prefix</i>\n
+70+ to maximum Life N B Es\n
+50+ to maximum Mana N B Es</b>\n
+#% increased maximum Mana E C\n
+Adds # to # Lightning Damage to Spells S H\n
+
+
+    <b><i>Suffix</i>\n
+Resistances N B Es</b>\n
+Nearby Enemies have -#% to Lightning Resistance C\n
+Nearby Enemies take #% increased Elemental Damage S\n
+
+
+
+This may come as a surprise but we want life, mana and resistances from our gloves. Fingerless Silk Gloves give an extra spell damage implicit, which is once again nice to have but not required.\n
+
+<b>Kalisa\'s Grace</b> are decent entry-level unique gloves if you don\'t need any resistances. They come with some life, a little bit of mana from intelligence, extra crit for Elemental Overload uptime and an extra Faster Casting support, which works best with socketing our Orb of Storms setup.\n
+
+<b>Asenath\'s Gentle Touch</b> are very interesting aswell. They come with the basic life and mana that we want, curse enemies with <a href="https://pathofexile.gamepedia.com/Temporal_Chains">Temporal Chains</a> and have situational <a href="https://pathofexile.gamepedia.com/Blind">Blind</a> and corpse explosions to remove on-death effects, such as from <a href="https://pathofexile.gamepedia.com/Porcupine_Goliath">porcupines</a>. They can only drop from <a href="https://pathofexile.gamepedia.com/Legion">Maraketh Legions</a>.\n
+
+If not going for the previous gloves, go for a highend pair with either Faster Casting Support, <a href="https://pathofexile.gamepedia.com/Unnerve">unnerve chance</a> or <a href="https://pathofexile.gamepedia.com/Culling_strike">culling strike</a>.\n
+
+Enchantments aren\'t really significant for us here, don\'t bother with them.\n\n
+
+<b>Affix Priority</b>\n\n 
+
+<b><i>Prefix</i>\n
+70+ to maximum Life N B Es\n
+50+ to maximum Mana N B Es</b>\n
+# to Level of Socketed AoE Gems B\n
+#% chance to Unnerve Enemies for # seconds on Hit H\n
+Minions deal #% increased Damage R\n
+#% increased Spell Damage W\n\n
+
+
+<b><i>Suffix</i>\n
+Resistances N B Es</b>\n
+Socketed Gems are supported by Level # Faster Casting S\n
+Culling Strike W\n
+#% Chance to Block Attack Damage E W\n\n
+
+
+
+Nothing new here, just get as much life, mana, movement speed and resistances as you can. Two-Toned Boots grant some extra resistance implicit.\n
+
+Best enchantment is hands down \"#% increased Mana Regeneration Rate if you've cast a Spell recently\", don\'t settle with anything else.\n\n
+
+<b>Affix Priority \n\n
+
+<i>Prefix</i>\n
+70+ to maximum Life N B Es\n
+50+ to maximum Mana N B Es\n
+20%+ increased Movement Speed N B Es</b>\n\n
+
+
+<b><i>Suffix</i>\n
+Resistances N B Es</b>\n\n
+
+
+<b>Ungil\'s Harmony</b> and <b>Atziri\'s Foible</b> are both great starter choices, otherwise get a rare with similar life and mana to the former and maybe some damage too.\n
+
+Later on we want an <a href="https://pathofexile.gamepedia.com/The_Temple_of_Atzoatl">Incursion</a> amulet with Mana + Mana % prefix and high life, and augment that with fertile <a href="https://pathofexile.gamepedia.com/Catalyst">catalysts</a>. Another option is a Shaper- or Crusader-influenced amulet with life, mana and various damage affixes, or life leech for some extra sustain.\n
+
+Best <a href="https://pathofexile.gamepedia.com/Oil">anointment</a> is Undertaker for extra damage, life regeneration and Essence Glutton uptime. On a budget amulet, just get something cheap like <a href="https://pathofexile.gamepedia.com/Beef">Beef</a> for some extra strength.\n\n
+
+<b>Affix Priority \n\n
+
+<i>Prefix</i>\n
+40+ to maximum Life N B\n
+40+ to maximum Mana N B</b>\n
+# to Level of all Lightning Skill Gems C\n
+# to Level of all Intelligence Skill Gems H\n
+Damage Penetrates #% Lightning Resistance C\n
+Damage Penetrates #% Elemental Resistances S H\n
+#% increased Spell Damage N\n
+#% of Lightning Damage leeched as Life S C\n\n
+
+
+<b><i>Suffix</i></b>\n
+#% Chance to Block Spell Damage S C\n
+#% increased Cast Speed N B\n
+#% increased Mana Regeneration Rate N B Es\n
+#% increased Global Critical Strike Chance N B Es\n
+#% increased Lightning Damage N B\n
+Resistances N B\n\n
+
+
+Rings are another slot to gain lots of resistances from, once again together with life and mana.\n
+
+A highend ring provides all that on a Vermillion Ring base, or together with some damage affixes. It\'s also another slot to get a curse on hit from, this time Conductivity. Just note that the base curse limit is 1 and curses are heavily countered by bosses and mapmods.\n
+
+<b>Essence Worm</b> allows us to run an aura without any reservation cost, our choice is Wrath for another huge damage multiplier. It also increases our Clarity\'s reservation cost, but the damage gain outweighs this downside. It\'s not necessary but highly recommended to have for endgame.\n
+
+<b>Sibyl\'s Lament</b> is only needed to safely do any Atziri encounter, as she has a small amount of damage reflection. Equip the ring in left slot, activate Soul of Yugul in Pantheon and you\'re safe.\n\n
+
+Affix Priority \n\n
+
+<b><i>Prefix</i>\n
+40+ to maximum Life N B\n
+40+ to maximum Mana N B</b>\n
+#% increased Spell Damage C\n
+#% increased Damage B\n\n
+
+
+<b><i>Suffix</i>\n
+Resistances N B</b>\n
+Curse Enemies with Level # Conductivity on Hit C\n
+#% increased Mana Regeneration Rate N B Es\n
+#% increased Lightning Damage N B Es\n
+#% increased Cast Speed N\n\n
+
+
+Finally, our last slot to stack life, mana and resistances on. Stygian Vise gives an additional <a href="https://pathofexile.gamepedia.com/Abyss_Jewel">abyss jewel</a> socket, otherwise to for a Leather Belt or Heavy Belt.\n
+
+For endgame we want a good belt with all that and high mana recovery rate. This stat multiplies our mana regeneration and mana flask recovery, and is insanely helpful for endgame sustain.\n\n
+
+<b>Affix Priority</b> \n\n
+
+<b><i>Prefix</i>\n
+70+ to maximum Life N B\n
+50+ to maximum Mana N B</b>\n
+#% increased maximum Life E H\n
+You take #% reduced Extra Damage from Critical Strikes S W\n
+Flasks applied to you have #% increased Effect B\n
+#% increased Flask Mana Recovery Rate N Es\n
+#% increased Damage W B\n\n
+
+
+<b><i>Suffix</i></b>\n
+#% increased Mana Recovery Rate S R\n
+Resistances N B\n
+#% increased Flask Effect Duration N B </string>
+    
+    
+    <string name="text_gear2">Abyss Jewels are fairly easy to craft, regular Jewels have more damage potential at higher cost.
+I\'ve planned the build around having Life on Jewels, even with just one damage affix it\'s worth it.\n\n
+
+<b>Affix Priority</b>\n\n
+
+<i><b>Abyss Jewels:</b></i>\n
+<b># to maximum Life</b>\n
+# to maximum Mana\n
+Adds # to # Lightning Damage to Spells (-while holding a Shield)\n
+#% increased Cast Speed\n
+#% increased Mana Regeneration Rate while moving\n
+Attributes\n
+Resistances\n\n
+
+<i><b>regular Jewels:</b></i>\n
+<b>#% increased maximum Life</b>\n
+#% increased maximum Mana\n
+#% increased Lightning Damage\n
+#% increased Spell Damage (-while holding a Shield)\n
+Minions deal #% increased Damage\n
+#% increased Damage\n
+#% increased Cast Speed (-with Lightning Skills)\n
+#% increased Mana Regeneration Rate\n
+Attributes\n
+Resistances\n\n
+
+<b>Watcher's Eye</b> is a highend option that gives Life, Mana and two or three aura-related affixes.
+Best choice for us is #% increased Mana Recovery Rate while affected by Clarity, even without any other useful affixes it\'s worth using one of those and they\'re normally cheap to get.
+They can only drop from the <a href="https://pathofexile.gamepedia.com/The_Elder">the Elder (2-affix)</a> or <a href="https://pathofexile.gamepedia.com/The_Elder#Uber_Elder">Uber Elder (3-affix)</a>.\n\n
+
+Useful affixes for this build are:\n
+
+<b>Affix Priority<b>\n\n
+
+#% increased Mana Recovery Rate while affected by Clarity\n
+#% of Damage taken gained as Mana over 4 seconds when Hit while affected by Clarity\n
+Damage Penetrates #% Lightning Resistance while affected by Wrath\n
+#% increased Lightning Damage while affected by Wrath\n
+#% increased Critical Strike Chance while affected by Wrath</string>
+    <string name="text_gear3">Cluster Jewels expand the passive tree by adding new branches when socketed in any outer 3-point jewel socket. There's three types, Large-, Medium- and Small Cluster Jewels, each with their own implicits and pool of notables. They only drop from <a href="https://pathofexile.gamepedia.com/Delirium">Delirium</a> encounters and need to be crafted first, therefore i'm including them as optional choices rather than an integral part.\n\n
+
+If you've done the math you'll realize that we won't have enough passive points to use them on top of the regular passive tree, so we'll have to remove some nodes. Depending on how many jewels you plan to run, start removing everything beyond the Constitution cluster, then Light of Divinity and Divine Judgement.\n\n
+    
+   Our Large Cluster needs to be Lightning Damage based and ideally has only 8 added passives, but not more than 10. Item level matters, it needs to be ilvl75+ to be able to roll 2 jewel sockets.\n\n
+
+We aim for Supercharge here, which makes our non-crit lightning damage <a href="https://pathofexile.gamepedia.com/Luck">lucky</a>. The other notable can be either Disorienting Display to <a href="https://pathofexile.gamepedia.com/Blind">blind</a> enemies or Scintillating Idea for extra mana and lightning penetration. Technically you can even roll all of that together, but that would be really pushing your luck. \n\n
+    
+   Our Medium Clusters need to be Flask Duration based with 4 or 5 added passives.\n\n
+
+On this one we want Distilled Perfection to increase life- and mana flask recovery and flask duration. If possible, add Liquid Inspiration to that for even more mana flask recovery and increased mana.\n\n
+Our Small Clusters can be either life, mana or chaos resistance based with 3 added passives.\n\n
+
+We want Blessed here, which gives life, mana and chaos resistance. In best case we get that together with atleast 25% increased Effect for Small Passives.\n\n
+        Kitava's Teachings grants a keystone that consumes a corpse every second and recovers 5% of our life and mana when doing so, but makes us take 10% more damage if we haven't consumed any corpses within 4s. This works incredibly well once we got our trigger weapon craft.
+It can only drop from <a href="https://pathofexile.gamepedia.com/Delirium">Delirium bosses</a></string>
+    
+<string name="text_gear4">I\'ve already briefly explained flasks earlier in the guide, just as a reminder they\'re more than just Healing Pots that you may know from other ARPG\'s.\n\n
+
+There\'s two types: Life/Mana/Hybrid Flasks which heal the respective stat over a duration, and Utility Flasks which grant buffs during their listed duration. Prefixes augment the flasks effect or duration, while suffixes add additional buffs that are active during the flasks duration.\n\n
+
+<b>Crafting Advice:</b> Start by scouring all flasks and put 4x Glassblower Baubles on each, which can be bought for 8x Blacksmith\'s Whetstones each at the gear vendor in town. Transmute and use Orbs of Alteration until you hit one of the listed prefixes <b>without</b> a suffix, and add one of the listed suffixes through Einhar\'s <a href="https://pathofexile.gamepedia.com/Beastcrafting">Beastcrafting</a> in the Menagerie. If you hit a listed prefix already together with a listed suffix, you should of course keep that.\n\n
+
+
+Provides fast life recovery to reduce straining our mana too much with Agnostic.\n
+Eternal Life Flask is the best base for that.\n
+Prefixes: Catalysed\n
+Suffixes: of Staunching\n\n
+
+
+At first you\'ll probably need Concentrated to keep up with mana demands, with better mana sustain from gear it\'s possible to switch to Enduring for a more relaxed playstyle, Eternal Mana base in either case. The Essence Extraction notable passively refills this flask and removes any elemental ailment from us when using this flask.\n
+Prefixes: Concentrated, Enduring\n
+Suffixes: of Curing\n\n
+
+
+Grants <a href="https://pathofexile.gamepedia.com/Onslaught">Onslaught</a> for some extra speed and DPS.\n
+Prefixes: Chemist\'s\n
+Suffixes: of Warding\n\n
+
+
+Gives us quick movement speed bursts, best used to move between packs.\n
+\"of Adrenaline\" can\'t be crafted with the Menagerie.\n
+Prefixes: Experimenter\'s, Alchemist\'s\n
+Suffixes: of Adrenaline\n\n
+
+
+Extra armour is great to soak up many smaller physical hits, such as from porcupine spikes.\n
+\"of Iron Skin\" can\'t be crafted with the Menagerie.\n
+Prefixes: Experimenter\'s\n
+Suffixes: of Iron Skin\n
+    Alternatively, <b>Rumi\'s Concoction</b> provides less armour but additional Chance to Block Attacks and Chance to Block Spells to temporarily reach (near) cap for both.</string>  
+<string name="text_gear5">This section is here to answer the everlasting \"What to upgrade next?\" question.\n\n
+
+It\'s based on the assumption that you have no gear and have reached maps, if you haven\'t then you shouldn\'t even be reading this part of the guide yet, stick to the first part for Acts.\n\n
+
+
+‣ Basic Gear + Kitava\'s Thirst \n
+
+‣ Essence Worm\n
+
+‣ Shield w/ Recover #% of your maximum Mana when you Block\n
+
+‣ Body Armour w/ #% increased Effect of Offerings and 80+ Life\n
+
+‣ Weapon w/ Trigger a Socketed Spell when you use a Skill and Helmet replacement\n
+
+‣ Kitava\'s Teachings\n
+
+‣ Lv21 Vaal Arc w/ 0% Quality\n
+
+‣ Watcher\'s Eye w/ #% increased Mana Recovery Rate while affected by Clarity\n
+
+‣ Highend Gear upgrades and Cluster Jewels\n
+
+‣ Awakened Gems </string>    
 <string name="text_mapping">Before you start mapping, make sure that you have:\n
 
 <i>‣ atleast 4k Life and 3k Mana\n
