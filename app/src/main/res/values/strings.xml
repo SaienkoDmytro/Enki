@@ -17,6 +17,8 @@
     <string name="menu_mapping">Mapping, Bossfights</string>
     <string name="settings_menu1">Text settings</string>
     <string name="text_size">Text size</string>
+    <string name="Youtube">Youtube</string>
+    <string name="Twitch">Twitch</string>
     <string name="text_video"> <a href="https://www.youtube.com/watch?v=Qfoogi5j4IM">Elder</a> \n <a href="https://www.youtube.com/watch?v=uml3Fr5cEro">Shaper</a> \n <a href="https://www.youtube.com/watch?v=81_gQ-4ZZ6c">Uber Elder</a> \n <a href="https://www.youtube.com/watch?v=lwcSiBrRaQE">Juiced T16 Toxic Sewer</a> \n <i>Will eventually record more when I have time!</i> </string>
     <string name="text_video1">I\'m also going to start in Harvest SSFHC with this build live at <a href="https://www.twitch.tv/enki91">twitch.tv/enki91</a></string>
     <string name="text_PB">Path of Building link and Browser Version\n<a href="https://pastebin.com/r3EEZjCa">Link to build</a> (<b><i>read the Notes after importing!</i></b>)\n<a href="https://pob.party/">Browser Version</a>\n<b><i>I know that some people jump straight to the PoB without ever reading the guide, which often leads to failure and is then blamed on the build. Don\'t be that person!</i></b>\nI\'ve invested lots of time into this guide and find it very rude when people just disregard that
@@ -587,7 +589,7 @@ This may come as a surprise but we want life, mana and resistances from our glov
 
 <b>Kalisa\'s Grace</b> are decent entry-level unique gloves if you don\'t need any resistances. They come with some life, a little bit of mana from intelligence, extra crit for Elemental Overload uptime and an extra Faster Casting support, which works best with socketing our Orb of Storms setup.\n
 
-<b>Asenath\'s Gentle Touch</b> are very interesting aswell. They come with the basic life and mana that we want, curse enemies with <a href="https://pathofexile.gamepedia.com/Temporal_Chains">Temporal Chains</a> and have situational <a href="https://pathofexile.gamepedia.com/Blind">Blind</a> and corpse explosions to remove on-death effects, such as from <a href="https://pathofexile.gamepedia.com/Porcupine_Goliath">porcupines</a>. They can only drop from <a href="https://pathofexile.gamepedia.com/Legion">Maraketh Legions</a>.\n
+<b>Asenath\'s Gentle Touch</b> are very interesting as well. They come with the basic life and mana that we want, curse enemies with <a href="https://pathofexile.gamepedia.com/Temporal_Chains">Temporal Chains</a> and have situational <a href="https://pathofexile.gamepedia.com/Blind">Blind</a> and corpse explosions to remove on-death effects, such as from <a href="https://pathofexile.gamepedia.com/Porcupine_Goliath">porcupines</a>. They can only drop from <a href="https://pathofexile.gamepedia.com/Legion">Maraketh Legions</a>.\n
 
 If not going for the previous gloves, go for a highend pair with either Faster Casting Support, <a href="https://pathofexile.gamepedia.com/Unnerve">unnerve chance</a> or <a href="https://pathofexile.gamepedia.com/Culling_strike">culling strike</a>.\n
 
@@ -658,7 +660,7 @@ Resistances N B\n\n
 
 Rings are another slot to gain lots of resistances from, once again together with life and mana.\n
 
-A highend ring provides all that on a Vermillion Ring base, or together with some damage affixes. It\'s also another slot to get a curse on hit from, this time Conductivity. Just note that the base curse limit is 1 and curses are heavily countered by bosses and mapmods.\n
+A highend ring provides all that on a Vermilion Ring base, or together with some damage affixes. It\'s also another slot to get a curse on hit from, this time Conductivity. Just note that the base curse limit is 1 and curses are heavily countered by bosses and mapmods.\n
 
 <b>Essence Worm</b> allows us to run an aura without any reservation cost, our choice is Wrath for another huge damage multiplier. It also increases our Clarity\'s reservation cost, but the damage gain outweighs this downside. It\'s not necessary but highly recommended to have for endgame.\n
 

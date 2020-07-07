@@ -5,5 +5,7 @@
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"
+        android:background="@color/colorBack"
+        android:textColor="@color/colorText"
         app:showAsAction="never" />
 </menu>

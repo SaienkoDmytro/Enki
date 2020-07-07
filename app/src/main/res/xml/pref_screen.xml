@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory android:title="@string/settings_menu1">
+    <PreferenceCategory
+        android:background="@color/colorBack"
+        android:textColor="@color/colorText"
+        android:title="@string/settings_menu1">
 
         <ListPreference
+            android:background="@color/colorBack"
             android:defaultValue="Regular"
             android:entries="@array/text_size_array"
             android:entryValues="@array/text_size_array"

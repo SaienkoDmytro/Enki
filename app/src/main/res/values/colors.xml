@@ -6,4 +6,5 @@
     <color name="colorBack">#040519</color>
     <color name="colorText">#E6E6E6</color>
     <color name="colorButton">#4F6BE2</color>
+    <color name="backFont">#487DA5</color>
 </resources>
