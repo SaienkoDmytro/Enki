@@ -1,0 +1,879 @@
+<resources>
+    <string name="app_name">Enki\'s Arc Witch</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Enki\'s Arc Witch</string>
+    <string name="nav_header_subtitle">A beginner, SSF-friendly Lightning Caster</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_start">START</string>
+    <string name="menu_videos">Videos</string>
+    <string name="menu_pob">Path of Building</string>
+    <string name="menu_about">About this Build</string>
+    <string name="menu_leveling">Leveling this Build</string>
+    <string name="menu_passive">Passive Tree, Ascendancy</string>
+    <string name="menu_gem">Gem Setup</string>
+    <string name="menu_gear">Gear, Jewels, Flasks</string>
+    <string name="menu_mapping">Mapping, Bossfights</string>
+    <string name="settings_menu1">Text settings</string>
+    <string name="text_size">Text size</string>
+    <string name="text_video"> <a href="https://www.youtube.com/watch?v=Qfoogi5j4IM">Elder</a> \n\n <a href="https://www.youtube.com/watch?v=uml3Fr5cEro">Shaper</a> \n\n <a href="https://www.youtube.com/watch?v=81_gQ-4ZZ6c">Uber Elder</a> \n\n <a href="https://www.youtube.com/watch?v=lwcSiBrRaQE">Juiced T16 Toxic Sewer</a> \n\n <i>Will eventually record more when I have time!</i> </string>
+    <string name="text_video1">I\'m also going to start in Harvest SSFHC with this build live at <a href="https://www.twitch.tv/enki91">twitch.tv/enki91</a></string>
+    <string name="text_PB">Path of Building link and Browser Version\n<a href="https://pastebin.com/r3EEZjCa">Link to build</a> (<b><i>read the Notes after importing!</i></b>)\n<a href="https://pob.party/">Browser Version</a>\n<b><i>I know that some people jump straight to the PoB without ever reading the guide, which often leads to failure and is then blamed on the build. Don\'t be that person!</i></b>\nI\'ve invested lots of time into this guide and find it very rude when people just disregard that
+and ask about things that are already well explained. This unfortunately keeps happening.</string>
+    <string name="text_PBD">Path of Building is a tool that lets you fully plan characters from scratch, check out other peoples setups or import your own character to check DPS and defenses or compare potential upgrades.\n<a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases">Path of Building Community Fork</a> (<b><i>required for the POB above</i></b>)\n<a href="https://imgur.com/OeTuAhL">How to import builds</a></string>
+<string name="text_pros"><font color='green'>+ smooth gameplay and progression\n+ cheap and fully SSF-capable\n+ can get really tanky\n+ capable to do all bossfights</font>\n<font color='red'>- boss DPS is a bit lacking\n- can\'t run all mapmods</font></string>
+    <string name="text_mech"><big><b>‣ Chaining:</b></big> Arc is a lightning-based spell with the ability to chain from monsters and destroyable objects, even around corners and out of your line of sight! Each time it chains, it will also split to
+a second nearby enemy from where it can\'t chain further. The amount of times Arc can chain depends on its gem level and can be increased by enchantments.
+        \n\n‣ <big><b>Mana:</b></big> By default, mana is used to cover skill costs and -reservation. This build however couples heavy mana investment with several gems and keystones for various offensive and defensive purposes. Mind over Matter redirects 30% of the damage we take to our life to mana instead while the Agnostic spends mana to heal our life back to full, the gems will be covered later in the guide. This makes our mana investment very efficient and augments the value of the base 6 mana we gain per level, but it also creates a high demand for sustain beyond the base 1.8% of mana being regenerated per second which we mostly cover through our ascendancy, flasks and passives.
+        \n\n‣ <big><b>Block:</b></big> Another defensive layer which comes in two ways, Chance to Block Attacks and Chance to Block Spells, each with a base cap of 75%. Blocking hits prevents all damage and status effects except for stun, however non-hitbased damage over time can\'t be blocked. While we won\'t reach the block cap, it\'s still enough damage prevention coupled with some ways to heal us on block.
+        \n\n‣ <big><b>Elemental Overload:</b></big> This keystone provides a 40% more damage multiplier in exchange for removing all critical strike multiplier, with the condition to crit atleast once within 8 seconds. While the damage potential is lower compared to scaling crits, the damage is also way more consistent and only takes small investment, which allows us to invest more heavily into mana.
+        \n\n‣ <big><b>Spiritual Aid:</b></big> A notable that applies all stats with the wording \"Minions deal #% increased Damage\" and \"Minions deal #% reduced Damage\" to our damage. This gives some more liberties while gearing and makes said stat from our ascendancy not go to waste. Note that minion damage stats with different wording, such as \"Golems deal #% increased Damage\", \"Minions deal #% more Damage\" or \"Minions deal # to # additional Lightning Damage\" won\'t apply to us!</string>
+<string name="text_thanks"><i>This guide and build was developed and provided by <a href="https://www.pathofexile.com/account/view-profile/Enki91">Enki91</a> and you can find it in the original on the Path of Exile website <a href="https://www.pathofexile.com/forum/view-thread/1147951">here</a>.</i>\n\n 
+    <big>Welcome to my Arc guide!</big>\n\n
+
+With this guide I want to provide a simple and balanced caster build for beginners and veterans
+that is fun and easy to play, scales well into endgame and has as few restrictions as possible.
+It\'s not the strongest caster build out there, but it perfectly fits the niche I want it to be in.\n\n
+
+Instead of just showcasing a build, this guide is made to be a comprehensive learning experience.
+There\'s many indepth explanations and links to various wiki pages for new players to understand.
+I\'ve tried to keep it short, but some things just can\'t be explained properly with only a few words.\n\n
+
+If you have any questions, please ask them in this <a href="https://www.pathofexile.com/forum/view-thread/1147951">thread</a> or my <a href="https://www.twitch.tv/enki91">stream!</a>\n\n
+    <i>A few words from the creator of this application. First of all, thanks a lot to Enki for this build and permission to use it here. I\'m a fan of POE and I really liked this build, I\'m new to Android development, but nevertheless decided to put this build to the masses in Google Play.\n I will keep up-to-date information here and update functions in the future. I ask you not to judge strictly, and in case of errors or your wishes to the functional, write to me <a href="https://www.pathofexile.com/account/view-profile/Headshot_Inc">directly</a>!\n
+    I hope you enjoy this build as much as I do and you will find the benefit of this application for yourself. Feel free to comment and rate this apllication on Google Play</i>   
+    </string>
+    <string name="text_lvl1">Here\'s a small collection of generic advice for newer players:\n\n
+<big><b>‣ Information:</b></big> Knowledge is a strong skill in Path of Exile, and it helps to know where to find it. First there\'s the ingame Help Panel, which you can reach through its icon next to your skillbar.
+The Path of Exile Wiki should be your first stop for further information, poedb for plain data.
+Lastly, Engineering Eternity has a youtube channel with lots of informative videos.\n\n
+
+<big><b>‣ Lootfilter:</b></big> You will soon realize that there\'s lots of redundant loot in this game, a good Lootfilter reduces screen clutter and highlights potentially valuable or important drops. Neversink\'s Filter is always a good start and you can further customize it at Filterblade.\n\n
+
+<big><b>‣ Flasks:</b></big> Unlike most ARPG\'s, this game is directly balanced around using all your flasks.
+This goes beyond the typical life and mana flasks that you\'re probably used to from other games, during your act progression you\'ll gain access to various utility flasks which grant powerful buffs. Flasks can also be crafted, but it\'s not needed until maps so i\'ve kept it for their own flask section. For now, focus on keeping your life and mana flasks updated, get all utility flasks from quests when mentioned and try to get a feeling for your flask usage.\n\n
+
+<big><b>‣ Crafting:</b></big> Gear can be enhanced in various ways through crafting and recipes, while the latter can also create currency used for crafting. You outlevel gear pretty quickly during act progression, so it\'s not advised to invest too much at this point. Limit it to Orbs of Transmutation, Orbs of Augmentation, Orbs of Alteration, Chromatic Orbs and various Essences you can find for now,
+use Jeweller\'s Orbs and Orbs of Fusing only on useful gear you\'ve looted. Try to focus on intelligence-based gear for an easier time to get the right colors.\n\n
+
+<big><b>‣ Crafting Bench:</b></big> After unlocking your first hideout, you\'ll gain access to the Crafting Bench.
+This can be used to craft a targeted affix on gear, if it isn\'t already there and has a slot available. Use it to craft any damage affixes, Life, Attributes or Elemental Resistances missing on your gear.
+Recipes need to be found first, the Crafting Bench tells you all undiscovered recipe locations.\n\n
+
+<big><b>‣ Trading:</b></big> You can freely trade with other players if you have a Lv25+ char and aren\'t in SSF. Path of Exile\'s own trading site is good for buying gear, poemap is convenient for bulk map trades. If you want to sell something, you either need premium stash tabs, set up a shop in the trade subforums or use Acquisition. For pricechecks, look for similar stuff on the trade site, check poe.ninja or use Awakened POE Trade.\n\n
+
+<big><b>‣ Stash Tabs:</b></big> The default stash space is pretty limited, if you like the game and are able to, consider buying more stash tabs. Getting a Currency- and Map Tab is highly recommended, Premium Tabs make trading easier and if you want, a Quad Tab makes a good dump tab.
+Purchased tabs are account-wide, you won\'t lose them when temporary leagues end.
+There\'s also a stash tab sale weekend each month, wait for that if you\'re not in a rush.</string>
+    <string name="text_lvl2">Your journey through the ten acts can be seen as an extensive tutorial, slowly confronting you with the majority of game mechanics and increasingly more difficult enemies to learn to counter.\n\n
+
+This section will help you while playing through the ten acts and shows the recommended
+passive tree progression, gem setups, quest progression and exp farming zone for each act.
+The passive tree goals are just a pointer, it\'s not a big deal if you\'re over- or underleveled.\n\n
+
+<b>Keep in mind that this section includes major storyline spoilers, if you care about that.</b>\n\n
+
+<big><b>Act</b></big> 1\n\n
+
+
+‣ Kill the Zombie, pick up Fireball and switch left-click to move-only\n
+‣ Get Arcane Surge from Large Chest and kill Hillock\n
+‣ Buy Spark from Nessa, link it with Arcane Surge and throw away Fireball\n
+‣ Check vendors for Boots with Movement Speed and a second Wand\n
+‣ Get the Coast Waypoint, kill Hailrake on Tidal Island and get Quicksilver Flask in town\n
+‣ Finish your quest in Mud Flats and Enter Submerged Passage\n
+‣ Get the Waypoint, look for Flooded Depths and kill the Dweller of the Deep\n
+‣ Get Orb of Storms, Frostblink and Skillpoint in town\n
+‣ Orb of Storms provides extra damage while you cast Lightning Spells within its radius\n
+‣ Set Orb of Storms to "attack without moving" (left-click icon in skillbar)\n
+‣ Enter Prison, get Added Lightning Damage in town and link it to Spark + Arcane Surge\n
+‣ Check vendors for any item with 3-linked blue sockets if needed for above\n
+‣ Craft two wands with this recipe: Magic-rarity Wand + Topaz Ring + Orb of Alteration\n
+‣ If needed, the recipe for Topaz Rings is Iron Ring + Green Skill Gem\n
+‣ Start looking out for 2x Sapphire Rings\n
+‣ If needed, the recipe for Sapphire Rings is Iron Ring + Blue Skill Gem\n
+‣ Complete Trial of Ascendancy in Lower Prison\n
+‣ Kill Brutus, then get Clarity and Flame Dash in town\n
+‣ Replace Frostblink with Flame Dash and set it to "attack without moving"\n
+‣ Progress to Ship Graveyard and get the Waypoint\n
+‣ Look for Ship Graveyard Cave, get Allflame then get Cavern of Wrath Waypoint\n
+‣ Travel to Ship Graveyard Waypoint and kill Fairgraves\n
+‣ Go to town to get Skillpoint and Arc\n
+‣ Replace Spark with Arc and set it to "attack without moving"\n
+‣ Equip Sapphire Rings and kill Merveil\n\n
+
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAGpDEFj-swelSbJ2ESycCPTfsALjghBtGWobvOo="><b>Act 1 Passives</b></a>\n\n
+
+<b>Exp Farming Zone: The Ledge</b>\n\n
+
+
+<big><b>Act 2</b></big>\n\n
+
+‣ Once in town, enter the Old Fields first\n
+‣ Start looking out for 2x Topaz Rings\n
+‣ If needed, the recipe for Topaz Rings is Iron Ring + Green Skill Gem\n
+‣ Look for the Den, kill Great White Beast and get second Quicksilver in town\n
+‣ Continue to Crossroads and get Waypoint\n
+‣ Enter Chamber of Sins, complete Trial of Ascendancy on Level 2 and kill Fidelitas\n
+‣ Get Herald of Thunder and Arcane Cloak\n
+‣ Go back to Crossroads, enter Broken Bridge and kill Kraityn\n
+‣ Back to Crossroads once more, enter Fellshrine Ruins and Crypt\n
+‣ Complete Trial of Ascendancy in Crypt\n
+‣ Back to town, enter Riverways and get the Waypoint\n
+‣ Go to Western Forest, get Waypoint, kill Alira and Captain Arteri\n
+‣ Look for Weaver\'s Chambers and kill Weaver\n
+‣ Get Elemental Focus and link it to Orb of Storms\n
+‣ Go back to Lioneye\'s Watch and get Skillpoint\n
+‣ Go back to Riverways and follow the small dirt path to Wetlands\n
+‣ Kill Oak, get Wetlands Waypoint and get two Skillpoints in town\n
+‣ Make your way to the Ancient Pyramid, equip Topaz Rings and kill Vaal Oversoul\n\n
+
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAK6zEFgfAjbFVcZJsiyc2CTr5ALjvOpqQ2obBAeCEG0ZOlhWSHYRBUKD29-wCPRfKkyzB6X-sw=="><b>Act 2 Passives</b></a>\n\n
+
+<b>Exp Farming Zone: The Northern Forest</b>\n\n
+
+
+<big><b>Act 3</b></big>\n\n
+
+Start looking out for 4-linked Intelligence-based gear. You can also craft new wands with the same recipe as before, but this time the wands and rings need to have atleast item level 20 and the rings need to be rare - spare Essences can be used for this. To check item level, activate "Show Advanced Mod Descriptions" in Options and hold ALT while hovering the item.\n\n
+
+‣ Focus on having 75% Cold-, Fire- and Lightning Resistance from now on\n
+‣ Kill the Blackguards in City of Sarn and enter town\n
+‣ Go to Slums, enter Crematorium, finish Trial of Ascendancy and kill Piety\n
+‣ Get Sewer Key in town and go back to Slums\n
+‣ Enter Sewers, get Waypoint, find three busts and get Skillpoint in town\n
+‣ Get Marketplace Waypoint and finish Trial of Ascendancy in Catacombs\n
+‣ Enter Battlefront, get Waypoint and kill Captain Aurelianus\n
+‣ Go to Docks and get Thaumetic Sulphite\n
+‣ Back to Battlefront, enter Solaris Temple and talk to Lady Dialla\n
+‣ Destroy the Undying Blockade in Sewers\n
+‣ Enter Ebony Barracks, get Waypoint and kill General Gravicius\n
+‣ Enter Lunaris Temple, kill Piety and get Skillpoint in town\n
+‣ Get Imperial Gardens Waypoint and finish Trial of Ascendancy\n
+‣ Go to Library and finish Siosa\'s quest\n
+‣ You can now buy all unlocked gems at Siosa (currency needs to be in bag!)\n
+‣ Throw away Herald of Thunder and the Added Lightning Damage linked to Arc\n
+‣ Move Arcane Surge from Arc to Arcane Cloak\n
+‣ Get Lightning Penetration and Archmage and link them to Arc\n
+‣ Do the same with Orb of Storms, or put it in a 4L with Arc and its supports\n
+‣ Get Second Wind and Arcane Surge and link them to Flame Dash\n
+‣ Keep this Arcane Surge at Lv6 or lower, to proc it with a single use\n
+‣ Archmage will eat through your mana, it\'s a good idea to use two mana flasks now\n
+‣ Enter the Sceptre of God and kill Dominus\n\n
+
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAK6zEFgfAkmyRv7YJEWdvOpqQ6flOlinCN-wxopfKv6zNsVVxiyc6-QC41NS2t1qGwelBAcI9Jrgg9sFQuzobRlWSHYRghBMs-vu0io="><b>Act 3 Passives</b></a>\n\n
+
+<b>Exp Farming Zone: The Docks</b>\n\n
+
+
+<big><b>Act 4</b></big>\n\n
+
+‣ Enter the Dried Lake, kill Voll and enter the Mines\n
+‣ Free Deshret\'s Spirit in Mines Level 2, progress to Crystal Veins and get Waypoint\n
+‣ Get skillpoint in town and go back to the Sarn Encampment\n
+‣ Complete the first Labyrinth, you can enter it through the Sarn Encampment\n
+‣ Read up on the Lord\'s Labyrinth and Izaro to get an idea what\'s going on\n
+‣ After finishing the Labyrinth, ascend to Necromancer and get Essence Glutton\n
+‣ Get Desecrate from Siosa and keep it Lv1\n\n
+
+From now on, start each bossfight by casting Desecrate twice then use Arcane Cloak, then Orb of Storms and then burst the boss down with Arc while standing inside Orb of Storms radius as much as possible. Repeat this procedure from Arcane Cloak onwards if needed.\n\n
+
+‣ Go back to Crystal Veins, enter Kaom\'s Dream and kill Kaom\n
+‣ Now enter Daresso\'s Dream and kill Daresso\n
+‣ Get Spell Echo in town and link it to Arc\n
+‣ Get Cast when Damage taken, then get Wave of Conviction from Siosa\n
+‣ Link them together and don\'t level up either of these gems from now on\n
+‣ Kill Piety in Belly of the Beast, and finally Malachai in the Harvest\n\n
+
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAK6zEFgfAh0USbJG_tgkRZ286mpDogCn5QQHdhHfsMaKXyqFMsBmMtEFQo9GNsVVxvrS6-7jaiycbRnr5ALjmuAN4lNSpwg6WGobB6Xs6NIqRUeD2wSz_rNIjlZICPSCEEyz2t0Wbw=="><b>Act 4 Passives</b></a>\n\n
+
+<b>Exp Farming Zone: The Dried Lake</b>\n\n
+
+
+<big><b>Act 5</b></big>\n\n
+
+‣ Kill Overseer Krow and enter town\n
+‣ Find the Miasmeter in Control Blocks and kill Justicar Casticus\n
+‣ Get Silver Flask and Skillpoint in town\n
+‣ Replace a Mana Flask with Silver Flask and try to roll of Staunching on it\n
+‣ Make your way to Templar Courts, kill Avarius and get any unique jewel in town\n
+‣ Get Ruined Square Waypoint, kill Utula and get Assassin\'s Haste in town\n
+‣ Keep this jewel for now and use it once getting the first jewel socket\n
+‣ Finish the quest in Reliquary and get Skillpoint in town\n
+‣ Look for the Sign of Purity in Ossuary\n
+‣ Kill Kitava on Cathedral Rooftop\n
+‣ You will suffer a permanent -30% resistance penalty after this fight\n
+
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAK6zEFg26R0USbJG_tgkRZ286mpDogCn5YUybRk6WNrddhHHpN9PJKrGil8qpwgI9MBmMtHjao9GNsVVxvrSBAcWbyycHwLr5ALj37AN4lNSahv-swelg9vSKlfIRUfs6ASzZp5IjlZImuCCEEyz6-4FQg=="><b>Act 5 Passives</b></a>\n\n
+
+<b>Exp Farming Zone: The Chamber of Innocence</b>\n\n
+
+
+<big><b>Act 6</b></big>\n\n
+
+‣ Clear the Twilight Strand to unlock Lilly as Skillgem Vendor\n
+‣ Get to Mud Flats and kill the Dishonored Queen\n
+‣ Enter Karui Fortress, kill Tukohama and get Skillpoint in town\n
+‣ Use Soul of Tukohama\n
+‣ Finish Trial of Ascendancy in Prison and kill Shavronne\n
+‣ Enter Prisoner\'s Gate, kill Abberath and get Skillpoint in town\n
+‣ Get Riverways Waypoint\n
+‣ Enter Wetlands, kill Puppet Mistress and get Skillpoint in town\n
+‣ Light the Beacon and kill the Brine King\n
+‣ Use Soul of the Brine King\n\n
+
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABBYHRRKn1nzvOpqQ6IAp-WnCMBmNsVVxiycAuMN4lfIBLNIjlZITLOuswVCNumJvEmyhTJG_tgkRZ1mnho4Olh2Ed9PJKrGil8qcg8y0ZBVoOb60prg6-7s6Ovk37DSKoPbU1JncScvB6X-s2obEFFFRx8CFm8EB-Nqj0YI9IIQx6Ta3W0Z"><b>Act 6 Passives</b></a>\n\n
+
+<b>Exp Farming Zone: The Southern Forest</b>\n\n
+
+
+<big><b>Act 7</b></big>\n\n
+
+Start looking out for a shield to replace one weapon. Once you\'ve found a good one, get Tempest Shield from Lilly, link it to the Cast when Damage taken setup and don\'t level it up.\n\n
+
+‣ Find the Silver Locket in Broken Bridge and get Granite Flask in town\n
+‣ Replace your low item level Quicksilver Flask with Granite Flask\n
+‣ Enter Crossroads, get Waypoint then enter Crypt through Fellshrine Ruins\n
+‣ Finish Trial of Ascendancy and find Maligaro\'s Map\n
+‣ Go back to Crossroads and enter Chamber of Sins\n
+‣ Kill Maligaro in Maligaro\'s Sanctum\n
+‣ Finish Trial of Ascendancy in Chamber of Sins Level 2 and enter the Den\n
+‣ Make your way to Ashen Fields and kill Greust, then get Skillpoint in town\n
+‣ Get Northern Forest Waypoint and enter Dread Thicket\n
+‣ Collect all Fireflies and kill Gruthkul, then get Skillpoint in town\n
+‣ Find Kishara\'s Star in Causeway and get Skillpoint in town\n
+‣ Get the Vaal City Waypoint, enter Temple of Decay and go back to town\n
+‣ Finish the second Labyrinth and get Mistress of Sacrifice\n
+‣ Get Bone Offering and Arcanist Brand, and link them together with Desecrate\n
+‣ Use this from time to time for additional defenses, mostly during bossfights\n
+‣ Get back to the Temple of Decay and kill Arakaali\n\n
+
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGvnoakOiAKflZ3HAZjbFVcYsnLiTgscN4lfIBLNIjlZITLOuswVCNumJvEmyhTJG_tIqRZ1mnho4g9t2Ed9P37DGil8qJKr-szLRkFWPRtrdcg_jaqcIEFHs6B8C6-TYJBZvBAcnL_rSCPRqG8ekU1K86kVHB6UC4yj6bRk6WKDmghDr7prg"><b>Act 7 Passives</b></a>\n\n
+
+<b>Exp Farming Zone: The Northern Forest</b>\n\n
+
+
+<big><b>Act 8</b></big>\n\n
+
+‣ Enter the Toxic Conduits and kill Doedre\n
+‣ Go for Quay first, find Ankh of Eternity, kill Tolman and get Skillpoint in town\n
+‣ Kill the Gemling Legionnaires in Grain Gate and get Skillpoint in town\n
+‣ Enter Solaris Temple, get Sun Orb then enter Solaris Concourse and get Waypoint\n
+‣ Go back to Doedre\'s Cesspool and go for the Grand Promenade now\n
+‣ Get Bath House Waypoint and finish Trial of Ascendancy\n
+‣ Enter High Gardens, kill Yugul and get Skillpoint in town\n
+‣ Enter Lunaris Temple through Lunaris Concourse and get Moon Orb\n
+‣ Go to Harbour Bridge and kill Solaris and Lunaris\n\n
+
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGvnoakOiAKflm4o1kr5P_o_AZjrhNsVVxrc-LJy4k4LHDeJXyASzSI7YvUyzrrMFQjbpibxJsoUyRv7SKv4KQYdmnuvuGjhncbzqg9sWb3YR30_fsMaKXyoo-gLj_rMy0ZBVoOZtGYIQ42pWSDpY7OjHpOvkB6VFnVNSJy8I9JrgahuPRvrSBAdFR9gkpldN4x8CEFGnCPJFcg_a3SSq"><b>Act 8 Passives</b></a>\n\n
+
+<b>Exp Farming Zone: The Harbour Bridge</b>\n\n
+
+
+<big><b>Act 9</b></big>\n\n
+
+‣ Find the Storm Blade in Vastiri Desert and speak to Petarus and Vanja in town\n
+‣ Look for a blocked entrance in Vastiri Desert\n
+‣ Go to town, talk to Sin and then to Petarus and Vanja\n
+‣ Kill Shakari and get Skillpoint in town\n
+‣ Get Foothills Waypoint, enter Boiling Lake and get Basilisk Acid\n
+‣ Enter the Tunnel and finish Trial of Ascendancy\n
+‣ Get Quarry Waypoint, enter Refinery and get Trarthan Powder\n
+‣ Go back to Quarry and kill Garukhan and get Sekhema Feather\n
+‣ Go to town and give the feather to either Tasuni or Irasha, get Skillpoint\n
+‣ Enter Belly of the Beast and kill the Depraved Trinity\n\n
+
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGvnoakOiAKflm4o1kr5P_o-gQsBmOuE2xVXGtz4snLiTgscN4lfIBLNewNi9TLOuswVCNumJvEmyhTJG_tgkHwLa3f4KAuNmnoIQGjgI9EiOg9sQUXYR8kXfTySqxopfKqcI_rNyDzLRkFWg5gQHahvjatIq37Ds6Ccv6-T60o9GmuBTUk3jRZ0HpWdxOlhWSEVHbRmmVyj6Fm-86ohax6Tr7kGH"><b>Act 9 Passives</b></a>\n\n
+
+<b>Exp Farming Zone: The Blood Aqueduct</b>\n\n
+
+
+<big><b>Act 10</b></big>\n\n
+
+‣ Go left on Cathedral Rooftop and kill Plaguewing\n
+‣ Now go right, enter the Ravaged Square and go south\n
+‣ Enter the Control Blocks, kill Vilenta and get Skillpoint in town\n
+‣ Optionally find the Teardrop in Reliquary\n
+‣ Go back to Ravaged Square and get its Waypoint in the upper part\n
+‣ Enter Ossuary and complete Trial of Ascendancy\n
+‣ Get to Desecrated Chamber through Torched Courts and kill Avarius\n
+‣ Finish the third Labyrinth and get Plaguebringer\n
+‣ Enter the Canals and make your way to the final bossfight\n
+‣ You will suffer another permanent -30% resistance penalty after this fight\n\n
+
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGieD-ehqQ6IAp-WbijWSvk9ncaBCwGY64TbFVca3PiycuJOCxw3iV8gEs17AVkhMs00UrrMFQjbpibwQUUmyhTJG_uvu2CRtGYhapwj-ChZvZp4o-ho4vOo6WIPbQYd2Edi9LOIkqsaKXyrHpP6Pcg8y0ZBVoOYHpUWd42rfT1NS7OhN4-vkmuCPRvrSJy_fsNIqahsycQQH_rNFR_JFplen-EiOZroI9IIQAuPa3R8C"><b>Act 10 Passives</b></a>\n
+
+<b>Exp Farming Zone: The Desecrated Chambers</b>\n\n
+
+
+<big><b>Epilogue</b></big>\n\n
+
+‣ Talk to Lani for two Skillpoints\n
+‣ Find Kirac in the Templar Laboratory and finish his quest\n
+‣ Now it\'s time to look at the second part of this guide!\n
+‣ Gear up for endgame and switch to the endgame gem setup\n
+‣ If you lack currency, run Currency Delve nodes and/or start doing the Chaos Orb recipe</string>
+    <string name="text_lvl3"><font color='blue'>Spark -> Arc\n
++ Arcane Surge -> Lightning Penetration\n
++ Added Lightning Damage -> Archmage\n
++ Spell Echo\n\n
+
+Orb of Storms\n
++ Elemental Focus\n
++ Archmage\n
++ Lightning Penetration\n\n
+
+Frostblink -> Flame Dash\n</font>
+<font color='green'>+ Second Wind</font>\n
+<font color='blue'>+ Arcane Surge (Lv6)\n\n
+
+Clarity\n\n
+
+Arcane Cloak\n
++ Arcane Surge\n\n</font>
+
+<font color='red'>Cast when Damage taken (Lv1)\n</font>
+<font color='blue'>+ Tempest Shield (Lv1)\n
++ Wave of Conviction (Lv1)\n\n</font>
+
+<font color='green'>Desecrate (Lv1)</font> <i>after Normal Labyrinth</i>\n
+<font color='blue'>+ Bone Offering</font> <i>after Cruel Labyrinth</i>\n
+<font color='blue'>+ Arcanist Brand</font> <i>after Cruel Labyrinth</i>\n\n
+
+<font color='blue'>Herald of Thunder</font> <i>until Archmage</i>\n\n
+
+
+Life Flask\n
+Mana Flask\n
+Mana Flask -> Silver Flask\n
+Quicksilver Flask -> Granite Flask\n
+Quicksilver Flask\n\n
+
+Kill Kraityn - Kill Oak - Kill Alira\n\n
+
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAGpDEFj-swelSbJ2ESycCPTfsALjghBtGWobvOo="><b>Act 1 Passives</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAK6zEFgfAjbFVcZJsiyc2CTr5ALjvOpqQ2obBAeCEG0ZOlhWSHYRBUKD29-wCPRfKkyzB6X-sw=="><b>Act 2 Passives</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAK6zEFgfAkmyRv7YJEWdvOpqQ6flOlinCN-wxopfKv6zNsVVxiyc6-QC41NS2t1qGwelBAcI9Jrgg9sFQuzobRlWSHYRghBMs-vu0io="><b>Act 3 Passives</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAK6zEFgfAh0USbJG_tgkRZ286mpDogCn5QQHdhHfsMaKXyqFMsBmMtEFQo9GNsVVxvrS6-7jaiycbRnr5ALjmuAN4lNSpwg6WGobB6Xs6NIqRUeD2wSz_rNIjlZICPSCEEyz2t0Wbw=="><b>Act 4 Passives</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAK6zEFg26R0USbJG_tgkRZ286mpDogCn5YUybRk6WNrddhHHpN9PJKrGil8qpwgI9MBmMtHjao9GNsVVxvrSBAcWbyycHwLr5ALj37AN4lNSahv-swelg9vSKlfIRUfs6ASzZp5IjlZImuCCEEyz6-4FQg=="><b>Act 5 Passives</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABBYHRRKn1nzvOpqQ6IAp-WnCMBmNsVVxiycAuMN4lfIBLNIjlZITLOuswVCNumJvEmyhTJG_tgkRZ1mnho4Olh2Ed9PJKrGil8qcg8y0ZBVoOb60prg6-7s6Ovk37DSKoPbU1JncScvB6X-s2obEFFFRx8CFm8EB-Nqj0YI9IIQx6Ta3W0Z"><b>Act 6 Passives</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGvnoakOiAKflZ3HAZjbFVcYsnLiTgscN4lfIBLNIjlZITLOuswVCNumJvEmyhTJG_tIqRZ1mnho4g9t2Ed9P37DGil8qJKr-szLRkFWPRtrdcg_jaqcIEFHs6B8C6-TYJBZvBAcnL_rSCPRqG8ekU1K86kVHB6UC4yj6bRk6WKDmghDr7prg"><b>Act 7 Passives</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGvnoakOiAKflm4o1kr5P_o_AZjrhNsVVxrc-LJy4k4LHDeJXyASzSI7YvUyzrrMFQjbpibxJsoUyRv7SKv4KQYdmnuvuGjhncbzqg9sWb3YR30_fsMaKXyoo-gLj_rMy0ZBVoOZtGYIQ42pWSDpY7OjHpOvkB6VFnVNSJy8I9JrgahuPRvrSBAdFR9gkpldN4x8CEFGnCPJFcg_a3SSq"><b>Act 8 Passives</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGvnoakOiAKflm4o1kr5P_o-gQsBmOuE2xVXGtz4snLiTgscN4lfIBLNewNi9TLOuswVCNumJvEmyhTJG_tgkHwLa3f4KAuNmnoIQGjgI9EiOg9sQUXYR8kXfTySqxopfKqcI_rNyDzLRkFWg5gQHahvjatIq37Ds6Ccv6-T60o9GmuBTUk3jRZ0HpWdxOlhWSEVHbRmmVyj6Fm-86ohax6Tr7kGH"><b>Act 9 Passives</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGieD-ehqQ6IAp-WbijWSvk9ncaBCwGY64TbFVca3PiycuJOCxw3iV8gEs17AVkhMs00UrrMFQjbpibwQUUmyhTJG_uvu2CRtGYhapwj-ChZvZp4o-ho4vOo6WIPbQYd2Edi9LOIkqsaKXyrHpP6Pcg8y0ZBVoOYHpUWd42rfT1NS7OhN4-vkmuCPRvrSJy_fsNIqahsycQQH_rNFR_JFplen-EiOZroI9IIQAuPa3R8C"><b>Act 10 Passives</b></a></string>
+    <string name="text_asc1">
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGieD-ehqQ6IAp-WbijWSvk9ncaBCbqrAZjrhNsVVxrc-Ssi4kwLjDeJXyASzvOpIjlZI2t0I9Eyz8kVNFGa6BUI26Ym842pJsoUyRv4snNgkp_je5a6zgsf-ChSpZp5ewBo4QYdqG4PbHwJ2EYIQLOIkqsaKXyonL7Xycg8y0ZBVoOb-swQHMnHSKt-w7Oj60uvkj0aa4E3jU1LfT0WdB6X-j8ek2L1FRzpYplco-hZvpwiIWm0Z6-4QUQ=="><b>Lv70 Passives</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAFwUEFgqTR0USp9Z848aJ4P56GpDx6Sn5ZuKNZK-T2RyW9WgQm6qwGY64TbFVca3PkrIuJNncYLH6-4N4qPvAuOIWhZvEFFmulfIKPo6WASzibxIjti93uX-CkyzB6VNFGlQBUI26acISbKFMkb-U1LYJP6PVIJtGVZIRZ0UqWaeLOIaODJxR-KD26IAdhE_J99PJKrGil8qTeOa4HIPMtGQVaDmj0b-s_rS0irfsOzoBAfr5LXyIuKkOScvghAfAmobsnBBh17ARUeus6ZXp_gsnBzc42ryRQj02t286g=="><b>Lv80 Passives</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAFwUEFgqTR0USp9Z848aJ4OUb7zqakPHpKflQYebijWSvk9kctrdW9WgQm6q-egc3ErIwGZewAj0OuE2xVXGNum3PmZULJy4k-NqgseJvA3io-_SKu_rrrPVpjpYV8iD22obBLNyD0iO2L3QHycvTLOycE0UaVAFQh8C-tJJsoUyRv4v1tgk8kWCECSqpDlFnRSpZp4i4ho4tfJWSAQHMnF2Ea7_30_fsMaKXyqg5qf4_rMy0ZBVj0aa4E3jPyeiAEfi7Ogs4uvkbRlUgv6PU1Jqu6cIB6WoNf4K3uVFRxpyplco-ma6EFEWb4haAuPr7mdx"><b>Lv90 Passives</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAFwUEFgqTVH7WfOPGpRvvOrHpKflm4pnccBmOuE2xWZUuJMC4w3i7-szbASzaVAFQh8CSbKFMkb-2CS9J0WdFKlmnho4GFYEB99P37DGil8qMtGQVY9GPydquwelplco-oha6-4dFEqfFm_NFieDakMQUTWSvk9kclvVoEJuqh8YVca3Piycgsej73GF1aZXyNq5SI7YvUyzTRRmuom80ire5f4KqDUYPKcItfL-j1SCbRnyRXYRrv8s4iSqR-KiAE3jmuD-syAGp_ig5jJxVkhTUiLipDns6IIQ6-Qv1vrSsnAnL9Afcg9qG4PbOlius0VHGnLjajbpCPRewErIHNz56NrdQYc="><b>Lv100 Passives</b></a>\n\n
+
+<i>This progression isn\'t set in stone! F.e. it\'s fine to get jewel sockets earlier if you have good ones.</i></string>
+    <string name="text_asc2"><big><b>Essence Glutton</b></big> <i>(Normal)</i>: The main reason why we choose Necromancer. Provides tons of mana sustain with the right setup, and even some extra mana on top of that. \n\n
+        <big><b>Mistress of Sacrifice</b></big> <i>(Cruel)</i>: Another reason for Necromancer. Applies offerings to us with slightly lowered effect and increases skill duration. \n\n
+        <big><b>Plaguebringer</b></big> <i>(Merciless)</i>: Reduces enemy damage while increasing our damage output and provides some AoE, as long as there are corpses nearby and we\'ve consumed one. \n\n
+        <big><b>Corpse Pact</b></big> <i>(Eternal)</i>: Shocks enemies for another 15% increased damage taken, chills them for 10% reduced action speed and gives us some damage and cast speed.</string>
+<string name="text_asc3">
+‣ <big><b>Soul of the Brine King</b></big> <i>(Major)</i>: Prevents us from getting stunlocked and shortens stun duration.\n\n
+
+‣ <big><b>Soul of Tukohama</b></big> <i>(Minor)</i>: Additional physical damage mitigation and life regeneration.\n\n
+
+‣ <big><b>Soul of Ryslatha</b></big> <i>(Minor)</i>: Life Flask sustain for longer bossfights.\n\n
+
+<i>You can have 1x major and 1x minor Pantheon node active at once.</i></string>
+<string name="text_gem1"><i>Non-corrupted Lv20 Gems can be upgraded to Lv1 20% by vendoring them together with a Gemcutters Prism. Do this with all gems that are marked with a *\n\n
+
+All gems are worth corrupting at Lv20 20%, for the ones not needing quality just do it at Lv20.\n\n
+
+Any Awakened Gem versions of listed support gems are worth using.</i>\n\n
+
+<a href="https://pathofexile.gamepedia.com/Arc"><big><b>Arc</b></big></a> is our main skill - it has high base damage, decent cast time and a more damage modifier for each remaining chain. This simply means that if for example your Arc can chain 7x and there\'s nothing to chain to, it will get a 105% (7*15%) more damage multiplier for that hit.\n\n
+
+We can also use Vaal Arc, which grants both the regular Arc skill and a buffed up Vaal Arc that grants us the Lucky Buff. This buff counters our high lightning damage range by rolling each damage roll twice and taking the higher one. However, it can still happen that it rolls two low values and you end up getting a few small hits.\n\n
+
+To help with this decision, a Lv21 Arc is always better than a Lv20 Vaal Arc. Since Vaal Arc is corrupted by default, the only reliable way to get it at Lv21 is using the Lapidary Lense on an uncorrupted Lv20 Arc gem in the Temple of Atzoatl, although it\'s not a guaranteed outcome.\n\n
+
+<a href="https://pathofexile.gamepedia.com/Archmage_Support"><big><b>Archmage*</b></big></a> increases our mana cost and adds flat lightning damage based on mana cost at 80% value because of Arcs damage effectiveness. This synergizes extremely well with mana stacking and makes up the majority of our damage, but also creates a huge demand for sustain.\n
+<a href="https://pathofexile.gamepedia.com/Spell_Echo_Support"><big><b>Spell Echo*</b></big></a> substantially boosts our cast speed and repeats each skill use without consuming mana for the repeated cast, all at the cost of a minimal damage penalty.\n
+<a href="https://pathofexile.gamepedia.com/Lightning_Penetration_Support"><big><b>Lightning Penetration*</b></big></a> is a hidden damage increase - it doesn\'t affect our tooltip damage, but rather acts as a dynamic more multiplier by reducing the enemies lightning resistance during damage calculations, and can even drop it into negative values.\n\n
+
+5th Link: <a href="https://pathofexile.gamepedia.com/Elemental_Focus_Support"><big><b>Elemental Focus*</b></big></a> provides a huge damage multiplier but removes the ability to inflict ailments with the linked skill, but not other sources such as from Corpse Pact.\n\n
+
+6th Link: <a href="https://pathofexile.gamepedia.com/Controlled_Destruction_Support"><big><b>Controlled Destruction*</b></big></a> gives another damage multiplier with a crit chance penalty. The distinction between "less" and "reduced" is important, 100% less would mean we\'d lose all crit chance while 100% reduced means it\'s additive with all "increased crit chance" multipliers.\n\n
+
+<a href="https://pathofexile.gamepedia.com/Orb_of_Storms"><big><b>Orb of Storms*</b></big></a> is a duration-based spell that we use for some extra damage during bossfights. It releases bolts at enemies within its radius, plus additional bolts if we cast a lightning skill such as Arc while within its radius. This also makes it a great skill to proc Elemental Overload with.\n\n
+
+<b>Archmage*, Lightning Penetration*</b> and <b>Elemental Focus*</b> are explained above.\n\n
+
+
+<a href="https://pathofexile.gamepedia.com/Arcane_Cloak"><big><b>Arcane Cloak*</b></big></a> spends a percentage of our mana and temporarily grants us a damage absorbing buff and flat lightning damage based on mana spent. This is great for extra burst damage during bossfights or to soak up some incoming damage.\n\n
+
+<a href="https://pathofexile.gamepedia.com/Arcane_Surge"><big><b>Arcane Surge</b></big></a> grants a temporary buff after spending a certain amount of mana, which grants a more damage multiplier, cast speed and mana regeneration. Since Arcane Cloak spends lots of mana, we can proc a max level Arcane Surge within a single skill use.\n
+<a href="https://pathofexile.gamepedia.com/Increased_Duration_Support"><big><b>Increased Duration*</b></big></a> increased both buff durations.\n
+<a href="https://pathofexile.gamepedia.com/Second_Wind_Support"><big><b>Second Wind*</b></big></a> slightly reduces Arcane Cloaks cooldown to help with uptime during bossfights.\n\n
+
+
+<a href="https://pathofexile.gamepedia.com/Clarity"><big><b>Clarity</b></big></a> is an aura that grants mana regeneration to help with sustain. Unlike most other auras, it reserves a flat amount of mana based on its level. We simply level it all the way up, which also prevents it to interfere with the next gems.\n\n
+
+<a href="https://pathofexile.gamepedia.com/Cast_when_Damage_Taken_Support"><big><b>Cast when Damage taken</b></big></a> triggers linked spells after receiving enough damage from hits to surpass the listed treshold. The spells also need to have their required level within the listed level requirement. In this case, we simply keep everything at Lv1.\n
+<a href="https://pathofexile.gamepedia.com/Tempest_Shield"><big><b>Tempest Shield</b></big></a> grants additional Chance to Block Attacks and Chance to Block Spells.\n
+Its damaging aspect isn\'t important for us, so we simply keep it at Lv1.\n
+<a href="https://pathofexile.gamepedia.com/Wave_of_Conviction"><big><b>Wave of Conviction</b></big></a> debuffs enemies with Exposure based on its highest elemental damage.\n
+It deals base physical damage with inherent 25% Fire and 25% Lightning Conversion, with any Lightning Damage to Spells or -multiplier on gear we can ensure to get Lightning Exposure.\n
+To stay safe from physical reflect and keep the skill within proc restrictions, we keep it at Lv1.\n\n
+
+<a href="https://pathofexile.gamepedia.com/Arcanist_Brand"><big><b>Arcanist Brand</b></big></a> triggers linked spells while being attached to an enemy. We simply use it for utility to gain various buffs during bossfights, or whenever else it\'s needed. Eventually we aim to replace this gems purpose with a weapon craft, which will be mentioned later in the guide.\n\n
+
+<a href="https://pathofexile.gamepedia.com/Desecrate"><big><b>Desecrate</b></big></a> spawns 5 corpses on use, with a maximum of 10. These are needed for Essence Glutton, Plaguebringer and Corpse Pact from our ascendancy and the following gem. We don\'t gain anything from leveling it, so we keep it at Lv1 for low dexterity requirements.\n
+<a href="https://pathofexile.gamepedia.com/Bone_Offering"><big><b>Bone Offering*</b></big></a> grants us a large amount of Chance to Block Attacks and Chance to Block Spells, and recovers a flat amount of life when we block.\n\n
+
+
+<a href="https://pathofexile.gamepedia.com/Flame_Dash"><big><b>Flame Dash*</b></big></a> is our movement skill of choice, it has three uses and a short cooldown. Additionally, it removes Grasping Vines and prevents us from taking damage from stationary damage over time sources when dashing through.\n\n
+
+<big><b>Second Wind*</b></big> adds another use to Flame Dash and reduces its cooldown.\n
+<big><b>Arcane Surge</b></big> was explained earlier already, just this time we want to use a lower level gem to still gain a minor Arcane Surge buff while Arcane Cloak wasn\'t used. Keep it at Lv6 this time, or Lv7 if you have the Forethought notable already.</string>
+    
+<string name="text_gear1"><i>Gearing in Path of Exile is all about opportunity cost - sure, that unique item may look good, but is it better than all other options? Can you make up the loss of vital stats somewhere else? In this section I want to give you a quick rundown on what to look out for in each slot.</i>\n\n
+
+<big><b>Basic Information about Gear</b></big> \n\n
+
+‣ Rare item names are randomly generated out of a gearslot-tied wordpool and meaningless\n
+
+‣ Rare items can have up to six <a href="https://pathofexile.gamepedia.com/Item_affix">affixes</a>, split into three prefixes and three suffixes\n
+
+‣ <a href="https://pathofexile.gamepedia.com/Item_level">Item level</a> decides which affixes can roll, and up to which tier\n
+
+‣ Socket color probability is tied to attribute requirements: <font color='red'>Strength</font>, <font color='green'>Dexterity</font>, <font color='blue'>Intelligence</font>\n
+
+‣ Quality increases the probability to hit the maximum number of sockets and links\n
+
+‣ Corrupted Items can\'t be modified outside of socket amount, -links and -colors\n
+
+‣ Affixes saying \"attacks\" don\'t affect Spells, flat damage on weapons only if it\'s \"to Spells\"\n
+
+‣ Unique Items aren\'t best in slot unless mentioned otherwise\n
+
+‣ Each Unique that\'s not listed here is either too weak to compete with better choices,
+too expensive for too little gain or simply doesn\'t synergize at all with this build\n
+
+‣ The Crafting Bench can add powerful affixes for cheap, which is especially helpful to create
+Life + Mana gear and weapons. Use <a href="https://poedb.tw/us/mod.php">poedb</a> to figure out open affix slots\n\n
+
+<big><b>How to read this Section</b></big> \n\n
+
+All relevant affixes are listed in Affix Priority and sorted by their approximate strength.\n\n
+
+<big><b>Required affixes are in bold.</b></big>\n\n
+
+The following tags mean which crafting method or influence type is required for that affix:\n
+
+<i>N = Normal, B = Crafting Bench, Es = Essence, S = Shaper, E = Elder,
+    C = Crusader, R = Redeemer, H = Hunter, W = Warlord </i>\n\n
+
+If you want to learn how to craft items, check out my (currently outdated) <a href="https://pastebin.com/pV5v0aJw">Crafting Tutorial</a>.\n\n
+
+
+We\'re pretty open with weapon choices, Wands, Sceptres and Rune Daggers all work, although the latter may require too much dexterity. Mana isn\'t the best damage affix but it also raises our survivability, which makes it highest priority to get. The rest is just pretty basic spellcaster stuff.\n\n
+
+<b>Cybil\'s Paw</b> is a solid starter weapon, just the healing aspect is a little outdated.\n\n
+
+Eventually we want a rare weapon with \"Trigger a Socketed Spell when you use a Skill\" to automate our Desecrate + Bone Offering for a more convenient playstyle. With that setup, replace Arcanist Brand with Spell Cascade for better Essence Glutton sustain. This suffix can only be <a href="https://pathofexile.gamepedia.com/Veiled_modifier">unveiled</a> and crafted with the Crafting Bench once unlocked, so there\'s no need to look for weapons with it already crafted on the market.\n\n
+
+<big><b>Affix Priority</b></big> \n\n
+
+<i><b>Prefix</b></i>\n
+80+ to maximum Mana N B\n
+# to Level of all Spell Skill Gems N\n
+# to Level of all Lightning Spell Skill Gems N\n
+#% increased Spell Damage N B Es\n
+#% increased Lightning Damage N B\n
+Minions deal #% increased Damage Es\n
+Damage Penetrates #% Lightning Resistance C Es\n
+Damage Penetrates #% Elemental Resistances S\n
+Gain #% of Lightning Damage as Extra Chaos Damage N B\n
+Gain #% of Elemental Damage as Extra Chaos Damage S\n
+Adds # to # Lightning Damage to Spells N B Es\n\n
+
+
+<i><b>Suffix</b></i>\n
+Trigger a Socketed Spell when you use a Skill B\n
+#% increased Cast Speed N B Es\n
+Wrath has #% increased Aura Effect C\n
+Curse Enemies with Level # Conductivity on Hit C\n
+#% increased Mana Regeneration Rate N B\n
+#% increased Critical Strike Chance for Spells N B Es\n
+#% increased Lightning Damage N B\n\n
+
+
+
+Any shield works, but preferably we\'d get one with a spell damage <a href="https://pathofexile.gamepedia.com/Modifiers#Implicit_modifiers">implicit</a> such as Fossilised Spirit Shields for example. Life and mana are the main focus, fill the rest with resistances or damage.\n
+
+Later on we want \"Recover #% of your maximum Mana when you Block\", which gives us an additional layer of mana sustain while tanking stuff. Optionally we can also add \"Recover #% of Life when you Block\" to that, but the former has priority.\n\n
+
+<b><big>Affix Priority</big> \n\n
+
+<i>Prefix</i>\n
+70+ to maximum Life N B Es\n
+50+ to maximum Mana N B</b>\n
+# to Level of all Lightning Spell Skill Gems N\n
+#% increased Spell Damage N\n
+#% increased Lightning Damage N\n
+Gain #% of Lightning Damage as Extra Chaos Damage N B\n
+#% to all maximum Resistances S H\n\n
+
+
+<i><b>Suffix</b></i>\n
+Recover #% of your maximum Mana when you Block S R\n
+Recover #% of Life when you Block S W\n
+Resistances N B Es\n
+#% Chance to Block Spell Damage N B\n
+#% Chance to Block N B Es\n
+#% increased Cast Speed N B\n
+#% increased Mana Regeneration Rate N Es\n
+#% increased Critical Strike Chance for Spells N Es\n\n
+
+
+
+Any intelligence-based body armour works for us, otherwise getting six blue sockets would be too hard. Occultist Vestment is the best base for some extra spell damage, but it\'s not too important. Once again, just focus on life, mana and resistances.\n
+
+Offering effect is great to push the build further into endgame, as it gives us Chance to Block Attacks, Chance to Block Spells and more life recovered on block. The Life % + Mana % veiled prefix finalizes a great endgame body armour.\n
+
+<b>Loreweave</b> is an interesting choice. Its life and mana are fairly low, but it comes with some other useful stats and most importantly, raises our maximum resistances to up to 78 (the linked one is legacy, 80% is not possible anymore). To put that into perspective, compared to the base 75% resistances this is a 12% damage reduction. The downside is that getting six blue sockets is not easy here. It can only be obtained through a recipe, by selling any 60x identified unique rings to a vendor at the same time.\n\n
+
+<b><big>Affix Priority</big></b> \n\n
+
+<i><b>Prefix</b></i>\n
+80+ to maximum Life N B Es\n
+50+ to maximum Mana N B Es\n
+#% increased maximum Life E H B\n
+#% increased maximum Mana S C B\n
+#% Chance to Block Attack Damage B\n\n
+
+
+<i><b>Suffix</b></i>\n
+#% increased Effect of Offerings H\n
+Resistances N B Es\n\n
+
+
+
+Start with a very basic life, mana and resistances helmet. Bone Helmets give us a free 20% damage implicit thanks to Spiritual Aid, but it\'s not required.\n\n
+
+<b>Kitava\'s Thirst</b> can be used to skip the tedious process of casting Arcanist Brand for our buffs, with the downside of losing some cast speed and potential life and resistances from our helmet.\n
+It does pretty much the same as \"Trigger a Socketed Spell when you use a Skill\" weapon craft which we eventually want, so this helmet is just a temporary solution until then.\n
+With this helmet, put Desecrate, Spell Cascade and Bone Offering into the helmet, last socket can be filled with Enfeeble, Warlord\'s Mark or Temporal Chains depending on which colors you get. Arcane Cloak, Arcane Surge and Increased Duration need to go into weapon, losing Second Wind.\n\n
+
+A highend helmet can have either of the resistance-reducing suffixes or simply stack the essential affixes with lots of resistances to allow us to get more damage suffixes on other gear pieces.\n
+
+Only relevant <a href="https://pathofexile.gamepedia.com/Labyrinth_Enchantment">enchantments</a> are \"Arc chains an additional time\", \"Arcane Cloak spends an additional #% of current Mana\" and \"#% increased Flame Dash Cooldown Recovery Speed\".\n\n
+
+<big><b>Affix Priority</b></big> \n\n
+
+<b><i>Prefix</i>\n
+70+ to maximum Life N B Es\n
+50+ to maximum Mana N B Es</b>\n
+#% increased maximum Mana E C\n
+Adds # to # Lightning Damage to Spells S H\n
+
+
+    <b><i>Suffix</i>\n
+Resistances N B Es</b>\n
+Nearby Enemies have -#% to Lightning Resistance C\n
+Nearby Enemies take #% increased Elemental Damage S\n
+
+
+
+This may come as a surprise but we want life, mana and resistances from our gloves. Fingerless Silk Gloves give an extra spell damage implicit, which is once again nice to have but not required.\n
+
+<b>Kalisa\'s Grace</b> are decent entry-level unique gloves if you don\'t need any resistances. They come with some life, a little bit of mana from intelligence, extra crit for Elemental Overload uptime and an extra Faster Casting support, which works best with socketing our Orb of Storms setup.\n
+
+<b>Asenath\'s Gentle Touch</b> are very interesting as well. They come with the basic life and mana that we want, curse enemies with <a href="https://pathofexile.gamepedia.com/Temporal_Chains">Temporal Chains</a> and have situational <a href="https://pathofexile.gamepedia.com/Blind">Blind</a> and corpse explosions to remove on-death effects, such as from <a href="https://pathofexile.gamepedia.com/Porcupine_Goliath">porcupines</a>. They can only drop from <a href="https://pathofexile.gamepedia.com/Legion">Maraketh Legions</a>.\n
+
+If not going for the previous gloves, go for a highend pair with either Faster Casting Support, <a href="https://pathofexile.gamepedia.com/Unnerve">unnerve chance</a> or <a href="https://pathofexile.gamepedia.com/Culling_strike">culling strike</a>.\n
+
+Enchantments aren\'t really significant for us here, don\'t bother with them.\n\n
+
+<big><b>Affix Priority</b></big>\n\n 
+
+<b><i>Prefix</i>\n
+70+ to maximum Life N B Es\n
+50+ to maximum Mana N B Es</b>\n
+# to Level of Socketed AoE Gems B\n
+#% chance to Unnerve Enemies for # seconds on Hit H\n
+Minions deal #% increased Damage R\n
+#% increased Spell Damage W\n\n
+
+
+<b><i>Suffix</i>\n
+Resistances N B Es</b>\n
+Socketed Gems are supported by Level # Faster Casting S\n
+Culling Strike W\n
+#% Chance to Block Attack Damage E W\n\n
+
+
+
+Nothing new here, just get as much life, mana, movement speed and resistances as you can. Two-Toned Boots grant some extra resistance implicit.\n
+
+Best enchantment is hands down \"#% increased Mana Regeneration Rate if you\'ve cast a Spell recently\", don\'t settle with anything else.\n\n
+
+<b><big>Affix Priority</big> \n\n
+
+<i>Prefix</i>\n
+70+ to maximum Life N B Es\n
+50+ to maximum Mana N B Es\n
+20%+ increased Movement Speed N B Es</b>\n\n
+
+
+<b><i>Suffix</i>\n
+Resistances N B Es</b>\n\n
+
+
+<b>Ungil\'s Harmony</b> and <b>Atziri\'s Foible</b> are both great starter choices, otherwise get a rare with similar life and mana to the former and maybe some damage too.\n
+
+Later on we want an <a href="https://pathofexile.gamepedia.com/The_Temple_of_Atzoatl">Incursion</a> amulet with Mana + Mana % prefix and high life, and augment that with fertile <a href="https://pathofexile.gamepedia.com/Catalyst">catalysts</a>. Another option is a Shaper- or Crusader-influenced amulet with life, mana and various damage affixes, or life leech for some extra sustain.\n
+
+Best <a href="https://pathofexile.gamepedia.com/Oil">anointment</a> is Undertaker for extra damage, life regeneration and Essence Glutton uptime. On a budget amulet, just get something cheap like <a href="https://pathofexile.gamepedia.com/Beef">Beef</a> for some extra strength.\n\n
+
+<b><big>Affix Priority</big> \n\n
+
+<i>Prefix</i>\n
+40+ to maximum Life N B\n
+40+ to maximum Mana N B</b>\n
+# to Level of all Lightning Skill Gems C\n
+# to Level of all Intelligence Skill Gems H\n
+Damage Penetrates #% Lightning Resistance C\n
+Damage Penetrates #% Elemental Resistances S H\n
+#% increased Spell Damage N\n
+#% of Lightning Damage leeched as Life S C\n\n
+
+
+<b><i>Suffix</i></b>\n
+#% Chance to Block Spell Damage S C\n
+#% increased Cast Speed N B\n
+#% increased Mana Regeneration Rate N B Es\n
+#% increased Global Critical Strike Chance N B Es\n
+#% increased Lightning Damage N B\n
+Resistances N B\n\n
+
+
+Rings are another slot to gain lots of resistances from, once again together with life and mana.\n
+
+A highend ring provides all that on a Vermilion Ring base, or together with some damage affixes. It\'s also another slot to get a curse on hit from, this time Conductivity. Just note that the base curse limit is 1 and curses are heavily countered by bosses and mapmods.\n
+
+<b>Essence Worm</b> allows us to run an aura without any reservation cost, our choice is Wrath for another huge damage multiplier. It also increases our Clarity\'s reservation cost, but the damage gain outweighs this downside. It\'s not necessary but highly recommended to have for endgame.\n
+
+<b>Sibyl\'s Lament</b> is only needed to safely do any Atziri encounter, as she has a small amount of damage reflection. Equip the ring in left slot, activate Soul of Yugul in Pantheon and you\'re safe.\n\n
+
+<big><b>Affix Priority</b></big> \n\n
+
+<b><i>Prefix</i>\n
+40+ to maximum Life N B\n
+40+ to maximum Mana N B</b>\n
+#% increased Spell Damage C\n
+#% increased Damage B\n\n
+
+
+<b><i>Suffix</i>\n
+Resistances N B</b>\n
+Curse Enemies with Level # Conductivity on Hit C\n
+#% increased Mana Regeneration Rate N B Es\n
+#% increased Lightning Damage N B Es\n
+#% increased Cast Speed N\n\n
+
+
+Finally, our last slot to stack life, mana and resistances on. Stygian Vise gives an additional <a href="https://pathofexile.gamepedia.com/Abyss_Jewel">abyss jewel</a> socket, otherwise to for a Leather Belt or Heavy Belt.\n
+
+For endgame we want a good belt with all that and high mana recovery rate. This stat multiplies our mana regeneration and mana flask recovery, and is insanely helpful for endgame sustain.\n\n
+
+<big><b>Affix Priority</b></big> \n\n
+
+<b><i>Prefix</i>\n
+70+ to maximum Life N B\n
+50+ to maximum Mana N B</b>\n
+#% increased maximum Life E H\n
+You take #% reduced Extra Damage from Critical Strikes S W\n
+Flasks applied to you have #% increased Effect B\n
+#% increased Flask Mana Recovery Rate N Es\n
+#% increased Damage W B\n\n
+
+
+<b><i>Suffix</i></b>\n
+#% increased Mana Recovery Rate S R\n
+Resistances N B\n
+#% increased Flask Effect Duration N B </string>
+    
+    
+    <string name="text_gear2">Abyss Jewels are fairly easy to craft, regular Jewels have more damage potential at higher cost.
+I\'ve planned the build around having Life on Jewels, even with just one damage affix it\'s worth it.\n\n
+
+<b>Affix Priority</b>\n\n
+
+<i><b>Abyss Jewels:</b></i>\n
+<b># to maximum Life</b>\n
+# to maximum Mana\n
+Adds # to # Lightning Damage to Spells (-while holding a Shield)\n
+#% increased Cast Speed\n
+#% increased Mana Regeneration Rate while moving\n
+Attributes\n
+Resistances\n\n
+
+<i><b>regular Jewels:</b></i>\n
+<b>#% increased maximum Life</b>\n
+#% increased maximum Mana\n
+#% increased Lightning Damage\n
+#% increased Spell Damage (-while holding a Shield)\n
+Minions deal #% increased Damage\n
+#% increased Damage\n
+#% increased Cast Speed (-with Lightning Skills)\n
+#% increased Mana Regeneration Rate\n
+Attributes\n
+Resistances\n\n
+
+<big><b>Watcher\'s Eye</b></big> is a highend option that gives Life, Mana and two or three aura-related affixes.
+Best choice for us is #% increased Mana Recovery Rate while affected by Clarity, even without any other useful affixes it\'s worth using one of those and they\'re normally cheap to get.
+They can only drop from the <a href="https://pathofexile.gamepedia.com/The_Elder">the Elder (2-affix)</a> or <a href="https://pathofexile.gamepedia.com/The_Elder#Uber_Elder">Uber Elder (3-affix)</a>.\n\n
+
+Useful affixes for this build are:\n
+
+<big><b>Affix Priority</b></big>\n\n
+
+#% increased Mana Recovery Rate while affected by Clarity\n
+#% of Damage taken gained as Mana over 4 seconds when Hit while affected by Clarity\n
+Damage Penetrates #% Lightning Resistance while affected by Wrath\n
+#% increased Lightning Damage while affected by Wrath\n
+#% increased Critical Strike Chance while affected by Wrath</string>
+    <string name="text_gear3">Cluster Jewels expand the passive tree by adding new branches when socketed in any outer 3-point jewel socket. There\'s three types, Large-, Medium- and Small Cluster Jewels, each with their own implicits and pool of notables. They only drop from <a href="https://pathofexile.gamepedia.com/Delirium">Delirium</a> encounters and need to be crafted first, therefore i\'m including them as optional choices rather than an integral part.\n\n
+
+If you\'ve done the math you\'ll realize that we won\'t have enough passive points to use them on top of the regular passive tree, so we\'ll have to remove some nodes. Depending on how many jewels you plan to run, start removing everything beyond the Constitution cluster, then Light of Divinity and Divine Judgement.\n\n
+    
+   Our Large Cluster needs to be Lightning Damage based and ideally has only 8 added passives, but not more than 10. Item level matters, it needs to be ilvl75+ to be able to roll 2 jewel sockets.\n\n
+
+We aim for Supercharge here, which makes our non-crit lightning damage <a href="https://pathofexile.gamepedia.com/Luck">lucky</a>. The other notable can be either Disorienting Display to <a href="https://pathofexile.gamepedia.com/Blind">blind</a> enemies or Scintillating Idea for extra mana and lightning penetration. Technically you can even roll all of that together, but that would be really pushing your luck. \n\n
+    
+   Our Medium Clusters need to be Flask Duration based with 4 or 5 added passives.\n\n
+
+On this one we want Distilled Perfection to increase life- and mana flask recovery and flask duration. If possible, add Liquid Inspiration to that for even more mana flask recovery and increased mana.\n\n
+Our Small Clusters can be either life, mana or chaos resistance based with 3 added passives.\n\n
+
+We want Blessed here, which gives life, mana and chaos resistance. In best case we get that together with atleast 25% increased Effect for Small Passives.\n\n
+        Kitava\'s Teachings grants a keystone that consumes a corpse every second and recovers 5% of our life and mana when doing so, but makes us take 10% more damage if we haven\'t consumed any corpses within 4s. This works incredibly well once we got our trigger weapon craft.
+It can only drop from <a href="https://pathofexile.gamepedia.com/Delirium">Delirium bosses</a></string>
+    
+<string name="text_gear4">I\'ve already briefly explained flasks earlier in the guide, just as a reminder they\'re more than just Healing Pots that you may know from other ARPG\'s.\n\n
+
+There\'s two types: Life/Mana/Hybrid Flasks which heal the respective stat over a duration, and Utility Flasks which grant buffs during their listed duration. Prefixes augment the flasks effect or duration, while suffixes add additional buffs that are active during the flasks duration.\n\n
+
+<big><b>Crafting Advice:</b></big> Start by scouring all flasks and put 4x Glassblower Baubles on each, which can be bought for 8x Blacksmith\'s Whetstones each at the gear vendor in town. Transmute and use Orbs of Alteration until you hit one of the listed prefixes <b>without</b> a suffix, and add one of the listed suffixes through Einhar\'s <a href="https://pathofexile.gamepedia.com/Beastcrafting">Beastcrafting</a> in the Menagerie. If you hit a listed prefix already together with a listed suffix, you should of course keep that.\n\n
+
+
+Provides fast life recovery to reduce straining our mana too much with Agnostic.\n
+Eternal Life Flask is the best base for that.\n
+Prefixes: Catalysed\n
+Suffixes: of Staunching\n\n
+
+
+At first you\'ll probably need Concentrated to keep up with mana demands, with better mana sustain from gear it\'s possible to switch to Enduring for a more relaxed playstyle, Eternal Mana base in either case. The Essence Extraction notable passively refills this flask and removes any elemental ailment from us when using this flask.\n
+Prefixes: Concentrated, Enduring\n
+Suffixes: of Curing\n\n
+
+
+Grants <a href="https://pathofexile.gamepedia.com/Onslaught">Onslaught</a> for some extra speed and DPS.\n
+Prefixes: Chemist\'s\n
+Suffixes: of Warding\n\n
+
+
+Gives us quick movement speed bursts, best used to move between packs.\n
+\"of Adrenaline\" can\'t be crafted with the Menagerie.\n
+Prefixes: Experimenter\'s, Alchemist\'s\n
+Suffixes: of Adrenaline\n\n
+
+
+Extra armour is great to soak up many smaller physical hits, such as from porcupine spikes.\n
+\"of Iron Skin\" can\'t be crafted with the Menagerie.\n
+Prefixes: Experimenter\'s\n
+Suffixes: of Iron Skin\n
+    Alternatively, <b>Rumi\'s Concoction</b> provides less armour but additional Chance to Block Attacks and Chance to Block Spells to temporarily reach (near) cap for both.</string>  
+<string name="text_gear5">This section is here to answer the everlasting \"What to upgrade next?\" question.\n\n
+
+It\'s based on the assumption that you have no gear and have reached maps, if you haven\'t then you shouldn\'t even be reading this part of the guide yet, stick to the first part for Acts.\n\n
+
+
+‣ Basic Gear + Kitava\'s Thirst \n
+
+‣ Essence Worm\n
+
+‣ Shield w/ Recover #% of your maximum Mana when you Block\n
+
+‣ Body Armour w/ #% increased Effect of Offerings and 80+ Life\n
+
+‣ Weapon w/ Trigger a Socketed Spell when you use a Skill and Helmet replacement\n
+
+‣ Kitava\'s Teachings\n
+
+‣ Lv21 Vaal Arc w/ 0% Quality\n
+
+‣ Watcher\'s Eye w/ #% increased Mana Recovery Rate while affected by Clarity\n
+
+‣ Highend Gear upgrades and Cluster Jewels\n
+
+‣ Awakened Gems </string>    
+    <string name="text_mapping"><b>Before you start mapping, make sure that you have:</b>\n
+
+<i>‣ atleast 4k Life and 3k Mana\n
+
+‣ Fire, Cold and Lightning Resistance capped at 75%\n
+
+‣ Arc and Flame Dash set to \"attack without moving\"\n
+
+‣ the correct Pantheon powers activated (unlock extra powers as you map)\n
+
+    ‣ a proper Flask setup (check the Flask section above)</i>\n\n
+
+Your first maps shouldn\'t be an issue with this, just keep on progressing through the Atlas. Two things you should read up on are monster mods and map mods to understand what everything does and how they may affect enemies or yourself.\n\n
+
+Your character will naturally progress while mapping - your gems level up, which is especially important for the Arc gem itself, your character levels up and you will build up currency for upgrades, even if you just do Chaos Recipe. Don\'t focus on \"what DPS should I have at this level?\" or such, as long as you play and follow what the guide says, you can\'t do anything wrong.\n\n
+
+Try to find a rhytm between Arc, Flame Dash and flask usage, and keeping Bone Offering up. Enemies usually give visual cues to react, and often they lock target on the position you\'re at during their animation start, so in that case simply move to avoid all damage. Sometimes you can also use the environment as defense and last but not least, don\'t forget that Arc is a ranged skill.
+If you sense lots of incoming damage and can\'t get out of the way, cast Arcane Cloak and use your Granite Flask to mitigate as much as possible.\n\n
+
+That said, there\'s many things in this game that aren\'t meant to be tanked in the first place,
+and may kill you if you try. There\'s lots of trial and error involved to figure them out.\n\n
+
+        <b>Once you start pushing into the highest content, you want atleast:</b>\n
+
+<i>‣ 5.5k Life and 5k Mana\n
+
+‣ 1m combined Arc and Orb of Storms DPS in Path of Building\n
+
+‣ capped Elemental Resistances and 20% + Chaos Resistance\n
+
+‣ Trigger Weapon and Mana% recovered on Block Shield\n
+
+‣ 50% + Chance to Block Attacks and Spells\n
+
+‣ upgraded Pantheon powers</i></string>
+    <string name="text_mapmods"><i><b>‣ No Regeneration:</b></i> Can\'t safely run this, skip\n
+
+        <i><b>‣ Elemental Reflect:</b></i> Reroll map or keep for the correct sextant modifier\n
+
+        <i><b>‣ all Curses:</b></i> Counter them with your Warding Flask\n
+
+        <i><b>‣ reduced Block Chance:</b></i> Survivability loss\n
+
+        <i><b>‣ Elemental Equilibrium/Resistance:</b></i> Damage losses</string>
+<string name="text_boss">Bossfights are all mechanical, the build is very forgiving and allows you to learn those mechanics.\n\n
+
+Start each bossfight with Arcanist Brand (if still using), then cast Arcane Cloak, Orb of Storms and then burst them down with Arc. If you have to move, circling the boss is usually the best strategy. Only for a few skills, such as AoE slams, explosions or burrow attacks you want to gain distance.\n\n
+
+<b>Watch out for Fragment of Winter in Waterways, Crusher of Gladiators in Racecourse and Lieutetant of Rage spawning from the Lieutenant buff in Labyrinths! Each of them can go into a temporary damage reflection period, which has a visual indicator.</b>\n\n
+
+    <big><b>Endgame Bosses</b></big>\n\n
+
+For the sake of this section, every non-map boss except for Shaper- and Elder Guardians is considered an endgame boss. POELab has a GIF section to help getting familiar with each fight.\n\n
+
+Most are pretty straightforward, there\'s only a few to specifically mention here:\n\n
+
+<big><b>Atziri:</b></big> She has 2% damage reflection at all times, which can really hurt with even just average gear for this build. During her split phase, the copy holding a mirror reflects 100% of damage.
+While Arc doesn\'t chain between the copies, it\'s still possible to accidentally hit that clone and die. Therefore it\'s recommended to wear a Sibyl\'s Lament and use Soul of Yugul Pantheon against her. This includes her encounters in the Apex of Sacrifice, Alluring Abyss and Temple of Atzoatl.\n\n
+
+<big><b>Sirus:</b></big> There\'s no ways to gain flask charges during this long fight. The Granite- and Silver Flasks end up being rather useless, so it\'s better to replace them with additional Eternal Mana Flasks, preferably with Concentrated or Enduring prefix and switch to Soul of Ryslatha Pantheon.</string>
+</resources>
