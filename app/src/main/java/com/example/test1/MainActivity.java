@@ -2,6 +2,7 @@ package com.example.test1;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
@@ -36,6 +37,23 @@ private String[] array;
 private ArrayAdapter<String> adapter;
 private Toolbar toolbar;
 private int category_index;
+    private boolean doubleBackToExitPressedOnce;
+    private Handler mHandler = new Handler();
+
+    private final Runnable mRunnable = new Runnable() {
+        @Override
+        public void run() {
+            doubleBackToExitPressedOnce = false;
+        }
+    };
+
+    @Override
+    protected void onDestroy()
+    {
+        super.onDestroy();
+
+        if (mHandler != null) { mHandler.removeCallbacks(mRunnable); }
+    }
 
 
     @Override
@@ -80,9 +98,15 @@ startActivity(intent);
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
-        } else {
+        } else if (doubleBackToExitPressedOnce) {
             super.onBackPressed();
+            return;
         }
+
+        this.doubleBackToExitPressedOnce = true;
+        Toast.makeText(this, this.getString(R.string.toast_back), Toast.LENGTH_SHORT).show();
+
+        mHandler.postDelayed(mRunnable, 2000);
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -106,7 +130,6 @@ startActivity(intent);
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
         if (id==R.id.menu_about){
-            // Toast.makeText(this, "Pressed", Toast.LENGTH_SHORT).show();
             fillArray(R.string.menu_about, R.array.arr_about, 0);
         } else if (id == R.id.menu_pob){
             fillArray(R.string.menu_pob, R.array.arr_pob, 1);

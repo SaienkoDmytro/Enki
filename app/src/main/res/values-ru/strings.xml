@@ -876,4 +876,6 @@ Most are pretty straightforward, there\'s only a few to specifically mention her
 While Arc doesn\'t chain between the copies, it\'s still possible to accidentally hit that clone and die. Therefore it\'s recommended to wear a Sibyl\'s Lament and use Soul of Yugul Pantheon against her. This includes her encounters in the Apex of Sacrifice, Alluring Abyss and Temple of Atzoatl.\n\n
 
 <big><b>Sirus:</b></big> There\'s no ways to gain flask charges during this long fight. The Granite- and Silver Flasks end up being rather useless, so it\'s better to replace them with additional Eternal Mana Flasks, preferably with Concentrated or Enduring prefix and switch to Soul of Ryslatha Pantheon.</string>
+    <string name="toast_back">Please click BACK again to exit</string>
+    <string name="settings_setup">Chose your text size here</string>
 </resources>
