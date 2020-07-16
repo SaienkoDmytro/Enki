@@ -2,33 +2,33 @@
     <string name="app_name">Enki\'s Arc Witch</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Enki\'s Arc Witch</string>
-    <string name="nav_header_subtitle">A beginner, SSF-friendly Lightning Caster</string>
+    <string name="nav_header_title">Ведьма через Цепь молний от Enki </string>
+    <string name="nav_header_subtitle">Для начинающих, SSF-вариант, урон молнией</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
-    <string name="button_start">START</string>
-    <string name="menu_videos">Videos</string>
+    <string name="action_settings">Настройки</string>
+    <string name="button_start">СТАРТ</string>
+    <string name="menu_videos">Видео</string>
     <string name="menu_pob">Path of Building</string>
-    <string name="menu_about">About this Build</string>
-    <string name="menu_leveling">Leveling this Build</string>
-    <string name="menu_passive">Passive Tree, Ascendancy</string>
-    <string name="menu_gem">Gem Setup</string>
-    <string name="menu_gear">Gear, Jewels, Flasks</string>
-    <string name="menu_mapping">Mapping, Bossfights</string>
-    <string name="settings_menu1">Text settings</string>
-    <string name="text_size">Text size</string>
-    <string name="text_video"> <a href="https://www.youtube.com/watch?v=Qfoogi5j4IM">Elder</a> \n\n <a href="https://www.youtube.com/watch?v=uml3Fr5cEro">Shaper</a> \n\n <a href="https://www.youtube.com/watch?v=81_gQ-4ZZ6c">Uber Elder</a> \n\n <a href="https://www.youtube.com/watch?v=lwcSiBrRaQE">Juiced T16 Toxic Sewer</a> \n\n <i>Will eventually record more when I have time!</i> </string>
-    <string name="text_video1">I\'m also going to start in Harvest SSFHC with this build live at <a href="https://www.twitch.tv/enki91">twitch.tv/enki91</a></string>
-    <string name="text_PB">Path of Building link and Browser Version\n<a href="https://pastebin.com/r3EEZjCa">Link to build</a> (<b><i>read the Notes after importing!</i></b>)\n<a href="https://pob.party/">Browser Version</a>\n<b><i>I know that some people jump straight to the PoB without ever reading the guide, which often leads to failure and is then blamed on the build. Don\'t be that person!</i></b>\nI\'ve invested lots of time into this guide and find it very rude when people just disregard that
-and ask about things that are already well explained. This unfortunately keeps happening.</string>
-    <string name="text_PBD">Path of Building is a tool that lets you fully plan characters from scratch, check out other peoples setups or import your own character to check DPS and defenses or compare potential upgrades.\n<a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases">Path of Building Community Fork</a> (<b><i>required for the POB above</i></b>)\n<a href="https://imgur.com/OeTuAhL">How to import builds</a></string>
-<string name="text_pros"><font color='green'>+ smooth gameplay and progression\n+ cheap and fully SSF-capable\n+ can get really tanky\n+ capable to do all bossfights</font>\n<font color='red'>- boss DPS is a bit lacking\n- can\'t run all mapmods</font></string>
-    <string name="text_mech"><big><b>‣ Chaining:</b></big> Arc is a lightning-based spell with the ability to chain from monsters and destroyable objects, even around corners and out of your line of sight! Each time it chains, it will also split to
-a second nearby enemy from where it can\'t chain further. The amount of times Arc can chain depends on its gem level and can be increased by enchantments.
-        \n\n‣ <big><b>Mana:</b></big> By default, mana is used to cover skill costs and -reservation. This build however couples heavy mana investment with several gems and keystones for various offensive and defensive purposes. Mind over Matter redirects 30% of the damage we take to our life to mana instead while the Agnostic spends mana to heal our life back to full, the gems will be covered later in the guide. This makes our mana investment very efficient and augments the value of the base 6 mana we gain per level, but it also creates a high demand for sustain beyond the base 1.8% of mana being regenerated per second which we mostly cover through our ascendancy, flasks and passives.
-        \n\n‣ <big><b>Block:</b></big> Another defensive layer which comes in two ways, Chance to Block Attacks and Chance to Block Spells, each with a base cap of 75%. Blocking hits prevents all damage and status effects except for stun, however non-hitbased damage over time can\'t be blocked. While we won\'t reach the block cap, it\'s still enough damage prevention coupled with some ways to heal us on block.
-        \n\n‣ <big><b>Elemental Overload:</b></big> This keystone provides a 40% more damage multiplier in exchange for removing all critical strike multiplier, with the condition to crit atleast once within 8 seconds. While the damage potential is lower compared to scaling crits, the damage is also way more consistent and only takes small investment, which allows us to invest more heavily into mana.
-        \n\n‣ <big><b>Spiritual Aid:</b></big> A notable that applies all stats with the wording \"Minions deal #% increased Damage\" and \"Minions deal #% reduced Damage\" to our damage. This gives some more liberties while gearing and makes said stat from our ascendancy not go to waste. Note that minion damage stats with different wording, such as \"Golems deal #% increased Damage\", \"Minions deal #% more Damage\" or \"Minions deal # to # additional Lightning Damage\" won\'t apply to us!</string>
+    <string name="menu_about">Про данную сборку</string>
+    <string name="menu_leveling">Прокачка персонажа</string>
+    <string name="menu_passive">Пассивные умения, Восхождение</string>
+    <string name="menu_gem">Камни умений</string>
+    <string name="menu_gear">Предметы, самоцветы, зелья</string>
+    <string name="menu_mapping">Карты, Боссы</string>
+    <string name="settings_menu1">Настройки текста</string>
+    <string name="text_size">Размер текста</string>
+    <string name="text_video"> <a href="https://www.youtube.com/watch?v=Qfoogi5j4IM">Древний</a> \n\n <a href="https://www.youtube.com/watch?v=uml3Fr5cEro">Создатель</a> \n\n <a href="https://www.youtube.com/watch?v=81_gQ-4ZZ6c">Убер Древний</a> \n\n <a href="https://www.youtube.com/watch?v=lwcSiBrRaQE">T16 Клоака</a> \n\n <i>Я запишу больше видео, когда будет время!</i> </string>
+    <string name="text_video1">Я собираюсь начать Жатву SSFHC этим билдом <a href="https://www.twitch.tv/enki91">twitch.tv/enki91</a></string>
+    <string name="text_PB">Path of Building ссылка и браузерная версия\n<a href="https://pastebin.com/r3EEZjCa">Ссылка на сборку</a> (<b><i>прочитайте заметки после импорта!</i></b>)\n<a href="https://pob.party/">Браузерная версия</a>\n<b><i>Я знаю, что некоторые люди прыгают прямо в PoB, даже не читая руководство, что часто приводит к проблемам, а затем и обвинениям по сборке. Не будь таким человеком!</i></b>\nЯ потратил много времени на это руководство и считаю, что очень грубо, когда люди просто игнорируют его
+и спрашивают о вещах, которые уже хорошо объяснены. Но это, к сожалению, продолжается.</string>
+    <string name="text_PBD">Path of Building - это инструмент, который позволяет вам полностью спланировать персонажей с нуля, проверить настройки других людей или импортировать вашего собственного персонажа, чтобы проверить DPS и защиту или сравнить потенциальные улучшения.\n<a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases">Path of Building ссылка на сообщество</a> (<b><i>необходимо для POB выше</i></b>)\n<a href="https://imgur.com/OeTuAhL">Как импортировать сборки</a></string>
+<string name="text_pros"><font color='green'>+ плавный геймплей и прогресс\n+ дешевый и полностью совместимый с SSF\n+ может стать действительно не убиваемым\n+ способен убивать всех боссов</font>\n<font color='red'>- Немного не хватает DPS в боях с боссами\n- не может проходить все моды карт</font></string>
+    <string name="text_mech"><big><b>‣ Цепная механика:</b></big> Цепь молний - это основанное на молнии заклинание со способностью связываться с монстрами и разрушаемыми объектами, даже за углами и за пределами вашей прямой видимости! Каждый раз, когда она попадает, она также будет разделена на
+второго ближайшего врага, от которого он не может делиться дальше. Количество раз, когда Цепь молний может делиться, зависит от уровня камня умений и может быть увеличено зачарованиями.
+        \n\n‣ <big><b>Мана:</b></big> По умолчанию мана используется для покрытия расходов на скиллы и -резервации. Однако эта сборка сочетает в себе значительные затраты маны с несколькими камнями умений и кластерными камнями для различных наступательных и оборонительных целей. Разум превыше материи перенаправляет 30% урона, который мы получаем из жизни в ману, в то время как Агностик тратит ману, чтобы исцелить нашу жизнь до полной, кластерные камни будут рассмотрены позже в руководстве. Это делает наши мановые вложения очень эффективными и увеличивает стоимость базовых 6 маны, которые мы получаем за уровень, но также создает высокую потребность в восстановлении, превышающую базовые 1,8% маны, восстанавливаемой в секунду, которые мы в основном покрываем за счет нашего восхождения, фляги и пассивных умений.
+        \n\n‣ <big><b>Блокирование:</b></big> Еще один защитный слой, который дается двумя способами: шанс блокировать атаки и шанс блокировать заклинания, каждый с базовым пределом 75%. Блокирование попаданий предотвращает все эффекты урона и состояния, кроме оглушения, однако не основанный на попадании урон с течением времени не может быть заблокирован. Несмотря на то, что мы не достигли предела блока, нам все еще достаточно предотвращения повреждений в сочетании с некоторыми способами исцелить нас в блоке.
+        \n\n‣ <big><b>Стихийная перегрузка:</b></big> Это умение дает на 40% больше множителя урона в обмен на удаление всех множителей критического удара с условием критического удара по крайней мере один раз в течение 8 секунд. Хотя потенциальный урон ниже по сравнению с масштабируемыми критами, урон более последовательный и требует лишь небольших вложений, что позволяет нам вкладывать больше средств в ману.
+        \n\n‣ <big><b>Духовная поддержка:</b></big> Умение, которое применяет все характеристики с формулировками \ "Миньоны наносят #% увеличенного урона \" и \ "Миньоны наносят #% уменьшенного урона \" к нашему урону. Это дает некоторые дополнительные свободы в снаряжении и делает указанную статистику от нашего Восхождения полезной для нас. Обратите внимание, что характеристики урона миньонов с другой формулировкой, такие как \ "Нанесение големами #% увеличенного урона \", \ "Нанесение миньонами #% больше урона \" или \ "Нанесение миньонами # на # дополнительный урон от молнии \", не применяются нам!</string>
 <string name="text_thanks"><i>This guide and build was developed and provided by <a href="https://www.pathofexile.com/account/view-profile/Enki91">Enki91</a> and you can find it in the original on the Path of Exile website <a href="https://www.pathofexile.com/forum/view-thread/1147951">here</a>.</i>\n\n 
     <big>Welcome to my Arc guide!</big>\n\n
 
