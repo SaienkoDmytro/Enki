@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="arr_about">
-        <item>Pros/Cons</item>
-        <item>Main Mechanics in this Build</item>
-        <item>About this Build, App and Thanks</item>
+        <item>Плюсы/Минусы</item>
+        <item>Главные механики сборки</item>
+        <item>Про сборку/приложение/авторов</item>
     </string-array>
     <string-array name="arr_pob">
-        <item>Pastebin and Browser Version</item>
-        <item>POB download</item>
+        <item>Pastebin и браузерная версия</item>
+        <item>POB загрузка</item>
     </string-array>
     <string-array name="arr_video">
         <item>Youtube</item>
         <item>Twitch</item>
     </string-array>
     <string-array name="arr_lvl">
-        <item>Before you start</item>
-        <item>Full Leveling Section</item>
-        <item>Leveling Section</item>
+        <item>Перед стартом</item>
+        <item>Раздел полной прокачки</item>
+        <item>Краткая версия прокачки</item>
     </string-array>
     <string-array name="arr_asc">
-        <item>Passives</item>
-        <item>Ascendancy</item>
-        <item>Pantheon</item>
+        <item>Пассивные умения</item>
+        <item>Восхождение</item>
+        <item>Пантеон</item>
     </string-array>
     <string-array name="arr_gem">
-        <item>Main</item>
+        <item>Все связки камней</item>
     </string-array>
     <string-array name="arr_gear">
-        <item>Gear</item>
-        <item>Jewels</item>
-        <item>Cluster Jewels</item>
-        <item>Flasks</item>
-        <item>Upgrade Order</item>
+        <item>Предметы</item>
+        <item>Самоцветы</item>
+        <item>Кластерные самоцветы</item>
+        <item>Зелья</item>
+        <item>Порядок обновления</item>
     </string-array>
     <string-array name="arr_map">
-        <item>Mapping</item>
-        <item>Mapmods</item>
-        <item>Bossfights</item>
+        <item>Карты</item>
+        <item>Моды на картах</item>
+        <item>Бои с Боссами</item>
     </string-array>
 
     <string-array name="text_size_array">

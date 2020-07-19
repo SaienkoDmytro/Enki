@@ -19,6 +19,7 @@
     <string name="text_size">Text size</string>
     <string name="toast_back">Please click BACK again to exit</string>
     <string name="settings_setup">Chose your text size here</string>
+    <string name="search">Search</string>
     <string name="text_video"> <a href="https://www.youtube.com/watch?v=Qfoogi5j4IM">Elder</a> \n\n <a href="https://www.youtube.com/watch?v=uml3Fr5cEro">Shaper</a> \n\n <a href="https://www.youtube.com/watch?v=81_gQ-4ZZ6c">Uber Elder</a> \n\n <a href="https://www.youtube.com/watch?v=lwcSiBrRaQE">Juiced T16 Toxic Sewer</a> \n\n <i>Will eventually record more when I have time!</i> </string>
     <string name="text_video1">I\'m also going to start in Harvest SSFHC with this build live at <a href="https://www.twitch.tv/enki91">twitch.tv/enki91</a></string>
     <string name="text_PB">Path of Building link and Browser Version\n<a href="https://pastebin.com/r3EEZjCa">Link to build</a> (<b><i>read the Notes after importing!</i></b>)\n<a href="https://pob.party/">Browser Version</a>\n<b><i>I know that some people jump straight to the PoB without ever reading the guide, which often leads to failure and is then blamed on the build. Don\'t be that person!</i></b>\nI\'ve invested lots of time into this guide and find it very rude when people just disregard that

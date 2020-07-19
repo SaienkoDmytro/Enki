@@ -2,34 +2,34 @@
     <string name="app_name">Enki\'s Arc Witch</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Enki\'s Arc Witch</string>
-    <string name="nav_header_subtitle">A beginner, SSF-friendly Lightning Caster</string>
+    <string name="nav_header_title">Ведьма через Цепь молний от Enki </string>
+    <string name="nav_header_subtitle">Для начинающих, SSF-вариант, урон молнией</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
-    <string name="button_start">START</string>
-    <string name="menu_videos">Videos</string>
+    <string name="action_settings">Настройки</string>
+    <string name="button_start">СТАРТ</string>
+    <string name="menu_videos">Видео</string>
     <string name="menu_pob">Path of Building</string>
-    <string name="menu_about">About this Build</string>
-    <string name="menu_leveling">Leveling this Build</string>
-    <string name="menu_passive">Passive Tree, Ascendancy</string>
-    <string name="menu_gem">Gem Setup</string>
-    <string name="menu_gear">Gear, Jewels, Flasks</string>
-    <string name="menu_mapping">Mapping, Bossfights</string>
-    <string name="settings_menu1">Text settings</string>
-    <string name="text_size">Text size</string>
-    <string name="text_video"> <a href="https://www.youtube.com/watch?v=Qfoogi5j4IM">Elder</a> \n\n <a href="https://www.youtube.com/watch?v=uml3Fr5cEro">Shaper</a> \n\n <a href="https://www.youtube.com/watch?v=81_gQ-4ZZ6c">Uber Elder</a> \n\n <a href="https://www.youtube.com/watch?v=lwcSiBrRaQE">Juiced T16 Toxic Sewer</a> \n\n <i>Will eventually record more when I have time!</i> </string>
-    <string name="text_video1">I\'m also going to start in Harvest SSFHC with this build live at <a href="https://www.twitch.tv/enki91">twitch.tv/enki91</a></string>
-    <string name="text_PB">Path of Building link and Browser Version\n<a href="https://pastebin.com/r3EEZjCa">Link to build</a> (<b><i>read the Notes after importing!</i></b>)\n<a href="https://pob.party/">Browser Version</a>\n<b><i>I know that some people jump straight to the PoB without ever reading the guide, which often leads to failure and is then blamed on the build. Don\'t be that person!</i></b>\nI\'ve invested lots of time into this guide and find it very rude when people just disregard that
-and ask about things that are already well explained. This unfortunately keeps happening.</string>
-    <string name="text_PBD">Path of Building is a tool that lets you fully plan characters from scratch, check out other peoples setups or import your own character to check DPS and defenses or compare potential upgrades.\n<a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases">Path of Building Community Fork</a> (<b><i>required for the POB above</i></b>)\n<a href="https://imgur.com/OeTuAhL">How to import builds</a></string>
-<string name="text_pros"><font color='green'>+ smooth gameplay and progression\n+ cheap and fully SSF-capable\n+ can get really tanky\n+ capable to do all bossfights</font>\n<font color='red'>- boss DPS is a bit lacking\n- can\'t run all mapmods</font></string>
-    <string name="text_mech"><big><b>‣ Chaining:</b></big> Arc is a lightning-based spell with the ability to chain from monsters and destroyable objects, even around corners and out of your line of sight! Each time it chains, it will also split to
-a second nearby enemy from where it can\'t chain further. The amount of times Arc can chain depends on its gem level and can be increased by enchantments.
-        \n\n‣ <big><b>Mana:</b></big> By default, mana is used to cover skill costs and -reservation. This build however couples heavy mana investment with several gems and keystones for various offensive and defensive purposes. Mind over Matter redirects 30% of the damage we take to our life to mana instead while the Agnostic spends mana to heal our life back to full, the gems will be covered later in the guide. This makes our mana investment very efficient and augments the value of the base 6 mana we gain per level, but it also creates a high demand for sustain beyond the base 1.8% of mana being regenerated per second which we mostly cover through our ascendancy, flasks and passives.
-        \n\n‣ <big><b>Block:</b></big> Another defensive layer which comes in two ways, Chance to Block Attacks and Chance to Block Spells, each with a base cap of 75%. Blocking hits prevents all damage and status effects except for stun, however non-hitbased damage over time can\'t be blocked. While we won\'t reach the block cap, it\'s still enough damage prevention coupled with some ways to heal us on block.
-        \n\n‣ <big><b>Elemental Overload:</b></big> This keystone provides a 40% more damage multiplier in exchange for removing all critical strike multiplier, with the condition to crit atleast once within 8 seconds. While the damage potential is lower compared to scaling crits, the damage is also way more consistent and only takes small investment, which allows us to invest more heavily into mana.
-        \n\n‣ <big><b>Spiritual Aid:</b></big> A notable that applies all stats with the wording \"Minions deal #% increased Damage\" and \"Minions deal #% reduced Damage\" to our damage. This gives some more liberties while gearing and makes said stat from our ascendancy not go to waste. Note that minion damage stats with different wording, such as \"Golems deal #% increased Damage\", \"Minions deal #% more Damage\" or \"Minions deal # to # additional Lightning Damage\" won\'t apply to us!</string>
-<string name="text_thanks"><i>This guide and build was developed and provided by <a href="https://www.pathofexile.com/account/view-profile/Enki91">Enki91</a> and you can find it in the original on the Path of Exile website <a href="https://www.pathofexile.com/forum/view-thread/1147951">here</a>.</i>\n\n 
+    <string name="menu_about">Про данную сборку</string>
+    <string name="menu_leveling">Прокачка персонажа</string>
+    <string name="menu_passive">Пассивные умения, Восхождение</string>
+    <string name="menu_gem">Камни умений</string>
+    <string name="menu_gear">Предметы, самоцветы, зелья</string>
+    <string name="menu_mapping">Карты, Боссы</string>
+    <string name="settings_menu1">Настройки текста</string>
+    <string name="text_size">Размер текста</string>
+    <string name="text_video"> <a href="https://www.youtube.com/watch?v=Qfoogi5j4IM">Древний</a> \n\n <a href="https://www.youtube.com/watch?v=uml3Fr5cEro">Создатель</a> \n\n <a href="https://www.youtube.com/watch?v=81_gQ-4ZZ6c">Убер Древний</a> \n\n <a href="https://www.youtube.com/watch?v=lwcSiBrRaQE">T16 Клоака</a> \n\n <i>Я запишу больше видео, когда будет время!</i> </string>
+    <string name="text_video1">Я собираюсь начать Жатву SSFHC этим билдом <a href="https://www.twitch.tv/enki91">twitch.tv/enki91</a></string>
+    <string name="text_PB">Path of Building ссылка и браузерная версия\n<a href="https://pastebin.com/r3EEZjCa">Ссылка на сборку</a> (<b><i>прочитайте заметки после импорта!</i></b>)\n<a href="https://pob.party/">Браузерная версия</a>\n<b><i>Я знаю, что некоторые люди прыгают прямо в PoB, даже не читая руководство, что часто приводит к проблемам, а затем и обвинениям по сборке. Не будь таким человеком!</i></b>\nЯ потратил много времени на это руководство и считаю, что очень грубо, когда люди просто игнорируют его
+и спрашивают о вещах, которые уже хорошо объяснены. Но это, к сожалению, продолжается.</string>
+    <string name="text_PBD">Path of Building - это инструмент, который позволяет вам полностью спланировать персонажей с нуля, проверить настройки других людей или импортировать вашего собственного персонажа, чтобы проверить DPS и защиту или сравнить потенциальные улучшения.\n<a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases">Path of Building ссылка на сообщество</a> (<b><i>необходимо для POB выше</i></b>)\n<a href="https://imgur.com/OeTuAhL">Как импортировать сборки</a></string>
+    <string name="text_pros"><font color='green'>+ плавный геймплей и прогресс\n+ дешевый и полностью совместимый с SSF\n+ может стать действительно не убиваемым\n+ способен убивать всех боссов</font>\n<font color='red'>- Немного не хватает DPS в боях с боссами\n- не может проходить все моды карт</font></string>
+    <string name="text_mech"><big><b>‣ Цепная механика:</b></big> Цепь молний - это основанное на молнии заклинание со способностью связываться с монстрами и разрушаемыми объектами, даже за углами и за пределами вашей прямой видимости! Каждый раз, когда она попадает, она также будет разделена на
+второго ближайшего врага, от которого он не может делиться дальше. Количество раз, когда Цепь молний может делиться, зависит от уровня камня умений и может быть увеличено зачарованиями.
+        \n\n‣ <big><b>Мана:</b></big> По умолчанию мана используется для покрытия расходов на скиллы и -резервации. Однако эта сборка сочетает в себе значительные затраты маны с несколькими камнями умений и кластерными камнями для различных наступательных и оборонительных целей. Разум превыше материи перенаправляет 30% урона, который мы получаем из жизни в ману, в то время как Агностик тратит ману, чтобы исцелить нашу жизнь до полной, кластерные камни будут рассмотрены позже в руководстве. Это делает наши мановые вложения очень эффективными и увеличивает стоимость базовых 6 маны, которые мы получаем за уровень, но также создает высокую потребность в восстановлении, превышающую базовые 1,8% маны, восстанавливаемой в секунду, которые мы в основном покрываем за счет нашего восхождения, фляги и пассивных умений.
+        \n\n‣ <big><b>Блокирование:</b></big> Еще один защитный слой, который дается двумя способами: шанс блокировать атаки и шанс блокировать заклинания, каждый с базовым пределом 75%. Блокирование попаданий предотвращает все эффекты урона и состояния, кроме оглушения, однако не основанный на попадании урон с течением времени не может быть заблокирован. Несмотря на то, что мы не достигли предела блока, нам все еще достаточно предотвращения повреждений в сочетании с некоторыми способами исцелить нас в блоке.
+        \n\n‣ <big><b>Стихийная перегрузка:</b></big> Это умение дает на 40% больше множителя урона в обмен на удаление всех множителей критического удара с условием критического удара по крайней мере один раз в течение 8 секунд. Хотя потенциальный урон ниже по сравнению с масштабируемыми критами, урон более последовательный и требует лишь небольших вложений, что позволяет нам вкладывать больше средств в ману.
+        \n\n‣ <big><b>Духовная поддержка:</b></big> Умение, которое применяет все характеристики с формулировками \ "Миньоны наносят #% увеличенного урона \" и \ "Миньоны наносят #% уменьшенного урона \" к нашему урону. Это дает некоторые дополнительные свободы в снаряжении и делает указанную статистику от нашего Восхождения полезной для нас. Обратите внимание, что характеристики урона миньонов с другой формулировкой, такие как \ "Нанесение големами #% увеличенного урона \", \ "Нанесение миньонами #% больше урона \" или \ "Нанесение миньонами # на # дополнительный урон от молнии \", не применяются нам!</string>
+    <string name="text_thanks"><i>This guide and build was developed and provided by <a href="https://www.pathofexile.com/account/view-profile/Enki91">Enki91</a> and you can find it in the original on the Path of Exile website <a href="https://www.pathofexile.com/forum/view-thread/1147951">here</a>.</i>\n\n
     <big>Welcome to my Arc guide!</big>\n\n
 
 With this guide I want to provide a simple and balanced caster build for beginners and veterans
@@ -42,7 +42,7 @@ I\'ve tried to keep it short, but some things just can\'t be explained properly 
 
 If you have any questions, please ask them in this <a href="https://www.pathofexile.com/forum/view-thread/1147951">thread</a> or my <a href="https://www.twitch.tv/enki91">stream!</a>\n\n
     <i>A few words from the creator of this application. First of all, thanks a lot to Enki for this build and permission to use it here. I\'m a fan of POE and I really liked this build, I\'m new to Android development, but nevertheless decided to put this build to the masses in Google Play.\n I will keep up-to-date information here and update functions in the future. I ask you not to judge strictly, and in case of errors or your wishes to the functional, write to me <a href="https://www.pathofexile.com/account/view-profile/Headshot_Inc">directly</a>!\n
-    I hope you enjoy this build as much as I do and you will find the benefit of this application for yourself. Feel free to comment and rate this apllication on Google Play</i>   
+    I hope you enjoy this build as much as I do and you will find the benefit of this application for yourself. Feel free to comment and rate this apllication on Google Play</i>
     </string>
     <string name="text_lvl1">Here\'s a small collection of generic advice for newer players:\n\n
 <big><b>‣ Information:</b></big> Knowledge is a strong skill in Path of Exile, and it helps to know where to find it. First there\'s the ingame Help Panel, which you can reach through its icon next to your skillbar.
@@ -373,7 +373,7 @@ Kill Kraityn - Kill Oak - Kill Alira\n\n
         <big><b>Mistress of Sacrifice</b></big> <i>(Cruel)</i>: Another reason for Necromancer. Applies offerings to us with slightly lowered effect and increases skill duration. \n\n
         <big><b>Plaguebringer</b></big> <i>(Merciless)</i>: Reduces enemy damage while increasing our damage output and provides some AoE, as long as there are corpses nearby and we\'ve consumed one. \n\n
         <big><b>Corpse Pact</b></big> <i>(Eternal)</i>: Shocks enemies for another 15% increased damage taken, chills them for 10% reduced action speed and gives us some damage and cast speed.</string>
-<string name="text_asc3">
+    <string name="text_asc3">
 ‣ <big><b>Soul of the Brine King</b></big> <i>(Major)</i>: Prevents us from getting stunlocked and shortens stun duration.\n\n
 
 ‣ <big><b>Soul of Tukohama</b></big> <i>(Minor)</i>: Additional physical damage mitigation and life regeneration.\n\n
@@ -381,7 +381,7 @@ Kill Kraityn - Kill Oak - Kill Alira\n\n
 ‣ <big><b>Soul of Ryslatha</b></big> <i>(Minor)</i>: Life Flask sustain for longer bossfights.\n\n
 
 <i>You can have 1x major and 1x minor Pantheon node active at once.</i></string>
-<string name="text_gem1"><i>Non-corrupted Lv20 Gems can be upgraded to Lv1 20% by vendoring them together with a Gemcutters Prism. Do this with all gems that are marked with a *\n\n
+    <string name="text_gem1"><i>Non-corrupted Lv20 Gems can be upgraded to Lv1 20% by vendoring them together with a Gemcutters Prism. Do this with all gems that are marked with a *\n\n
 
 All gems are worth corrupting at Lv20 20%, for the ones not needing quality just do it at Lv20.\n\n
 
@@ -432,8 +432,8 @@ To stay safe from physical reflect and keep the skill within proc restrictions, 
 
 <big><b>Second Wind*</b></big> adds another use to Flame Dash and reduces its cooldown.\n
 <big><b>Arcane Surge</b></big> was explained earlier already, just this time we want to use a lower level gem to still gain a minor Arcane Surge buff while Arcane Cloak wasn\'t used. Keep it at Lv6 this time, or Lv7 if you have the Forethought notable already.</string>
-    
-<string name="text_gear1"><i>Gearing in Path of Exile is all about opportunity cost - sure, that unique item may look good, but is it better than all other options? Can you make up the loss of vital stats somewhere else? In this section I want to give you a quick rundown on what to look out for in each slot.</i>\n\n
+
+    <string name="text_gear1"><i>Gearing in Path of Exile is all about opportunity cost - sure, that unique item may look good, but is it better than all other options? Can you make up the loss of vital stats somewhere else? In this section I want to give you a quick rundown on what to look out for in each slot.</i>\n\n
 
 <big><b>Basic Information about Gear</b></big> \n\n
 
@@ -592,7 +592,7 @@ If not going for the previous gloves, go for a highend pair with either Faster C
 
 Enchantments aren\'t really significant for us here, don\'t bother with them.\n\n
 
-<big><b>Affix Priority</b></big>\n\n 
+<big><b>Affix Priority</b></big>\n\n
 
 <b><i>Prefix</i>\n
 70+ to maximum Life N B Es\n
@@ -700,8 +700,8 @@ Flasks applied to you have #% increased Effect B\n
 #% increased Mana Recovery Rate S R\n
 Resistances N B\n
 #% increased Flask Effect Duration N B </string>
-    
-    
+
+
     <string name="text_gear2">Abyss Jewels are fairly easy to craft, regular Jewels have more damage potential at higher cost.
 I\'ve planned the build around having Life on Jewels, even with just one damage affix it\'s worth it.\n\n
 
@@ -744,11 +744,11 @@ Damage Penetrates #% Lightning Resistance while affected by Wrath\n
     <string name="text_gear3">Cluster Jewels expand the passive tree by adding new branches when socketed in any outer 3-point jewel socket. There\'s three types, Large-, Medium- and Small Cluster Jewels, each with their own implicits and pool of notables. They only drop from <a href="https://pathofexile.gamepedia.com/Delirium">Delirium</a> encounters and need to be crafted first, therefore i\'m including them as optional choices rather than an integral part.\n\n
 
 If you\'ve done the math you\'ll realize that we won\'t have enough passive points to use them on top of the regular passive tree, so we\'ll have to remove some nodes. Depending on how many jewels you plan to run, start removing everything beyond the Constitution cluster, then Light of Divinity and Divine Judgement.\n\n
-    
+
    Our Large Cluster needs to be Lightning Damage based and ideally has only 8 added passives, but not more than 10. Item level matters, it needs to be ilvl75+ to be able to roll 2 jewel sockets.\n\n
 
 We aim for Supercharge here, which makes our non-crit lightning damage <a href="https://pathofexile.gamepedia.com/Luck">lucky</a>. The other notable can be either Disorienting Display to <a href="https://pathofexile.gamepedia.com/Blind">blind</a> enemies or Scintillating Idea for extra mana and lightning penetration. Technically you can even roll all of that together, but that would be really pushing your luck. \n\n
-    
+
    Our Medium Clusters need to be Flask Duration based with 4 or 5 added passives.\n\n
 
 On this one we want Distilled Perfection to increase life- and mana flask recovery and flask duration. If possible, add Liquid Inspiration to that for even more mana flask recovery and increased mana.\n\n
@@ -757,8 +757,8 @@ Our Small Clusters can be either life, mana or chaos resistance based with 3 add
 We want Blessed here, which gives life, mana and chaos resistance. In best case we get that together with atleast 25% increased Effect for Small Passives.\n\n
         Kitava\'s Teachings grants a keystone that consumes a corpse every second and recovers 5% of our life and mana when doing so, but makes us take 10% more damage if we haven\'t consumed any corpses within 4s. This works incredibly well once we got our trigger weapon craft.
 It can only drop from <a href="https://pathofexile.gamepedia.com/Delirium">Delirium bosses</a></string>
-    
-<string name="text_gear4">I\'ve already briefly explained flasks earlier in the guide, just as a reminder they\'re more than just Healing Pots that you may know from other ARPG\'s.\n\n
+
+    <string name="text_gear4">I\'ve already briefly explained flasks earlier in the guide, just as a reminder they\'re more than just Healing Pots that you may know from other ARPG\'s.\n\n
 
 There\'s two types: Life/Mana/Hybrid Flasks which heal the respective stat over a duration, and Utility Flasks which grant buffs during their listed duration. Prefixes augment the flasks effect or duration, while suffixes add additional buffs that are active during the flasks duration.\n\n
 
@@ -791,8 +791,8 @@ Extra armour is great to soak up many smaller physical hits, such as from porcup
 \"of Iron Skin\" can\'t be crafted with the Menagerie.\n
 Prefixes: Experimenter\'s\n
 Suffixes: of Iron Skin\n
-    Alternatively, <b>Rumi\'s Concoction</b> provides less armour but additional Chance to Block Attacks and Chance to Block Spells to temporarily reach (near) cap for both.</string>  
-<string name="text_gear5">This section is here to answer the everlasting \"What to upgrade next?\" question.\n\n
+    Alternatively, <b>Rumi\'s Concoction</b> provides less armour but additional Chance to Block Attacks and Chance to Block Spells to temporarily reach (near) cap for both.</string>
+    <string name="text_gear5">This section is here to answer the everlasting \"What to upgrade next?\" question.\n\n
 
 It\'s based on the assumption that you have no gear and have reached maps, if you haven\'t then you shouldn\'t even be reading this part of the guide yet, stick to the first part for Acts.\n\n
 
@@ -815,7 +815,7 @@ It\'s based on the assumption that you have no gear and have reached maps, if yo
 
 ‣ Highend Gear upgrades and Cluster Jewels\n
 
-‣ Awakened Gems </string>    
+‣ Awakened Gems </string>
     <string name="text_mapping"><b>Before you start mapping, make sure that you have:</b>\n
 
 <i>‣ atleast 4k Life and 3k Mana\n
@@ -860,7 +860,7 @@ and may kill you if you try. There\'s lots of trial and error involved to figure
         <i><b>‣ reduced Block Chance:</b></i> Survivability loss\n
 
         <i><b>‣ Elemental Equilibrium/Resistance:</b></i> Damage losses</string>
-<string name="text_boss">Bossfights are all mechanical, the build is very forgiving and allows you to learn those mechanics.\n\n
+    <string name="text_boss">Bossfights are all mechanical, the build is very forgiving and allows you to learn those mechanics.\n\n
 
 Start each bossfight with Arcanist Brand (if still using), then cast Arcane Cloak, Orb of Storms and then burst them down with Arc. If you have to move, circling the boss is usually the best strategy. Only for a few skills, such as AoE slams, explosions or burrow attacks you want to gain distance.\n\n
 
