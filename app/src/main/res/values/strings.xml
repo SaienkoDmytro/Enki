@@ -2,7 +2,7 @@
     <string name="app_name">Enki\'s Arc Witch</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Enki\'s Arc Witch</string>
+    <string name="nav_header_title">Enki\'s Arc Witch for 3.11</string>
     <string name="nav_header_subtitle">A beginner, SSF-friendly Lightning Caster</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
@@ -22,7 +22,7 @@
     <string name="search">Search</string>
     <string name="text_video"> <a href="https://www.youtube.com/watch?v=Qfoogi5j4IM">Elder</a> \n\n <a href="https://www.youtube.com/watch?v=uml3Fr5cEro">Shaper</a> \n\n <a href="https://www.youtube.com/watch?v=81_gQ-4ZZ6c">Uber Elder</a> \n\n <a href="https://www.youtube.com/watch?v=lwcSiBrRaQE">Juiced T16 Toxic Sewer</a> \n\n <i>Will eventually record more when I have time!</i> </string>
     <string name="text_video1">I\'m also going to start in Harvest SSFHC with this build live at <a href="https://www.twitch.tv/enki91">twitch.tv/enki91</a></string>
-    <string name="text_PB">Path of Building link and Browser Version\n<a href="https://pastebin.com/r3EEZjCa">Link to build</a> (<b><i>read the Notes after importing!</i></b>)\n<a href="https://pob.party/">Browser Version</a>\n<b><i>I know that some people jump straight to the PoB without ever reading the guide, which often leads to failure and is then blamed on the build. Don\'t be that person!</i></b>\nI\'ve invested lots of time into this guide and find it very rude when people just disregard that
+    <string name="text_PB">Path of Building link and Browser Version\n<a href="https://pastebin.com/r3EEZjCa"><b>Link to Build</b></a> (<b><i>read the Notes after importing!</i></b>)\n<a href="https://pob.party/">Browser Version</a>\n<b><i>I know that some people jump straight to the PoB without ever reading the guide, which often leads to failure and is then blamed on the build. Don\'t be that person!</i></b>\nI\'ve invested lots of time into this guide and find it very rude when people just disregard that
 and ask about things that are already well explained. This unfortunately keeps happening.</string>
     <string name="text_PBD">Path of Building is a tool that lets you fully plan characters from scratch, check out other peoples setups or import your own character to check DPS and defenses or compare potential upgrades.\n<a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases">Path of Building Community Fork</a> (<b><i>required for the POB above</i></b>)\n<a href="https://imgur.com/OeTuAhL">How to import builds</a></string>
 <string name="text_pros"><font color='green'>+ smooth gameplay and progression\n+ cheap and fully SSF-capable\n+ can get really tanky\n+ capable to do all bossfights</font>\n<font color='red'>- boss DPS is a bit lacking\n- can\'t run all mapmods</font></string>
@@ -44,6 +44,7 @@ There\'s many indepth explanations and links to various wiki pages for new playe
 I\'ve tried to keep it short, but some things just can\'t be explained properly with only a few words.\n\n
 
 If you have any questions, please ask them in this <a href="https://www.pathofexile.com/forum/view-thread/1147951">thread</a> or my <a href="https://www.twitch.tv/enki91">stream!</a>\n\n
+    Art on front page done by <a href="https://twitter.com/SK_Gunoo">sk_gunoo</a>.\n\n
     <i>A few words from the creator of this application. First of all, thanks a lot to Enki for this build and permission to use it here. I\'m a fan of POE and I really liked this build, I\'m new to Android development, but nevertheless decided to put this build to the masses in Google Play.\n I will keep up-to-date information here and update functions in the future. I ask you not to judge strictly, and in case of errors or your wishes to the functional, write to me <a href="https://www.pathofexile.com/account/view-profile/Headshot_Inc">directly</a>!\n
     I hope you enjoy this build as much as I do and you will find the benefit of this application for yourself. Feel free to comment and rate this apllication on Google Play</i>   
     </string>
