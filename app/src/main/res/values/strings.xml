@@ -17,7 +17,7 @@
     <string name="menu_mapping">Mapping, Bossfights</string>
     <string name="settings_menu1">Text settings</string>
     <string name="text_size">Text size</string>
-    <string name="toast_back">Please click BACK again to exit</string>
+    <string name="toast_back">Click BACK again to exit</string>
     <string name="settings_setup">Chose your text size here</string>
     <string name="search">Search</string>
     <string name="text_video"> <a href="https://www.youtube.com/watch?v=Qfoogi5j4IM">Elder</a> \n\n <a href="https://www.youtube.com/watch?v=uml3Fr5cEro">Shaper</a> \n\n <a href="https://www.youtube.com/watch?v=81_gQ-4ZZ6c">Uber Elder</a> \n\n <a href="https://www.youtube.com/watch?v=lwcSiBrRaQE">Juiced T16 Toxic Sewer</a> \n\n <i>Will eventually record more when I have time!</i> </string>
@@ -538,11 +538,15 @@ Resistances N B Es\n
 
 
 
-Any intelligence-based body armour works for us, otherwise getting six blue sockets would be too hard. Occultist Vestment is the best base for some extra spell damage, but it\'s not too important. Once again, just focus on life, mana and resistances.\n
+Any intelligence-based body armour works for us, otherwise getting six blue sockets would be too hard. Occultist Vestment is the best base for some extra spell damage, but it\'s not too important. Once again, just focus on life, mana and resistances.\n\n
 
-Offering effect is great to push the build further into endgame, as it gives us Chance to Block Attacks, Chance to Block Spells and more life recovered on block. The Life % + Mana % veiled prefix finalizes a great endgame body armour.\n
+<a href="https://pathofexile.gamepedia.com/Loreweave">Loreweave</a> is an interesting choice. Its life and mana are fairly low, but it comes with some other useful stats and most importantly, raises our maximum resistances to up to 78 (the linked one is legacy, 80% is not possible anymore). To put that into perspective, compared to the base 75% resistances this is a 12% damage reduction. The downside is that getting six blue sockets is not easy here. It can only be obtained through a recipe, by selling any 60x identified unique rings to a vendor at the same time.\n\n
 
-<b>Loreweave</b> is an interesting choice. Its life and mana are fairly low, but it comes with some other useful stats and most importantly, raises our maximum resistances to up to 78 (the linked one is legacy, 80% is not possible anymore). To put that into perspective, compared to the base 75% resistances this is a 12% damage reduction. The downside is that getting six blue sockets is not easy here. It can only be obtained through a recipe, by selling any 60x identified unique rings to a vendor at the same time.\n\n
+<a href="https://pathofexile.gamepedia.com/Shroud_of_the_Lightless">Shroud of the Lightless</a> is a really good budget choice and especially strong when mainly using <a href="https://pathofexile.gamepedia.com/Abyss_Jewel">Abyss Jewels</a>. It always comes with an <a href="https://pathofexile.gamepedia.com/Abyssal_Socket">Abyssal Socket</a> and is limited to five links at most, but with the integrated Elemental Penetration gem it becomes an effective 6L! This replaces Lightning Penetration in our Arc setup. It can only drop from <a href="https://pathofexile.gamepedia.com/Abyssal_Depths">Lich bosses in Abyssal Depths</a>.\n\n
+
+<a href="https://pathofexile.gamepedia.com/Cloak_of_Defiance">Cloak of Defiance</a> gives a ton of mana, sustain, saves a passive by providing Mind over Matter and even adds another 10% damage taken to mana before life! This however can also lead to problems if your mana sustain isn\'t great yet, so i\'d only recommend this for high mana setups.\n\n
+
+A body armour with Offering Effect is great to push the build further into endgame, as it gives us Chance to Block Attacks, Chance to Block Spells and more life recovered on block. Remember, avoiding damage is the strongest possible defense! The Life % + Mana % veiled prefix finalizes a great endgame body armour.\n\n
 
 <b><big>Affix Priority</big></b> \n\n
 
@@ -560,15 +564,17 @@ Resistances N B Es\n\n
 
 
 
-Start with a very basic life, mana and resistances helmet. Bone Helmets give us a free 20% damage implicit thanks to Spiritual Aid, but it\'s not required.\n\n
+Start with a very basic life, mana and resistances helmet. Bone Helmets give us a free 20% damage implicit thanks to Spiritual Aid, but it's not required.\n\n
 
-<b>Kitava\'s Thirst</b> can be used to skip the tedious process of casting Arcanist Brand for our buffs, with the downside of losing some cast speed and potential life and resistances from our helmet.\n
-It does pretty much the same as \"Trigger a Socketed Spell when you use a Skill\" weapon craft which we eventually want, so this helmet is just a temporary solution until then.\n
-With this helmet, put Desecrate, Spell Cascade and Bone Offering into the helmet, last socket can be filled with Enfeeble, Warlord\'s Mark or Temporal Chains depending on which colors you get. Arcane Cloak, Arcane Surge and Increased Duration need to go into weapon, losing Second Wind.\n\n
+<a href="https://pathofexile.gamepedia.com/Kitava%27s_Thirst">Kitava's Thirst</a> can be used to skip the tedious process of casting Arcanist Brand for our buffs, with the downside of losing some cast speed and potential life and resistances from our helmet.
+It does pretty much the same as "Trigger a Socketed Spell when you use a Skill" weapon craft which we eventually want, so this helmet is just a temporary solution until then.
+With this helmet, put Desecrate, Spell Cascade and Bone Offering into the helmet, last socket can be filled with Enfeeble, Warlord's Mark or Temporal Chains depending on which colors you get. Arcane Cloak, Arcane Surge and Increased Duration need to go into weapon, losing Second Wind.\n\n
 
-A highend helmet can have either of the resistance-reducing suffixes or simply stack the essential affixes with lots of resistances to allow us to get more damage suffixes on other gear pieces.\n
+<a href="https://pathofexile.gamepedia.com/Crown_of_the_Inward_Eye">Crown of the Inward Eye</a> is a very basic highend helmet if no resistances are needed. It comes with up to 21% life and mana and all three Transfigurations, of which only Soul and Mind are interesting for us. The former provides 30% of increased/reduced maximum Energy Shield as increased Spell Damage, the latter provides 30% of increased/reduced maximum Mana as increased Damage. It can only drop from <a href="https://pathofexile.gamepedia.com/Sirus,_Awakener_of_Worlds">Sirus, the Awakener</a>.\n\n
 
-Only relevant <a href="https://pathofexile.gamepedia.com/Labyrinth_Enchantment">enchantments</a> are \"Arc chains an additional time\", \"Arcane Cloak spends an additional #% of current Mana\" and \"#% increased Flame Dash Cooldown Recovery Speed\".\n\n
+If resistances are needed, aim for that with high life, mana and a resistance-reducing affix.\n\n
+
+Best <a href="https://pathofexile.gamepedia.com/Labyrinth_Enchantment">enchantments</a> are <b>Arc chains an additional time, Arcane Cloak spends an additional #% of current Mana and #% increased Flame Dash Cooldown Recovery Speed.</b>\n\n
 
 <big><b>Affix Priority</b></big> \n\n
 
@@ -586,13 +592,11 @@ Nearby Enemies take #% increased Elemental Damage S\n
 
 
 
-This may come as a surprise but we want life, mana and resistances from our gloves. Fingerless Silk Gloves give an extra spell damage implicit, which is once again nice to have but not required.\n
+This may come as a surprise but we want life, mana and resistances from our gloves. Fingerless Silk Gloves give an extra spell damage implicit, which is once again nice to have but not required.\n\n
 
-<b>Kalisa\'s Grace</b> are decent entry-level unique gloves if you don\'t need any resistances. They come with some life, a little bit of mana from intelligence, extra crit for Elemental Overload uptime and an extra Faster Casting support, which works best with socketing our Orb of Storms setup.\n
+<a href="https://pathofexile.gamepedia.com/Asenath%27s_Gentle_Touch">Asenath's Gentle Touch</a> are very interesting aswell. They come with the basic life and mana that we want, curse enemies with Temporal Chains and have situational Blind and corpse explosions to remove on-death effects, such as from porcupines. They can only drop from Maraketh Legions.\n\n
 
-<b>Asenath\'s Gentle Touch</b> are very interesting as well. They come with the basic life and mana that we want, curse enemies with <a href="https://pathofexile.gamepedia.com/Temporal_Chains">Temporal Chains</a> and have situational <a href="https://pathofexile.gamepedia.com/Blind">Blind</a> and corpse explosions to remove on-death effects, such as from <a href="https://pathofexile.gamepedia.com/Porcupine_Goliath">porcupines</a>. They can only drop from <a href="https://pathofexile.gamepedia.com/Legion">Maraketh Legions</a>.\n
-
-If not going for the previous gloves, go for a highend pair with either Faster Casting Support, <a href="https://pathofexile.gamepedia.com/Unnerve">unnerve chance</a> or <a href="https://pathofexile.gamepedia.com/Culling_strike">culling strike</a>.\n
+If not going for the previous gloves, go for a highend pair with either Faster Casting Support, unnerve chance or culling strike.\n\n
 
 Enchantments aren\'t really significant for us here, don\'t bother with them.\n\n
 
@@ -617,7 +621,7 @@ Culling Strike W\n
 
 Nothing new here, just get as much life, mana, movement speed and resistances as you can. Two-Toned Boots grant some extra resistance implicit.\n
 
-Best enchantment is hands down \"#% increased Mana Regeneration Rate if you\'ve cast a Spell recently\", don\'t settle with anything else.\n\n
+Best enchantment is hands down <b>\"#% increased Mana Regeneration Rate if you\'ve cast a Spell recently\"</b>, don\'t settle with anything else.\n\n
 
 <b><big>Affix Priority</big> \n\n
 
@@ -631,11 +635,13 @@ Best enchantment is hands down \"#% increased Mana Regeneration Rate if you\'ve 
 Resistances N B Es</b>\n\n
 
 
-<b>Ungil\'s Harmony</b> and <b>Atziri\'s Foible</b> are both great starter choices, otherwise get a rare with similar life and mana to the former and maybe some damage too.\n
+<a href="https://pathofexile.gamepedia.com/Ungil%27s_Harmony">Ungil's Harmony</a> is a great starter amulet for this build. It brings some life, mana and lots of crit chance, which makes it easier to proc Elemental Overload. The crit damage penalty doesn't affect us at all, as the aforementioned keystone already does the same.
 
-Later on we want an <a href="https://pathofexile.gamepedia.com/The_Temple_of_Atzoatl">Incursion</a> amulet with Mana + Mana % prefix and high life, and augment that with fertile <a href="https://pathofexile.gamepedia.com/Catalyst">catalysts</a>. Another option is a Shaper- or Crusader-influenced amulet with life, mana and various damage affixes, or life leech for some extra sustain.\n
+<a href="https://pathofexile.gamepedia.com/Atziri%27s_Foible">Atziri's Foible</a> is an insanely good amulet for us and provides lots of mana and -regeneration.
 
-Best <a href="https://pathofexile.gamepedia.com/Oil">anointment</a> is Undertaker for extra damage, life regeneration and Essence Glutton uptime. On a budget amulet, just get something cheap like <a href="https://pathofexile.gamepedia.com/Beef">Beef</a> for some extra strength.\n\n
+Alternatively we can get an <a href="https://pathofexile.gamepedia.com/The_Temple_of_Atzoatl">Incursion</a> amulet with Mana + Mana % prefix and high life, and augment that with Fertile <a href="https://pathofexile.gamepedia.com/Catalyst">catalysts</a>. Another option is a Shaper- or Crusader-influenced amulet with life, mana and various damage affixes, or life leech for some extra sustain.
+
+Best <a href="https://pathofexile.gamepedia.com/Oil">anointment</a> is Undertaker for extra damage, life regeneration and Essence Glutton uptime. Another option would be Mind Drinker for some extra mana and mana recovery on kill.
 
 <b><big>Affix Priority</big> \n\n
 
@@ -661,11 +667,11 @@ Resistances N B\n\n
 
 Rings are another slot to gain lots of resistances from, once again together with life and mana.\n
 
-A highend ring provides all that on a Vermilion Ring base, or together with some damage affixes. It\'s also another slot to get a curse on hit from, this time Conductivity. Just note that the base curse limit is 1 and curses are heavily countered by bosses and mapmods.\n
+A highend ring provides all that on a Vermilion Ring base, or together with some damage affixes. It\'s also another slot to get a curse on hit from, this time <a href="https://pathofexile.gamepedia.com/Conductivity">Conductivity</a>. Just note that the base <a href="https://pathofexile.gamepedia.com/Curse">curse</a> limit is 1 and curses are heavily countered by bosses and mapmods.\n
 
-<b>Essence Worm</b> allows us to run an aura without any reservation cost, our choice is Wrath for another huge damage multiplier. It also increases our Clarity\'s reservation cost, but the damage gain outweighs this downside. It\'s not necessary but highly recommended to have for endgame.\n
+<a href="https://pathofexile.gamepedia.com/Essence_Worm">Essence Worm</a> allows us to run an aura without any reservation cost, our choice is <a href="https://pathofexile.gamepedia.com/Wrath">Wrath</a> for another huge damage multiplier. It also increases our Clarity\'s reservation cost, but the damage gain outweighs this downside. It\'s not necessary but highly recommended to have for endgame.\n
 
-<b>Sibyl\'s Lament</b> is only needed to safely do any Atziri encounter, as she has a small amount of damage reflection. Equip the ring in left slot, activate Soul of Yugul in Pantheon and you\'re safe.\n\n
+<a href="https://pathofexile.gamepedia.com/Sibyl%27s_Lament">Sibyl\'s Lament</a> is only needed to safely do any <a href="https://pathofexile.gamepedia.com/Atziri,_Queen_of_the_Vaal">Atziri</a> encounter, as she has a small amount of damage reflection. Equip the ring in left slot, activate Soul of Yugul in Pantheon and you\'re safe.\n\n
 
 <big><b>Affix Priority</b></big> \n\n
 
