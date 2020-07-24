@@ -24,7 +24,7 @@
         <item>Pantheon</item>
     </string-array>
     <string-array name="arr_gem">
-        <item>Main</item>
+        <item>All gem links</item>
     </string-array>
     <string-array name="arr_gear">
         <item>Gear</item>
