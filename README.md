@@ -6,7 +6,7 @@ Also my first Application on Google Play with Google Ads.
 * ### Configuration instructions
 Requires Android 4.4 (API level 19) and up
 * ### Installation instructions
-[You can find and install it on Google Play](https://www.google.com "Enki's Arc Witch")
+[You can find and install it on Google Play](https://play.google.com/store/apps/details?id=saenko.enki&hl=en "Enki's Arc Witch")
 * ### What was used in the work
 1. Navigation Drawer;
 2. Array, ArrayList, ArrayAdapter;
