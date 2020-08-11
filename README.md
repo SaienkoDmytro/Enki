@@ -1,6 +1,6 @@
 ## POE: Enki's Arc Witch 3.11
 * ### Project Overview
-The first small pet-project for my teaching the basics of Android Studio and the application of Java Core in practice. 
+The first small pet-project for learning in practice the basics of Android Studio and the application of Java Core. 
 The basis was the guide to the game class from the Path of Exile game, which I decided to present as an application with easy navigation through Navigation Drawer.
 Also my first Application on Google Play with Google Ads.
 * ### Configuration instructions
