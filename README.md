@@ -12,7 +12,7 @@ Requires Android 4.4 (API level 19) and up
 2. Array, ArrayList, ArrayAdapter;
 3. Toolbar, Toast, Animations;
 4. Thread, Runnable, Intent;
-5. AdView;
+5. AdMob;
 6. Settings with PreferenceFragment;
 7. Working with Strings.xml and localization;
 8. Google Play publication.
