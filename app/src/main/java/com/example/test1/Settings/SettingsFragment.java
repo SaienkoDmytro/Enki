@@ -1,11 +1,11 @@
-package enki.example.test1.Settings;
+package com.example.test1.Settings;
 
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 
 import androidx.annotation.Nullable;
 
-import saenko.enki.R;
+import com.example.test1.R;
 
 public class SettingsFragment extends PreferenceFragment {
     @Override

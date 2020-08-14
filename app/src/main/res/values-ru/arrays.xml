@@ -40,8 +40,8 @@
     </string-array>
 
     <string-array name="text_size_array">
-        <item>Big</item>
-        <item>Regular</item>
-        <item>Small</item>
+        <item>Большой</item>
+        <item>Обычный</item>
+        <item>Маленький</item>
     </string-array>
 </resources>

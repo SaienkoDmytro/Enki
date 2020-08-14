@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "saenko.enki"
+        applicationId "com.example.test1"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1

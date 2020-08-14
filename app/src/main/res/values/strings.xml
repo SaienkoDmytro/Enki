@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Enki\'s Arc Witch 3.11</string>
+    <string name="app_name">Enki\'s Arc Witch</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Enki\'s Arc Witch for 3.11</string>
@@ -564,11 +564,11 @@ Resistances N B Es\n\n
 
 
 
-Start with a very basic life, mana and resistances helmet. Bone Helmets give us a free 20% damage implicit thanks to Spiritual Aid, but it\'s not required.\n\n
+Start with a very basic life, mana and resistances helmet. Bone Helmets give us a free 20% damage implicit thanks to Spiritual Aid, but it's not required.\n\n
 
-<a href="https://pathofexile.gamepedia.com/Kitava%27s_Thirst">Kitava\'s Thirst</a> can be used to skip the tedious process of casting Arcanist Brand for our buffs, with the downside of losing some cast speed and potential life and resistances from our helmet.
+<a href="https://pathofexile.gamepedia.com/Kitava%27s_Thirst">Kitava's Thirst</a> can be used to skip the tedious process of casting Arcanist Brand for our buffs, with the downside of losing some cast speed and potential life and resistances from our helmet.
 It does pretty much the same as "Trigger a Socketed Spell when you use a Skill" weapon craft which we eventually want, so this helmet is just a temporary solution until then.
-With this helmet, put Desecrate, Spell Cascade and Bone Offering into the helmet, last socket can be filled with Enfeeble, Warlord\'s Mark or Temporal Chains depending on which colors you get. Arcane Cloak, Arcane Surge and Increased Duration need to go into weapon, losing Second Wind.\n\n
+With this helmet, put Desecrate, Spell Cascade and Bone Offering into the helmet, last socket can be filled with Enfeeble, Warlord's Mark or Temporal Chains depending on which colors you get. Arcane Cloak, Arcane Surge and Increased Duration need to go into weapon, losing Second Wind.\n\n
 
 <a href="https://pathofexile.gamepedia.com/Crown_of_the_Inward_Eye">Crown of the Inward Eye</a> is a very basic highend helmet if no resistances are needed. It comes with up to 21% life and mana and all three Transfigurations, of which only Soul and Mind are interesting for us. The former provides 30% of increased/reduced maximum Energy Shield as increased Spell Damage, the latter provides 30% of increased/reduced maximum Mana as increased Damage. It can only drop from <a href="https://pathofexile.gamepedia.com/Sirus,_Awakener_of_Worlds">Sirus, the Awakener</a>.\n\n
 
@@ -594,7 +594,7 @@ Nearby Enemies take #% increased Elemental Damage S\n
 
 This may come as a surprise but we want life, mana and resistances from our gloves. Fingerless Silk Gloves give an extra spell damage implicit, which is once again nice to have but not required.\n\n
 
-<a href="https://pathofexile.gamepedia.com/Asenath%27s_Gentle_Touch">Asenath\'s Gentle Touch</a> are very interesting as well. They come with the basic life and mana that we want, curse enemies with Temporal Chains and have situational Blind and corpse explosions to remove on-death effects, such as from porcupines. They can only drop from Maraketh Legions.\n\n
+<a href="https://pathofexile.gamepedia.com/Asenath%27s_Gentle_Touch">Asenath's Gentle Touch</a> are very interesting aswell. They come with the basic life and mana that we want, curse enemies with Temporal Chains and have situational Blind and corpse explosions to remove on-death effects, such as from porcupines. They can only drop from Maraketh Legions.\n\n
 
 If not going for the previous gloves, go for a highend pair with either Faster Casting Support, unnerve chance or culling strike.\n\n
 
@@ -635,9 +635,9 @@ Best enchantment is hands down <b>\"#% increased Mana Regeneration Rate if you\'
 Resistances N B Es</b>\n\n
 
 
-<a href="https://pathofexile.gamepedia.com/Ungil%27s_Harmony">Ungil\'s Harmony</a> is a great starter amulet for this build. It brings some life, mana and lots of crit chance, which makes it easier to proc Elemental Overload. The crit damage penalty doesn\'t affect us at all, as the aforementioned keystone already does the same.
+<a href="https://pathofexile.gamepedia.com/Ungil%27s_Harmony">Ungil's Harmony</a> is a great starter amulet for this build. It brings some life, mana and lots of crit chance, which makes it easier to proc Elemental Overload. The crit damage penalty doesn't affect us at all, as the aforementioned keystone already does the same.
 
-<a href="https://pathofexile.gamepedia.com/Atziri%27s_Foible">Atziri\'s Foible</a> is an insanely good amulet for us and provides lots of mana and -regeneration.
+<a href="https://pathofexile.gamepedia.com/Atziri%27s_Foible">Atziri's Foible</a> is an insanely good amulet for us and provides lots of mana and -regeneration.
 
 Alternatively we can get an <a href="https://pathofexile.gamepedia.com/The_Temple_of_Atzoatl">Incursion</a> amulet with Mana + Mana % prefix and high life, and augment that with Fertile <a href="https://pathofexile.gamepedia.com/Catalyst">catalysts</a>. Another option is a Shaper- or Crusader-influenced amulet with life, mana and various damage affixes, or life leech for some extra sustain.
 
@@ -886,27 +886,4 @@ Most are pretty straightforward, there\'s only a few to specifically mention her
 While Arc doesn\'t chain between the copies, it\'s still possible to accidentally hit that clone and die. Therefore it\'s recommended to wear a Sibyl\'s Lament and use Soul of Yugul Pantheon against her. This includes her encounters in the Apex of Sacrifice, Alluring Abyss and Temple of Atzoatl.\n\n
 
 <big><b>Sirus:</b></big> There\'s no ways to gain flask charges during this long fight. The Granite- and Silver Flasks end up being rather useless, so it\'s better to replace them with additional Eternal Mana Flasks, preferably with Concentrated or Enduring prefix and switch to Soul of Ryslatha Pantheon.</string>
-
-    <string name="Mapmods">Mapmods</string>
-    <string name="Bossfights">Bossfights</string>
-    <string name="Mapping">Mapping</string>
-    <string name="pros">Pros/Cons</string>
-    <string name="main">Main Mechanics in this Build</string>
-    <string name="about">About this Build, App and Thanks</string>
-    <string name="poba">Pastebin and Browser Version</string>
-    <string name="pobd">POB download</string>
-    <string name="youb">Youtube</string>
-    <string name="tw">Twitch</string>
-    <string name="before">Before you start</string>
-    <string name="fulllvl">Full Leveling Section</string>
-    <string name="lvl">Leveling Section</string>
-    <string name="pass">Passives</string>
-    <string name="asce">Ascendancy</string>
-    <string name="pant">Pantheon</string>
-    <string name="allgem">All gem links</string>
-    <string name="gearlist">Gear</string>
-    <string name="Jewel">Jewels</string>
-    <string name="Clust">Cluster Jewels</string>
-    <string name="Flask">Flasks</string>
-    <string name="upgrade">Upgrade Order</string>
 </resources>
