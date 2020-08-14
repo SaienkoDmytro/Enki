@@ -1,4 +1,4 @@
-package com.example.test1;
+package enki.example.test1;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,18 +11,15 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.test1.Settings.settingsActivity;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+import saenko.enki.R;
+
+import enki.example.test1.Settings.settingsActivity;
+
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.core.view.GravityCompat;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -37,9 +34,9 @@ private String[] array;
 private ArrayAdapter<String> adapter;
 private Toolbar toolbar;
 private int category_index;
+
     private boolean doubleBackToExitPressedOnce;
     private Handler mHandler = new Handler();
-
     private final Runnable mRunnable = new Runnable() {
         @Override
         public void run() {
@@ -55,7 +52,7 @@ private int category_index;
         if (mHandler != null) { mHandler.removeCallbacks(mRunnable); }
     }
 
-
+//start Navigation Drawer
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -88,13 +85,13 @@ startActivity(intent);
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         toolbar.setTitle(R.string.menu_about);
         return true;
     }
     @Override
     public void onBackPressed() {
+        //checking for double click on exit here
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
@@ -110,12 +107,8 @@ startActivity(intent);
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-// Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
 
-//noinspection SimplifiableIfStatement
+        int id = item.getItemId();
         if (id == R.id.action_settings) {
             Intent i = new Intent(MainActivity.this, settingsActivity.class);
             startActivity(i);
@@ -128,6 +121,7 @@ startActivity(intent);
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        //fill array with descriptions + menu array
         int id = item.getItemId();
         if (id==R.id.menu_about){
             fillArray(R.string.menu_about, R.array.arr_about, 0);
@@ -149,6 +143,7 @@ startActivity(intent);
 drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+    //main logic of this array fullfillment
     private void fillArray (int title, int arrayList, int index){
         toolbar.setTitle(title);
         array = getResources().getStringArray(arrayList);

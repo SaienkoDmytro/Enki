@@ -1,7 +1,6 @@
-package com.example.test1.Settings;
+package enki.example.test1.Settings;
 
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
@@ -9,7 +8,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.test1.R;
+import saenko.enki.R;
 
 public class settingsActivity extends AppCompatActivity {
     private ActionBar actionBar;
