@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Enki\'s Arc Witch</string>
+    <string name="app_name">Enki\'s Arc Witch 3.11</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Ведьма через Цепь молний от Enki </string>
+    <string name="nav_header_title">Ведьма через Цепь молний от Enki для 3.11 </string>
     <string name="nav_header_subtitle">Для начинающих, SSF-вариант, урон молнией</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Настройки</string>
@@ -17,6 +17,7 @@
     <string name="menu_mapping">Карты, Боссы</string>
     <string name="settings_menu1">Настройки текста</string>
     <string name="text_size">Размер текста</string>
+    <string name="search">Поиск</string>
     <string name="text_video"> <a href="https://www.youtube.com/watch?v=Qfoogi5j4IM">Древний</a> \n\n <a href="https://www.youtube.com/watch?v=uml3Fr5cEro">Создатель</a> \n\n <a href="https://www.youtube.com/watch?v=81_gQ-4ZZ6c">Убер Древний</a> \n\n <a href="https://www.youtube.com/watch?v=lwcSiBrRaQE">T16 Клоака</a> \n\n <i>Я запишу больше видео, когда будет время!</i> </string>
     <string name="text_video1">Я собираюсь начать Жатву SSFHC этим билдом <a href="https://www.twitch.tv/enki91">twitch.tv/enki91</a></string>
     <string name="text_PB">Path of Building ссылка и браузерная версия\n<a href="https://pastebin.com/r3EEZjCa">Ссылка на сборку</a> (<b><i>прочитайте заметки после импорта!</i></b>)\n<a href="https://pob.party/">Браузерная версия</a>\n<b><i>Я знаю, что некоторые люди прыгают прямо в PoB, даже не читая руководство, что часто приводит к проблемам, а затем и обвинениям по сборке. Не будь таким человеком!</i></b>\nЯ потратил много времени на это руководство и считаю, что очень грубо, когда люди просто игнорируют его
@@ -29,110 +30,101 @@
         \n\n‣ <big><b>Блокирование:</b></big> Еще один защитный слой, который дается двумя способами: шанс блокировать атаки и шанс блокировать заклинания, каждый с базовым пределом 75%. Блокирование попаданий предотвращает все эффекты урона и состояния, кроме оглушения, однако не основанный на попадании урон с течением времени не может быть заблокирован. Несмотря на то, что мы не достигли предела блока, нам все еще достаточно предотвращения повреждений в сочетании с некоторыми способами исцелить нас в блоке.
         \n\n‣ <big><b>Стихийная перегрузка:</b></big> Это умение дает на 40% больше множителя урона в обмен на удаление всех множителей критического удара с условием критического удара по крайней мере один раз в течение 8 секунд. Хотя потенциальный урон ниже по сравнению с масштабируемыми критами, урон более последовательный и требует лишь небольших вложений, что позволяет нам вкладывать больше средств в ману.
         \n\n‣ <big><b>Духовная поддержка:</b></big> Умение, которое применяет все характеристики с формулировками \ "Миньоны наносят #% увеличенного урона \" и \ "Миньоны наносят #% уменьшенного урона \" к нашему урону. Это дает некоторые дополнительные свободы в снаряжении и делает указанную статистику от нашего Восхождения полезной для нас. Обратите внимание, что характеристики урона миньонов с другой формулировкой, такие как \ "Нанесение големами #% увеличенного урона \", \ "Нанесение миньонами #% больше урона \" или \ "Нанесение миньонами # на # дополнительный урон от молнии \", не применяются нам!</string>
-    <string name="text_thanks"><i>This guide and build was developed and provided by <a href="https://www.pathofexile.com/account/view-profile/Enki91">Enki91</a> and you can find it in the original on the Path of Exile website <a href="https://www.pathofexile.com/forum/view-thread/1147951">here</a>.</i>\n\n
-    <big>Welcome to my Arc guide!</big>\n\n
+    <string name="text_thanks"><i> Это руководство было разработано и предоставлено <a href="https://www.pathofexile.com/account/view-profile/Enki91">Enki91</a> и вы можете найти его в оригинале на сайте Path of Exile <a href="https://www.pathofexile.com/forum/view-thread/1147951">здесь</a>.</i>\n\n
+    <big>Добро пожаловать на мою сборку Цепной молнии!</big>\n\n
 
-With this guide I want to provide a simple and balanced caster build for beginners and veterans
-that is fun and easy to play, scales well into endgame and has as few restrictions as possible.
-It\'s not the strongest caster build out there, but it perfectly fits the niche I want it to be in.\n\n
+В этом руководстве я хочу предоставить простую и сбалансированную сборку Ведьмы для начинающих и ветеранов.
+Ей весело и легко играть, хорошо развивается в конце игры и имеет мало ограничений.
+Это не самый сильный заклинатель, но он идеально подходит для той ниши, в которой я хочу быть.\n\n
 
-Instead of just showcasing a build, this guide is made to be a comprehensive learning experience.
-There\'s many indepth explanations and links to various wiki pages for new players to understand.
-I\'ve tried to keep it short, but some things just can\'t be explained properly with only a few words.\n\n
+Это руководство предназначено не только для демонстрации сборки, но и представляет собой всеобъемлющий опыт обучения.
+Тут есть много глубоких объяснений и ссылок на различные вики-страницы, которые могут понять новые игроки.
+Я пытался сделать ее кратким, но некоторые вещи просто не могут быть объяснены должным образом с помощью нескольких слов.\n\n
 
-If you have any questions, please ask them in this <a href="https://www.pathofexile.com/forum/view-thread/1147951">thread</a> or my <a href="https://www.twitch.tv/enki91">stream!</a>\n\n
-    <i>A few words from the creator of this application. First of all, thanks a lot to Enki for this build and permission to use it here. I\'m a fan of POE and I really liked this build, I\'m new to Android development, but nevertheless decided to put this build to the masses in Google Play.\n I will keep up-to-date information here and update functions in the future. I ask you not to judge strictly, and in case of errors or your wishes to the functional, write to me <a href="https://www.pathofexile.com/account/view-profile/Headshot_Inc">directly</a>!\n
-    I hope you enjoy this build as much as I do and you will find the benefit of this application for yourself. Feel free to comment and rate this apllication on Google Play</i>
-    </string>
-    <string name="text_lvl1">Here\'s a small collection of generic advice for newer players:\n\n
-<big><b>‣ Information:</b></big> Knowledge is a strong skill in Path of Exile, and it helps to know where to find it. First there\'s the ingame Help Panel, which you can reach through its icon next to your skillbar.
-The Path of Exile Wiki should be your first stop for further information, poedb for plain data.
-Lastly, Engineering Eternity has a youtube channel with lots of informative videos.\n\n
+Если у вас есть вопросы, вы можете их задать<a href="https://www.pathofexile.com/forum/view-thread/1147951">тут</a> или же на моем <a href="https://www.twitch.tv/enki91">стриме!</a>\n\n
+    <i>Несколько слов от создателя этого приложения. Прежде всего, большое спасибо Enki за эту сборку и разрешение использовать ее здесь. Я фанат POE, и мне очень понравилась эта сборка, я новичок в разработке для Android, но тем не менее решил закинуть эту сборку отдельным приложением на Google Play. \n Я буду обновлять информацию здесь в соответствии с оригиналом и добавлю новые функции в будущем. Прошу не судить строго, а в случае ошибок или ваших пожеланий по функционалу(а особенно перевода), пишите мне <a href="https://www.pathofexile.com/account/view-profile/Headshot_Inc">напрямую</a>!\n
+Я надеюсь, что вам понравится эта сборка так же как и мне и вы найдете пользу от этого приложения для себя. Не стесняйтесь комментировать и оценивать это приложение в Google Play </i></string>
 
-<big><b>‣ Lootfilter:</b></big> You will soon realize that there\'s lots of redundant loot in this game, a good Lootfilter reduces screen clutter and highlights potentially valuable or important drops. Neversink\'s Filter is always a good start and you can further customize it at Filterblade.\n\n
+    <string name="text_lvl1"> Вот небольшая подборка общих советов для новых игроков:\n\n
+<big><b>‣ Информация:</b></big> Знание это сильный навык в Path of Exile, и оно помогает узнать, где и что найти. Во-первых, есть игровая панель справки, доступ к которой вы можете получить через ее значок рядом с панелью навыков.
+<a href="https://pathofexile-ru.gamepedia.com/Path_of_Exile_Wiki">Path of Exile Wiki</a> должен быть вашей первой остановкой для получения дополнительной информации, <a href="https://poedb.tw/us/mod.php">poedb</a> для простых данных.
+Наконец, у <a href="https://www.youtube.com/channel/UCaFHfrY-6uGSAvmczp_7a6Q">Engineering Eternity</a> есть канал на YouTube с большим количеством информативных видео.\n\n
 
-<big><b>‣ Flasks:</b></big> Unlike most ARPG\'s, this game is directly balanced around using all your flasks.
-This goes beyond the typical life and mana flasks that you\'re probably used to from other games, during your act progression you\'ll gain access to various utility flasks which grant powerful buffs. Flasks can also be crafted, but it\'s not needed until maps so i\'ve kept it for their own flask section. For now, focus on keeping your life and mana flasks updated, get all utility flasks from quests when mentioned and try to get a feeling for your flask usage.\n\n
+<big><b>‣ Фильтр предметов:</b></big> Вскоре вы поймете, что в этой игре много лишнего лута, хороший фильтр предметов уменьшает беспорядок на экране и выделяет потенциально ценные или важные предметы. <a href="https://github.com/NeverSinkDev/NeverSink-Filter/releases">Neversink \'s Filter</a> всегда хорошее начало, и вы можете дополнительно настроить его в Filterblade.\n\n
+<big><b>‣ Фляги:</b></big> В отличие от большинства ARPG, эта игра напрямую связана с использованием всех ваших фляг.
+Кроме фляг Жизни и Маны, к которым вы, вероятно, привыкли в других играх, в ходе вашего развития вы получите доступ к различным флягам, которые дают мощные баффы. Фляги также могут быть изготовлены, но в них нет необходимости, пока вы не выйдете на карты, поэтому я оставил их для отдельной секции. А пока сосредоточьтесь на том, чтобы обновлять свою жизнь и ману, получайте все полезные фляги из квестов, когда они упоминаются, и попытайтесь понять, как они используются.\n\n
+<big><b>‣ Создание предметов:</b></big> Снаряжение можно улучшать различными способами с помощью крафта и рецептов, в то время как последний вариант может также давать валюту, используемую для крафта. Во время развития вы довольно быстро обгоняете экипировку, поэтому не рекомендуется вкладывать слишком много в этот момент. Ограничьте вложения Сферами превращения, Сферами перемен, Сферами усиления, Цветными сферами и различными Сущностями, которые вы можете найти сейчас, используйте Сферы соединения и златокузнеца только на тех предметах, которые вам подходят. Старайтесь сосредоточиться на вещах на интеллект, чтобы получить правильные цвета.\n\n
+<big><b>‣ Верстак:</b></big> После разблокировки вашего первого укрытия вы получите доступ к Верстаку.
+Он может быть использован для создания целевого аффикса на экипировке, если его там еще нет и есть свободный слот. Используйте его для создания любых аффиксов урона, жизни, атрибутов или сопротивлений, отсутствующих на вашем снаряжении.
+Сначала нужно найти рецепты, Верстак подскажет вам все нераскрытые места для рецептов.\n\n
 
-<big><b>‣ Crafting:</b></big> Gear can be enhanced in various ways through crafting and recipes, while the latter can also create currency used for crafting. You outlevel gear pretty quickly during act progression, so it\'s not advised to invest too much at this point. Limit it to Orbs of Transmutation, Orbs of Augmentation, Orbs of Alteration, Chromatic Orbs and various Essences you can find for now,
-use Jeweller\'s Orbs and Orbs of Fusing only on useful gear you\'ve looted. Try to focus on intelligence-based gear for an easier time to get the right colors.\n\n
+<big><b>‣ Торговля:</b></big> Вы можете свободно торговать с другими игроками, если у вас есть персонаж 25+ и вы не в SSF. В игре есть собственный торговый сайт, он хорош для покупки снаряжения, poemap удобен для массовых торгов картами. Если вы хотите что-то продать, вам нужны вкладки премиум-класса, надо открыть магазин в торговых форумах или использовать Acquisition. Для проверки цен, ищите похожие вещи на торговом сайте, проверьте poe.ninja или используйте Awakened POE Trade.\n\n
 
-<big><b>‣ Crafting Bench:</b></big> After unlocking your first hideout, you\'ll gain access to the Crafting Bench.
-This can be used to craft a targeted affix on gear, if it isn\'t already there and has a slot available. Use it to craft any damage affixes, Life, Attributes or Elemental Resistances missing on your gear.
-Recipes need to be found first, the Crafting Bench tells you all undiscovered recipe locations.\n\n
+<big><b>‣ Закладки сундука:</b></big> Размер хранилища по умолчанию довольно ограничен, если вам нравится игра и можете это сделать, подумайте о покупке дополнительных вкладок. Настоятельно рекомендуется получить вкладку «Валюты» и «Карты», вкладки «Премиум» упрощают торговлю.
+Купленные вкладки доступны для всего аккаунта, вы не потеряете их, когда закончится лига.
+Каждый месяц также проводятся распродажи вкладок, подождите, если вы не торопитесь.</string>
 
-<big><b>‣ Trading:</b></big> You can freely trade with other players if you have a Lv25+ char and aren\'t in SSF. Path of Exile\'s own trading site is good for buying gear, poemap is convenient for bulk map trades. If you want to sell something, you either need premium stash tabs, set up a shop in the trade subforums or use Acquisition. For pricechecks, look for similar stuff on the trade site, check poe.ninja or use Awakened POE Trade.\n\n
+    <string name="text_lvl2">Ваше путешествие по десяти Актам можно рассматривать как обширный учебник, медленно знакомящий вас с большинством игровой механики и все более трудными врагами, которым нужно научиться противостоять. \n\n
+Этот раздел поможет вам во время игры и показывает рекомендуемое пассивное развитие дерева, настройки драгоценных камней, выполнение квестов и зоны прокачки опыта для каждого действия.
+Пассивное дерево рассматривайте просто как указатель развития, не переживайте, если что-то сделали не так.\n\n
+<b>Имейте в виду, что этот раздел содержит основные сюжетные спойлеры, если вы заботитесь об этом.</b>\n\n
 
-<big><b>‣ Stash Tabs:</b></big> The default stash space is pretty limited, if you like the game and are able to, consider buying more stash tabs. Getting a Currency- and Map Tab is highly recommended, Premium Tabs make trading easier and if you want, a Quad Tab makes a good dump tab.
-Purchased tabs are account-wide, you won\'t lose them when temporary leagues end.
-There\'s also a stash tab sale weekend each month, wait for that if you\'re not in a rush.</string>
-    <string name="text_lvl2">Your journey through the ten acts can be seen as an extensive tutorial, slowly confronting you with the majority of game mechanics and increasingly more difficult enemies to learn to counter.\n\n
-
-This section will help you while playing through the ten acts and shows the recommended
-passive tree progression, gem setups, quest progression and exp farming zone for each act.
-The passive tree goals are just a pointer, it\'s not a big deal if you\'re over- or underleveled.\n\n
-
-<b>Keep in mind that this section includes major storyline spoilers, if you care about that.</b>\n\n
-
-<big><b>Act</b></big> 1\n\n
+<big><b>Акт 1</b></big> \n\n
 
 
-‣ Kill the Zombie, pick up Fireball and switch left-click to move-only\n
-‣ Get Arcane Surge from Large Chest and kill Hillock\n
-‣ Buy Spark from Nessa, link it with Arcane Surge and throw away Fireball\n
-‣ Check vendors for Boots with Movement Speed and a second Wand\n
-‣ Get the Coast Waypoint, kill Hailrake on Tidal Island and get Quicksilver Flask in town\n
-‣ Finish your quest in Mud Flats and Enter Submerged Passage\n
-‣ Get the Waypoint, look for Flooded Depths and kill the Dweller of the Deep\n
-‣ Get Orb of Storms, Frostblink and Skillpoint in town\n
-‣ Orb of Storms provides extra damage while you cast Lightning Spells within its radius\n
-‣ Set Orb of Storms to "attack without moving" (left-click icon in skillbar)\n
-‣ Enter Prison, get Added Lightning Damage in town and link it to Spark + Arcane Surge\n
-‣ Check vendors for any item with 3-linked blue sockets if needed for above\n
-‣ Craft two wands with this recipe: Magic-rarity Wand + Topaz Ring + Orb of Alteration\n
-‣ If needed, the recipe for Topaz Rings is Iron Ring + Green Skill Gem\n
-‣ Start looking out for 2x Sapphire Rings\n
-‣ If needed, the recipe for Sapphire Rings is Iron Ring + Blue Skill Gem\n
-‣ Complete Trial of Ascendancy in Lower Prison\n
-‣ Kill Brutus, then get Clarity and Flame Dash in town\n
-‣ Replace Frostblink with Flame Dash and set it to "attack without moving"\n
-‣ Progress to Ship Graveyard and get the Waypoint\n
-‣ Look for Ship Graveyard Cave, get Allflame then get Cavern of Wrath Waypoint\n
-‣ Travel to Ship Graveyard Waypoint and kill Fairgraves\n
-‣ Go to town to get Skillpoint and Arc\n
-‣ Replace Spark with Arc and set it to "attack without moving"\n
-‣ Equip Sapphire Rings and kill Merveil\n\n
+‣ Убить зомби, взять Огненный шар и переключить движение на левую кнопку мыши \n
+‣ Получите Колдовской выброс из большого сундука и убейте Хиллока \n
+‣ Купите Искры у Нессы, свяжите их с Колдовской выброс и выбросьте Огненный шар \n
+‣ Проверьте торговцев на наличие сапог со скоростью движения и второй палочки \n
+‣ Получите прибрежную путевую точку, убейте Отморозка на Прибрежном острове и получите Ртутный флакон в городе \n
+‣ Завершите квест в Илистых низинах и войдите в Сырой проход \n
+‣ Получить путевую точку, найти Залитый провал и убить Обитателя Глубин \n
+‣ Получить Сферу бурь, Ледяной скачок и Навык в городе \n
+‣ Сфера бурь наносит дополнительный урон, когда вы используете заклинания молнии в пределах его радиуса \n
+‣ Установите для Сферы бурь значение «атака без движения» (щелчок левой кнопкой мыши на панели навыков) \n
+‣ Войдите в Тюремное подземелье, получите Урон молнией в городе и свяжите его с Искра + Колдовской выброс  \n
+‣ Проверьте торговцев на предмет наличия 3-связанных синих палочек, если это необходимо для вышеупомянутого \n
+‣ С помощью этого рецепта создайте две палочки: волшебная раритетная палочка + кольцо топаза + сфера изменения \n
+‣ При необходимости, рецепт для Топазных колец - железное кольцо + Зеленый камень умений \n
+‣ Начните искать Сапфировые кольца \n
+‣ При необходимости, рецепт для Сапфировых колец - Железное кольцо + Синий камень умений \n
+‣ Пройдите испытание Восхождения в Тюремных помещениях \n
+‣ Убейте Изувера, затем получите Ясность ума и Пламенный рывок в городе \n
+‣ Замените Ледяной скачок на Пламенный рывок и установите для него "атака без движения" \n
+‣ Пройдите к Кладбище кораблей и получите путевую точку \n
+‣ Найдите Грот погибших кораблей, возьмите Всепламень, затем найдите путь в Пещеры Гнева \n
+‣ Отправляйся к путевой точке на Кладбище кораблей и убей Капитан Фейргрэйвс\ n
+‣ Отправляйся в город, чтобы получить Навык и Цепную молнию \ n
+‣ Замените Искру на Цепную молнию и установите его в "атака без движения" \ n
+‣ Надеть Сапфировые кольца и убить Мервейл \ n \ n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAGpDEFj-swelSbJ2ESycCPTfsALjghBtGWobvOo="><b>Акт 1 Пассивки</b></a>\n\n
 
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAGpDEFj-swelSbJ2ESycCPTfsALjghBtGWobvOo="><b>Act 1 Passives</b></a>\n\n
-
-<b>Exp Farming Zone: The Ledge</b>\n\n
+<b>Зона для прокачки опыта: Утес </b>\n\n
 
 
-<big><b>Act 2</b></big>\n\n
+<big><b>Акт 2</b></big>\n\n
 
-‣ Once in town, enter the Old Fields first\n
-‣ Start looking out for 2x Topaz Rings\n
-‣ If needed, the recipe for Topaz Rings is Iron Ring + Green Skill Gem\n
-‣ Look for the Den, kill Great White Beast and get second Quicksilver in town\n
-‣ Continue to Crossroads and get Waypoint\n
-‣ Enter Chamber of Sins, complete Trial of Ascendancy on Level 2 and kill Fidelitas\n
-‣ Get Herald of Thunder and Arcane Cloak\n
-‣ Go back to Crossroads, enter Broken Bridge and kill Kraityn\n
-‣ Back to Crossroads once more, enter Fellshrine Ruins and Crypt\n
-‣ Complete Trial of Ascendancy in Crypt\n
-‣ Back to town, enter Riverways and get the Waypoint\n
-‣ Go to Western Forest, get Waypoint, kill Alira and Captain Arteri\n
-‣ Look for Weaver\'s Chambers and kill Weaver\n
-‣ Get Elemental Focus and link it to Orb of Storms\n
-‣ Go back to Lioneye\'s Watch and get Skillpoint\n
-‣ Go back to Riverways and follow the small dirt path to Wetlands\n
-‣ Kill Oak, get Wetlands Waypoint and get two Skillpoints in town\n
-‣ Make your way to the Ancient Pyramid, equip Topaz Rings and kill Vaal Oversoul\n\n
+‣ Выйдя в город, сначала войдите в Старые поля \n
+‣ Начните искать Кольца топаза \n
+‣ При необходимости, рецепт для Колец топаза - железное кольцо + зеленый камень умений \n
+‣ Ищите Берлогу, убейте Великого Белого Зверя и получите второй Ртутный флакон в городе \n
+‣ Продолжайте движение по Перекрестку и получите путевую точку \n
+‣ Войдите в Обитель грехов, пройдите испытание Восхождения на 2-м уровне и убейте Фиделиса \n
+‣ Получить Вестник грома и Чародейский покров \n
+‣ Вернитесь на Перекресток, войдите в Разрушенный мост и убейте Крайлиста \n
+‣ Вернитесь на Перекресток еще раз, войдите в Руины оскверненной святыни и Склеп \n
+‣ Пройдите испытание Восхождения в склепе \n
+‣ Вернитесь в город, введите Перекресток и получите путевую точку \n
+‣ Отправляйся в Западный Лес, найди путевую точку, убей Антиопу и Капитана Артемия \n
+‣ Ищите Покои Ткачихи и убейте Ткачиху \n
+‣ Получите Концентрацию стихий и свяжите его с Сферой бурь \n
+‣ Вернитесь в Заставу львиного глаза и получите навык \n
+‣ Вернитесь к Пойме руки и следуйте по маленькому грунтовому пути к Топи \n
+‣ Убить Дуба, получить путевую точку Топи и получить два навыка в городе \n
+‣ Проберись к Древней Пирамиде, одень Кольца Топаза и убей Вседуша Ваал \n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAK6zEFgfAjbFVcZJsiyc2CTr5ALjvOpqQ2obBAeCEG0ZOlhWSHYRBUKD29-wCPRfKkyzB6X-sw=="><b>Акт 2 Пассивки</b></a>\n\n
 
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAK6zEFgfAjbFVcZJsiyc2CTr5ALjvOpqQ2obBAeCEG0ZOlhWSHYRBUKD29-wCPRfKkyzB6X-sw=="><b>Act 2 Passives</b></a>\n\n
-
-<b>Exp Farming Zone: The Northern Forest</b>\n\n
-
+<b> Зона для прокачки опыта: Северный лес </b>\n\n
 
 <big><b>Act 3</b></big>\n\n
 
@@ -314,73 +306,77 @@ Start looking out for a shield to replace one weapon. Once you\'ve found a good 
 ‣ Now it\'s time to look at the second part of this guide!\n
 ‣ Gear up for endgame and switch to the endgame gem setup\n
 ‣ If you lack currency, run Currency Delve nodes and/or start doing the Chaos Orb recipe</string>
-    <string name="text_lvl3"><font color='blue'>Spark -> Arc\n
-+ Arcane Surge -> Lightning Penetration\n
-+ Added Lightning Damage -> Archmage\n
-+ Spell Echo\n\n
+    <string name="text_lvl3"><font color='blue'>Искра -> Цепная молния\n
++ Колдовской выброс -> Пронизывающие молнии\n
++ Урон молнией -> Архимаг\n
++ Эхо магии\n\n
 
-Orb of Storms\n
-+ Elemental Focus\n
-+ Archmage\n
-+ Lightning Penetration\n\n
+Сфера бурь\n
++ Концентрация стихий\n
++ Архимаг\n
++ Пронизывающие молнии \n\n
 
-Frostblink -> Flame Dash\n</font>
-<font color='green'>+ Second Wind</font>\n
-<font color='blue'>+ Arcane Surge (Lv6)\n\n
+Ледяной скачок -> Огненный рывок\n</font>
+<font color='green'>+ Второе дыхание</font>\n
+<font color='blue'>+ Колдовской выброс (Ур6)\n\n
 
-Clarity\n\n
+Ясность ума\n\n
 
-Arcane Cloak\n
-+ Arcane Surge\n\n</font>
+Чародейский покров\n
++ Колдовской выброс \n\n</font>
 
-<font color='red'>Cast when Damage taken (Lv1)\n</font>
-<font color='blue'>+ Tempest Shield (Lv1)\n
-+ Wave of Conviction (Lv1)\n\n</font>
+<font color='red'>Сотворение чар при получении урона (Ур1)\n</font>
+<font color='blue'>+ Щит бури (Ур1)\n
++ Волна осуждения (Ур1)\n\n</font>
 
-<font color='green'>Desecrate (Lv1)</font> <i>after Normal Labyrinth</i>\n
-<font color='blue'>+ Bone Offering</font> <i>after Cruel Labyrinth</i>\n
-<font color='blue'>+ Arcanist Brand</font> <i>after Cruel Labyrinth</i>\n\n
+<font color='green'>Осквернение (Ур1)</font> <i>после Первого Лабиринта</i>\n
+<font color='blue'>+ Подношение костей</font> <i>после Жестокого Лабиринта</i>\n
+<font color='blue'>+ Клеймо чаротворца</font> <i>после Безжалостного Лабиринта</i>\n\n
 
-<font color='blue'>Herald of Thunder</font> <i>until Archmage</i>\n\n
+<font color='blue'>Вестник грома</font> <i>до Архимага</i>\n\n
 
 
-Life Flask\n
-Mana Flask\n
-Mana Flask -> Silver Flask\n
-Quicksilver Flask -> Granite Flask\n
-Quicksilver Flask\n\n
+Фляга Жизни\n
+Фляга Маны\n
+Мана -> Серебрянная фляга\n
+Ртутная фляга -> Гранитная фляга\n
+Ртутная фляга\n\n
 
-Kill Kraityn - Kill Oak - Kill Alira\n\n
+Убить всех Бандитов!\n\n
 
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAGpDEFj-swelSbJ2ESycCPTfsALjghBtGWobvOo="><b>Act 1 Passives</b></a>\n\n
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAK6zEFgfAjbFVcZJsiyc2CTr5ALjvOpqQ2obBAeCEG0ZOlhWSHYRBUKD29-wCPRfKkyzB6X-sw=="><b>Act 2 Passives</b></a>\n\n
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAK6zEFgfAkmyRv7YJEWdvOpqQ6flOlinCN-wxopfKv6zNsVVxiyc6-QC41NS2t1qGwelBAcI9Jrgg9sFQuzobRlWSHYRghBMs-vu0io="><b>Act 3 Passives</b></a>\n\n
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAK6zEFgfAh0USbJG_tgkRZ286mpDogCn5QQHdhHfsMaKXyqFMsBmMtEFQo9GNsVVxvrS6-7jaiycbRnr5ALjmuAN4lNSpwg6WGobB6Xs6NIqRUeD2wSz_rNIjlZICPSCEEyz2t0Wbw=="><b>Act 4 Passives</b></a>\n\n
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAK6zEFg26R0USbJG_tgkRZ286mpDogCn5YUybRk6WNrddhHHpN9PJKrGil8qpwgI9MBmMtHjao9GNsVVxvrSBAcWbyycHwLr5ALj37AN4lNSahv-swelg9vSKlfIRUfs6ASzZp5IjlZImuCCEEyz6-4FQg=="><b>Act 5 Passives</b></a>\n\n
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABBYHRRKn1nzvOpqQ6IAp-WnCMBmNsVVxiycAuMN4lfIBLNIjlZITLOuswVCNumJvEmyhTJG_tgkRZ1mnho4Olh2Ed9PJKrGil8qcg8y0ZBVoOb60prg6-7s6Ovk37DSKoPbU1JncScvB6X-s2obEFFFRx8CFm8EB-Nqj0YI9IIQx6Ta3W0Z"><b>Act 6 Passives</b></a>\n\n
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGvnoakOiAKflZ3HAZjbFVcYsnLiTgscN4lfIBLNIjlZITLOuswVCNumJvEmyhTJG_tIqRZ1mnho4g9t2Ed9P37DGil8qJKr-szLRkFWPRtrdcg_jaqcIEFHs6B8C6-TYJBZvBAcnL_rSCPRqG8ekU1K86kVHB6UC4yj6bRk6WKDmghDr7prg"><b>Act 7 Passives</b></a>\n\n
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGvnoakOiAKflm4o1kr5P_o_AZjrhNsVVxrc-LJy4k4LHDeJXyASzSI7YvUyzrrMFQjbpibxJsoUyRv7SKv4KQYdmnuvuGjhncbzqg9sWb3YR30_fsMaKXyoo-gLj_rMy0ZBVoOZtGYIQ42pWSDpY7OjHpOvkB6VFnVNSJy8I9JrgahuPRvrSBAdFR9gkpldN4x8CEFGnCPJFcg_a3SSq"><b>Act 8 Passives</b></a>\n\n
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGvnoakOiAKflm4o1kr5P_o-gQsBmOuE2xVXGtz4snLiTgscN4lfIBLNewNi9TLOuswVCNumJvEmyhTJG_tgkHwLa3f4KAuNmnoIQGjgI9EiOg9sQUXYR8kXfTySqxopfKqcI_rNyDzLRkFWg5gQHahvjatIq37Ds6Ccv6-T60o9GmuBTUk3jRZ0HpWdxOlhWSEVHbRmmVyj6Fm-86ohax6Tr7kGH"><b>Act 9 Passives</b></a>\n\n
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGieD-ehqQ6IAp-WbijWSvk9ncaBCwGY64TbFVca3PiycuJOCxw3iV8gEs17AVkhMs00UrrMFQjbpibwQUUmyhTJG_uvu2CRtGYhapwj-ChZvZp4o-ho4vOo6WIPbQYd2Edi9LOIkqsaKXyrHpP6Pcg8y0ZBVoOYHpUWd42rfT1NS7OhN4-vkmuCPRvrSJy_fsNIqahsycQQH_rNFR_JFplen-EiOZroI9IIQAuPa3R8C"><b>Act 10 Passives</b></a></string>
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAGpDEFj-swelSbJ2ESycCPTfsALjghBtGWobvOo="><b>Акт 1 Пассивки</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAK6zEFgfAjbFVcZJsiyc2CTr5ALjvOpqQ2obBAeCEG0ZOlhWSHYRBUKD29-wCPRfKkyzB6X-sw=="><b>Акт 2 Пассивки</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMAAK6zEFgfAkmyRv7YJEWdvOpqQ6flOlinCN-wxopfKv6zNsVVxiyc6-QC41NS2t1qGwelBAcI9Jrgg9sFQuzobRlWSHYRghBMs-vu0io="><b>Акт 3 Пассивки</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAK6zEFgfAh0USbJG_tgkRZ286mpDogCn5QQHdhHfsMaKXyqFMsBmMtEFQo9GNsVVxvrS6-7jaiycbRnr5ALjmuAN4lNSpwg6WGobB6Xs6NIqRUeD2wSz_rNIjlZICPSCEEyz2t0Wbw=="><b>Акт 4 Пассивки</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAK6zEFg26R0USbJG_tgkRZ286mpDogCn5YUybRk6WNrddhHHpN9PJKrGil8qpwgI9MBmMtHjao9GNsVVxvrSBAcWbyycHwLr5ALj37AN4lNSahv-swelg9vSKlfIRUfs6ASzZp5IjlZImuCCEEyz6-4FQg=="><b>Акт 5 Пассивки</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABBYHRRKn1nzvOpqQ6IAp-WnCMBmNsVVxiycAuMN4lfIBLNIjlZITLOuswVCNumJvEmyhTJG_tgkRZ1mnho4Olh2Ed9PJKrGil8qcg8y0ZBVoOb60prg6-7s6Ovk37DSKoPbU1JncScvB6X-s2obEFFFRx8CFm8EB-Nqj0YI9IIQx6Ta3W0Z"><b>Акт 6 Пассивки</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGvnoakOiAKflZ3HAZjbFVcYsnLiTgscN4lfIBLNIjlZITLOuswVCNumJvEmyhTJG_tIqRZ1mnho4g9t2Ed9P37DGil8qJKr-szLRkFWPRtrdcg_jaqcIEFHs6B8C6-TYJBZvBAcnL_rSCPRqG8ekU1K86kVHB6UC4yj6bRk6WKDmghDr7prg"><b>Акт 7 Пассивки</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGvnoakOiAKflm4o1kr5P_o_AZjrhNsVVxrc-LJy4k4LHDeJXyASzSI7YvUyzrrMFQjbpibxJsoUyRv7SKv4KQYdmnuvuGjhncbzqg9sWb3YR30_fsMaKXyoo-gLj_rMy0ZBVoOZtGYIQ42pWSDpY7OjHpOvkB6VFnVNSJy8I9JrgahuPRvrSBAdFR9gkpldN4x8CEFGnCPJFcg_a3SSq"><b>Акт 8 Пассивки</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGvnoakOiAKflm4o1kr5P_o-gQsBmOuE2xVXGtz4snLiTgscN4lfIBLNewNi9TLOuswVCNumJvEmyhTJG_tgkHwLa3f4KAuNmnoIQGjgI9EiOg9sQUXYR8kXfTySqxopfKqcI_rNyDzLRkFWg5gQHahvjatIq37Ds6Ccv6-T60o9GmuBTUk3jRZ0HpWdxOlhWSEVHbRmmVyj6Fm-86ohax6Tr7kGH"><b>Акт 9 Пассивки</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGieD-ehqQ6IAp-WbijWSvk9ncaBCwGY64TbFVca3PiycuJOCxw3iV8gEs17AVkhMs00UrrMFQjbpibwQUUmyhTJG_uvu2CRtGYhapwj-ChZvZp4o-ho4vOo6WIPbQYd2Edi9LOIkqsaKXyrHpP6Pcg8y0ZBVoOYHpUWd42rfT1NS7OhN4-vkmuCPRvrSJy_fsNIqahsycQQH_rNFR_JFplen-EiOZroI9IIQAuPa3R8C"><b>Акт 10 Пассивки</b></a></string>
+
     <string name="text_asc1">
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGieD-ehqQ6IAp-WbijWSvk9ncaBCbqrAZjrhNsVVxrc-Ssi4kwLjDeJXyASzvOpIjlZI2t0I9Eyz8kVNFGa6BUI26Ym842pJsoUyRv4snNgkp_je5a6zgsf-ChSpZp5ewBo4QYdqG4PbHwJ2EYIQLOIkqsaKXyonL7Xycg8y0ZBVoOb-swQHMnHSKt-w7Oj60uvkj0aa4E3jU1LfT0WdB6X-j8ek2L1FRzpYplco-hZvpwiIWm0Z6-4QUQ=="><b>Lv70 Passives</b></a>\n\n
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAFwUEFgqTR0USp9Z848aJ4P56GpDx6Sn5ZuKNZK-T2RyW9WgQm6qwGY64TbFVca3PkrIuJNncYLH6-4N4qPvAuOIWhZvEFFmulfIKPo6WASzibxIjti93uX-CkyzB6VNFGlQBUI26acISbKFMkb-U1LYJP6PVIJtGVZIRZ0UqWaeLOIaODJxR-KD26IAdhE_J99PJKrGil8qTeOa4HIPMtGQVaDmj0b-s_rS0irfsOzoBAfr5LXyIuKkOScvghAfAmobsnBBh17ARUeus6ZXp_gsnBzc42ryRQj02t286g=="><b>Lv80 Passives</b></a>\n\n
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAFwUEFgqTR0USp9Z848aJ4OUb7zqakPHpKflQYebijWSvk9kctrdW9WgQm6q-egc3ErIwGZewAj0OuE2xVXGNum3PmZULJy4k-NqgseJvA3io-_SKu_rrrPVpjpYV8iD22obBLNyD0iO2L3QHycvTLOycE0UaVAFQh8C-tJJsoUyRv4v1tgk8kWCECSqpDlFnRSpZp4i4ho4tfJWSAQHMnF2Ea7_30_fsMaKXyqg5qf4_rMy0ZBVj0aa4E3jPyeiAEfi7Ogs4uvkbRlUgv6PU1Jqu6cIB6WoNf4K3uVFRxpyplco-ma6EFEWb4haAuPr7mdx"><b>Lv90 Passives</b></a>\n\n
-<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAFwUEFgqTVH7WfOPGpRvvOrHpKflm4pnccBmOuE2xWZUuJMC4w3i7-szbASzaVAFQh8CSbKFMkb-2CS9J0WdFKlmnho4GFYEB99P37DGil8qMtGQVY9GPydquwelplco-oha6-4dFEqfFm_NFieDakMQUTWSvk9kclvVoEJuqh8YVca3Piycgsej73GF1aZXyNq5SI7YvUyzTRRmuom80ire5f4KqDUYPKcItfL-j1SCbRnyRXYRrv8s4iSqR-KiAE3jmuD-syAGp_ig5jJxVkhTUiLipDns6IIQ6-Qv1vrSsnAnL9Afcg9qG4PbOlius0VHGnLjajbpCPRewErIHNz56NrdQYc="><b>Lv100 Passives</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDABzcEFgdFEqfWfOPGieD-ehqQ6IAp-WbijWSvk9ncaBCbqrAZjrhNsVVxrc-Ssi4kwLjDeJXyASzvOpIjlZI2t0I9Eyz8kVNFGa6BUI26Ym842pJsoUyRv4snNgkp_je5a6zgsf-ChSpZp5ewBo4QYdqG4PbHwJ2EYIQLOIkqsaKXyonL7Xycg8y0ZBVoOb-swQHMnHSKt-w7Oj60uvkj0aa4E3jU1LfT0WdB6X-j8ek2L1FRzpYplco-hZvpwiIWm0Z6-4QUQ=="><b>Ур70 Пассивки</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAFwUEFgqTR0USp9Z848aJ4P56GpDx6Sn5ZuKNZK-T2RyW9WgQm6qwGY64TbFVca3PkrIuJNncYLH6-4N4qPvAuOIWhZvEFFmulfIKPo6WASzibxIjti93uX-CkyzB6VNFGlQBUI26acISbKFMkb-U1LYJP6PVIJtGVZIRZ0UqWaeLOIaODJxR-KD26IAdhE_J99PJKrGil8qTeOa4HIPMtGQVaDmj0b-s_rS0irfsOzoBAfr5LXyIuKkOScvghAfAmobsnBBh17ARUeus6ZXp_gsnBzc42ryRQj02t286g=="><b>Ур80 Пассивки</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAFwUEFgqTR0USp9Z848aJ4OUb7zqakPHpKflQYebijWSvk9kctrdW9WgQm6q-egc3ErIwGZewAj0OuE2xVXGNum3PmZULJy4k-NqgseJvA3io-_SKu_rrrPVpjpYV8iD22obBLNyD0iO2L3QHycvTLOycE0UaVAFQh8C-tJJsoUyRv4v1tgk8kWCECSqpDlFnRSpZp4i4ho4tfJWSAQHMnF2Ea7_30_fsMaKXyqg5qf4_rMy0ZBVj0aa4E3jPyeiAEfi7Ogs4uvkbRlUgv6PU1Jqu6cIB6WoNf4K3uVFRxpyplco-ma6EFEWb4haAuPr7mdx"><b>Ур90 Пассивки</b></a>\n\n
+<a href="https://www.pathofexile.com/passive-skill-tree/3.11.0/AAAABAMDAFwUEFgqTVH7WfOPGpRvvOrHpKflm4pnccBmOuE2xWZUuJMC4w3i7-szbASzaVAFQh8CSbKFMkb-2CS9J0WdFKlmnho4GFYEB99P37DGil8qMtGQVY9GPydquwelplco-oha6-4dFEqfFm_NFieDakMQUTWSvk9kclvVoEJuqh8YVca3Piycgsej73GF1aZXyNq5SI7YvUyzTRRmuom80ire5f4KqDUYPKcItfL-j1SCbRnyRXYRrv8s4iSqR-KiAE3jmuD-syAGp_ig5jJxVkhTUiLipDns6IIQ6-Qv1vrSsnAnL9Afcg9qG4PbOlius0VHGnLjajbpCPRewErIHNz56NrdQYc="><b>Ур100 Пассивки</b></a>\n\n
 
-<i>This progression isn\'t set in stone! F.e. it\'s fine to get jewel sockets earlier if you have good ones.</i></string>
-    <string name="text_asc2"><big><b>Essence Glutton</b></big> <i>(Normal)</i>: The main reason why we choose Necromancer. Provides tons of mana sustain with the right setup, and even some extra mana on top of that. \n\n
-        <big><b>Mistress of Sacrifice</b></big> <i>(Cruel)</i>: Another reason for Necromancer. Applies offerings to us with slightly lowered effect and increases skill duration. \n\n
-        <big><b>Plaguebringer</b></big> <i>(Merciless)</i>: Reduces enemy damage while increasing our damage output and provides some AoE, as long as there are corpses nearby and we\'ve consumed one. \n\n
-        <big><b>Corpse Pact</b></big> <i>(Eternal)</i>: Shocks enemies for another 15% increased damage taken, chills them for 10% reduced action speed and gives us some damage and cast speed.</string>
+<i>Данный прогресс не фиксирован! Вы можете вставлять или использовать камни раньше или позже, по своему желанию.</i></string>
+
+    <string name="text_asc2"><big><b>Пожиратель сущности</b></big> <i>(Первый)</i>: Основная причина, почему мы выбираем Некроманта. Обеспечивает тонны манны и ее регенерации с правильной настройкой, и даже некоторую дополнительную манну в дополнение к этому. \n\n
+        <big><b>Госпожа жертвоприношений</b></big> <i>(Жестокий)</i>: Еще одна причина для Некроманта. Применяет Подношения к нам со слегка пониженным эффектом и увеличивает продолжительность навыка. \n\n
+        <big><b>Несущий чуму</b></big> <i>(Безжалостный)</i>: Снижает урон врагу, увеличивая наш урон и обеспечивая некоторое AoE, если поблизости есть трупы, и мы их поглотили.\n\n
+        <big><b>Трупный пакт</b></big> <i>(Вечный)</i>: Поражает противников, нанося им еще 30% увеличенного урона, охлаждая их на 10%, уменьшая скорость действия и давая нам некоторую скорость атаки и произнесения чар.</string>
+
     <string name="text_asc3">
-‣ <big><b>Soul of the Brine King</b></big> <i>(Major)</i>: Prevents us from getting stunlocked and shortens stun duration.\n\n
+‣ <big><b>Душа Морского царя</b></big> <i>(Старший)</i>: Предотвращает нас от оглушения и сокращает продолжительность оглушения.\n\n
 
-‣ <big><b>Soul of Tukohama</b></big> <i>(Minor)</i>: Additional physical damage mitigation and life regeneration.\n\n
+‣ <big><b>Душа Тукохамы</b></big> <i>(Младший)</i>: Дополнительное снижение физического урона и восстановление жизни.\n\n
 
-‣ <big><b>Soul of Ryslatha</b></big> <i>(Minor)</i>: Life Flask sustain for longer bossfights.\n\n
+‣ <big><b>Душа Рюслаты</b></big> <i>(Младший)</i>: Пополнение Фляги Жизни для боев с Боссами.\n\n
 
-<i>You can have 1x major and 1x minor Pantheon node active at once.</i></string>
+<i> Вы можете одновременно активировать 1x Старшую и 1x Младшую силу Пантеона.</i></string>
+
     <string name="text_gem1"><i>Non-corrupted Lv20 Gems can be upgraded to Lv1 20% by vendoring them together with a Gemcutters Prism. Do this with all gems that are marked with a *\n\n
 
 All gems are worth corrupting at Lv20 20%, for the ones not needing quality just do it at Lv20.\n\n
@@ -534,11 +530,15 @@ Resistances N B Es\n
 
 
 
-Any intelligence-based body armour works for us, otherwise getting six blue sockets would be too hard. Occultist Vestment is the best base for some extra spell damage, but it\'s not too important. Once again, just focus on life, mana and resistances.\n
+Any intelligence-based body armour works for us, otherwise getting six blue sockets would be too hard. Occultist Vestment is the best base for some extra spell damage, but it\'s not too important. Once again, just focus on life, mana and resistances.\n\n
 
-Offering effect is great to push the build further into endgame, as it gives us Chance to Block Attacks, Chance to Block Spells and more life recovered on block. The Life % + Mana % veiled prefix finalizes a great endgame body armour.\n
+<a href="https://pathofexile.gamepedia.com/Loreweave">Loreweave</a> is an interesting choice. Its life and mana are fairly low, but it comes with some other useful stats and most importantly, raises our maximum resistances to up to 78 (the linked one is legacy, 80% is not possible anymore). To put that into perspective, compared to the base 75% resistances this is a 12% damage reduction. The downside is that getting six blue sockets is not easy here. It can only be obtained through a recipe, by selling any 60x identified unique rings to a vendor at the same time.\n\n
 
-<b>Loreweave</b> is an interesting choice. Its life and mana are fairly low, but it comes with some other useful stats and most importantly, raises our maximum resistances to up to 78 (the linked one is legacy, 80% is not possible anymore). To put that into perspective, compared to the base 75% resistances this is a 12% damage reduction. The downside is that getting six blue sockets is not easy here. It can only be obtained through a recipe, by selling any 60x identified unique rings to a vendor at the same time.\n\n
+<a href="https://pathofexile.gamepedia.com/Shroud_of_the_Lightless">Shroud of the Lightless</a> is a really good budget choice and especially strong when mainly using <a href="https://pathofexile.gamepedia.com/Abyss_Jewel">Abyss Jewels</a>. It always comes with an <a href="https://pathofexile.gamepedia.com/Abyssal_Socket">Abyssal Socket</a> and is limited to five links at most, but with the integrated Elemental Penetration gem it becomes an effective 6L! This replaces Lightning Penetration in our Arc setup. It can only drop from <a href="https://pathofexile.gamepedia.com/Abyssal_Depths">Lich bosses in Abyssal Depths</a>.\n\n
+
+<a href="https://pathofexile.gamepedia.com/Cloak_of_Defiance">Cloak of Defiance</a> gives a ton of mana, sustain, saves a passive by providing Mind over Matter and even adds another 10% damage taken to mana before life! This however can also lead to problems if your mana sustain isn\'t great yet, so i\'d only recommend this for high mana setups.\n\n
+
+A body armour with Offering Effect is great to push the build further into endgame, as it gives us Chance to Block Attacks, Chance to Block Spells and more life recovered on block. Remember, avoiding damage is the strongest possible defense! The Life % + Mana % veiled prefix finalizes a great endgame body armour.\n\n
 
 <b><big>Affix Priority</big></b> \n\n
 
@@ -558,13 +558,15 @@ Resistances N B Es\n\n
 
 Start with a very basic life, mana and resistances helmet. Bone Helmets give us a free 20% damage implicit thanks to Spiritual Aid, but it\'s not required.\n\n
 
-<b>Kitava\'s Thirst</b> can be used to skip the tedious process of casting Arcanist Brand for our buffs, with the downside of losing some cast speed and potential life and resistances from our helmet.\n
-It does pretty much the same as \"Trigger a Socketed Spell when you use a Skill\" weapon craft which we eventually want, so this helmet is just a temporary solution until then.\n
+<a href="https://pathofexile.gamepedia.com/Kitava%27s_Thirst">Kitava\'s Thirst</a> can be used to skip the tedious process of casting Arcanist Brand for our buffs, with the downside of losing some cast speed and potential life and resistances from our helmet.
+It does pretty much the same as "Trigger a Socketed Spell when you use a Skill" weapon craft which we eventually want, so this helmet is just a temporary solution until then.
 With this helmet, put Desecrate, Spell Cascade and Bone Offering into the helmet, last socket can be filled with Enfeeble, Warlord\'s Mark or Temporal Chains depending on which colors you get. Arcane Cloak, Arcane Surge and Increased Duration need to go into weapon, losing Second Wind.\n\n
 
-A highend helmet can have either of the resistance-reducing suffixes or simply stack the essential affixes with lots of resistances to allow us to get more damage suffixes on other gear pieces.\n
+<a href="https://pathofexile.gamepedia.com/Crown_of_the_Inward_Eye">Crown of the Inward Eye</a> is a very basic highend helmet if no resistances are needed. It comes with up to 21% life and mana and all three Transfigurations, of which only Soul and Mind are interesting for us. The former provides 30% of increased/reduced maximum Energy Shield as increased Spell Damage, the latter provides 30% of increased/reduced maximum Mana as increased Damage. It can only drop from <a href="https://pathofexile.gamepedia.com/Sirus,_Awakener_of_Worlds">Sirus, the Awakener</a>.\n\n
 
-Only relevant <a href="https://pathofexile.gamepedia.com/Labyrinth_Enchantment">enchantments</a> are \"Arc chains an additional time\", \"Arcane Cloak spends an additional #% of current Mana\" and \"#% increased Flame Dash Cooldown Recovery Speed\".\n\n
+If resistances are needed, aim for that with high life, mana and a resistance-reducing affix.\n\n
+
+Best <a href="https://pathofexile.gamepedia.com/Labyrinth_Enchantment">enchantments</a> are <b>Arc chains an additional time, Arcane Cloak spends an additional #% of current Mana and #% increased Flame Dash Cooldown Recovery Speed.</b>\n\n
 
 <big><b>Affix Priority</b></big> \n\n
 
@@ -582,13 +584,11 @@ Nearby Enemies take #% increased Elemental Damage S\n
 
 
 
-This may come as a surprise but we want life, mana and resistances from our gloves. Fingerless Silk Gloves give an extra spell damage implicit, which is once again nice to have but not required.\n
+This may come as a surprise but we want life, mana and resistances from our gloves. Fingerless Silk Gloves give an extra spell damage implicit, which is once again nice to have but not required.\n\n
 
-<b>Kalisa\'s Grace</b> are decent entry-level unique gloves if you don\'t need any resistances. They come with some life, a little bit of mana from intelligence, extra crit for Elemental Overload uptime and an extra Faster Casting support, which works best with socketing our Orb of Storms setup.\n
+<a href="https://pathofexile.gamepedia.com/Asenath%27s_Gentle_Touch">Asenath\'s Gentle Touch</a> are very interesting as well. They come with the basic life and mana that we want, curse enemies with Temporal Chains and have situational Blind and corpse explosions to remove on-death effects, such as from porcupines. They can only drop from Maraketh Legions.\n\n
 
-<b>Asenath\'s Gentle Touch</b> are very interesting as well. They come with the basic life and mana that we want, curse enemies with <a href="https://pathofexile.gamepedia.com/Temporal_Chains">Temporal Chains</a> and have situational <a href="https://pathofexile.gamepedia.com/Blind">Blind</a> and corpse explosions to remove on-death effects, such as from <a href="https://pathofexile.gamepedia.com/Porcupine_Goliath">porcupines</a>. They can only drop from <a href="https://pathofexile.gamepedia.com/Legion">Maraketh Legions</a>.\n
-
-If not going for the previous gloves, go for a highend pair with either Faster Casting Support, <a href="https://pathofexile.gamepedia.com/Unnerve">unnerve chance</a> or <a href="https://pathofexile.gamepedia.com/Culling_strike">culling strike</a>.\n
+If not going for the previous gloves, go for a highend pair with either Faster Casting Support, unnerve chance or culling strike.\n\n
 
 Enchantments aren\'t really significant for us here, don\'t bother with them.\n\n
 
@@ -613,7 +613,7 @@ Culling Strike W\n
 
 Nothing new here, just get as much life, mana, movement speed and resistances as you can. Two-Toned Boots grant some extra resistance implicit.\n
 
-Best enchantment is hands down \"#% increased Mana Regeneration Rate if you\'ve cast a Spell recently\", don\'t settle with anything else.\n\n
+Best enchantment is hands down <b>\"#% increased Mana Regeneration Rate if you\'ve cast a Spell recently\"</b>, don\'t settle with anything else.\n\n
 
 <b><big>Affix Priority</big> \n\n
 
@@ -627,11 +627,13 @@ Best enchantment is hands down \"#% increased Mana Regeneration Rate if you\'ve 
 Resistances N B Es</b>\n\n
 
 
-<b>Ungil\'s Harmony</b> and <b>Atziri\'s Foible</b> are both great starter choices, otherwise get a rare with similar life and mana to the former and maybe some damage too.\n
+<a href="https://pathofexile.gamepedia.com/Ungil%27s_Harmony">Ungil\'s Harmony</a> is a great starter amulet for this build. It brings some life, mana and lots of crit chance, which makes it easier to proc Elemental Overload. The crit damage penalty doesn\'t affect us at all, as the aforementioned keystone already does the same.
 
-Later on we want an <a href="https://pathofexile.gamepedia.com/The_Temple_of_Atzoatl">Incursion</a> amulet with Mana + Mana % prefix and high life, and augment that with fertile <a href="https://pathofexile.gamepedia.com/Catalyst">catalysts</a>. Another option is a Shaper- or Crusader-influenced amulet with life, mana and various damage affixes, or life leech for some extra sustain.\n
+<a href="https://pathofexile.gamepedia.com/Atziri%27s_Foible">Atziri\'s Foible</a> is an insanely good amulet for us and provides lots of mana and -regeneration.
 
-Best <a href="https://pathofexile.gamepedia.com/Oil">anointment</a> is Undertaker for extra damage, life regeneration and Essence Glutton uptime. On a budget amulet, just get something cheap like <a href="https://pathofexile.gamepedia.com/Beef">Beef</a> for some extra strength.\n\n
+Alternatively we can get an <a href="https://pathofexile.gamepedia.com/The_Temple_of_Atzoatl">Incursion</a> amulet with Mana + Mana % prefix and high life, and augment that with Fertile <a href="https://pathofexile.gamepedia.com/Catalyst">catalysts</a>. Another option is a Shaper- or Crusader-influenced amulet with life, mana and various damage affixes, or life leech for some extra sustain.
+
+Best <a href="https://pathofexile.gamepedia.com/Oil">anointment</a> is Undertaker for extra damage, life regeneration and Essence Glutton uptime. Another option would be Mind Drinker for some extra mana and mana recovery on kill.
 
 <b><big>Affix Priority</big> \n\n
 
@@ -657,11 +659,11 @@ Resistances N B\n\n
 
 Rings are another slot to gain lots of resistances from, once again together with life and mana.\n
 
-A highend ring provides all that on a Vermilion Ring base, or together with some damage affixes. It\'s also another slot to get a curse on hit from, this time Conductivity. Just note that the base curse limit is 1 and curses are heavily countered by bosses and mapmods.\n
+A highend ring provides all that on a Vermilion Ring base, or together with some damage affixes. It\'s also another slot to get a curse on hit from, this time <a href="https://pathofexile.gamepedia.com/Conductivity">Conductivity</a>. Just note that the base <a href="https://pathofexile.gamepedia.com/Curse">curse</a> limit is 1 and curses are heavily countered by bosses and mapmods.\n
 
-<b>Essence Worm</b> allows us to run an aura without any reservation cost, our choice is Wrath for another huge damage multiplier. It also increases our Clarity\'s reservation cost, but the damage gain outweighs this downside. It\'s not necessary but highly recommended to have for endgame.\n
+<a href="https://pathofexile.gamepedia.com/Essence_Worm">Essence Worm</a> allows us to run an aura without any reservation cost, our choice is <a href="https://pathofexile.gamepedia.com/Wrath">Wrath</a> for another huge damage multiplier. It also increases our Clarity\'s reservation cost, but the damage gain outweighs this downside. It\'s not necessary but highly recommended to have for endgame.\n
 
-<b>Sibyl\'s Lament</b> is only needed to safely do any Atziri encounter, as she has a small amount of damage reflection. Equip the ring in left slot, activate Soul of Yugul in Pantheon and you\'re safe.\n\n
+<a href="https://pathofexile.gamepedia.com/Sibyl%27s_Lament">Sibyl\'s Lament</a> is only needed to safely do any <a href="https://pathofexile.gamepedia.com/Atziri,_Queen_of_the_Vaal">Atziri</a> encounter, as she has a small amount of damage reflection. Equip the ring in left slot, activate Soul of Yugul in Pantheon and you\'re safe.\n\n
 
 <big><b>Affix Priority</b></big> \n\n
 
@@ -851,31 +853,53 @@ and may kill you if you try. There\'s lots of trial and error involved to figure
 ‣ 50% + Chance to Block Attacks and Spells\n
 
 ‣ upgraded Pantheon powers</i></string>
-    <string name="text_mapmods"><i><b>‣ No Regeneration:</b></i> Can\'t safely run this, skip\n
+    <string name="text_mapmods"><i><b>‣ Без регенирации:</b></i> Не можем проходить безопасно, пропускайте.\n
 
-        <i><b>‣ Elemental Reflect:</b></i> Reroll map or keep for the correct sextant modifier\n
+        <i><b>‣ Отражение урона:</b></i> Поменяйте карту или вставьте верный модификатор секстанта.\n
 
-        <i><b>‣ all Curses:</b></i> Counter them with your Warding Flask\n
+        <i><b>‣ Все Проклятья:</b></i> Снимается флягой с суффиксом оберега.\n
 
-        <i><b>‣ reduced Block Chance:</b></i> Survivability loss\n
+        <i><b>‣ Уменьшение Шанса блока:</b></i> Теряем в выживаемости.\n
 
-        <i><b>‣ Elemental Equilibrium/Resistance:</b></i> Damage losses</string>
-    <string name="text_boss">Bossfights are all mechanical, the build is very forgiving and allows you to learn those mechanics.\n\n
+        <i><b>‣ Равновесие стихий/Сопротивления:</b></i> Теряем в уроне.</string>
 
-Start each bossfight with Arcanist Brand (if still using), then cast Arcane Cloak, Orb of Storms and then burst them down with Arc. If you have to move, circling the boss is usually the best strategy. Only for a few skills, such as AoE slams, explosions or burrow attacks you want to gain distance.\n\n
+    <string name="text_boss"> Бои с боссами все основаны на механике, сборка очень прощающая и позволяет изучать эту механику.\n\n
 
-<b>Watch out for Fragment of Winter in Waterways, Crusher of Gladiators in Racecourse and Lieutetant of Rage spawning from the Lieutenant buff in Labyrinths! Each of them can go into a temporary damage reflection period, which has a visual indicator.</b>\n\n
+Начните каждый бой с боссом с Клейма чаротворца (если он все еще используется), затем используйте Чародейский покров, Сферу бурь, а затем уничтожьте их с помощью Цепной молнии. Если вам нужно двигаться, лучше всего обходить босса по кругу. Только для нескольких навыков, таких как AoE-удары, взрывы или атаки на погружение, вы захотите получить дистанцию.\n\n
 
-    <big><b>Endgame Bosses</b></big>\n\n
+<b>Остерегайтесь Кусочка Зимы на Водотоках, Сокрушителя Гладиаторов в Ипподроме и Лейтенанта Ярости, порождаемого от Изарио в Лабиринтах! Каждый из них может перейти в период временного отражения урона, который имеет визуальный индикатор.</b>\n\n
 
-For the sake of this section, every non-map boss except for Shaper- and Elder Guardians is considered an endgame boss. POELab has a GIF section to help getting familiar with each fight.\n\n
+    <big><b>Финальные боссы</b></big>\n\n
 
-Most are pretty straightforward, there\'s only a few to specifically mention here:\n\n
+В этом разделе каждый босс, не относящийся к Картам, за исключением Создателя и Хранителей и Стражей, считается финальным боссом. На <a href="https://www.poelab.com/">POELab</a> есть раздел GIF, чтобы познакомиться с каждым боем.\n\n
+Большинство из них довольно просты, есть только несколько, чтобы упомянуть здесь:\n\n
 
-<big><b>Atziri:</b></big> She has 2% damage reflection at all times, which can really hurt with even just average gear for this build. During her split phase, the copy holding a mirror reflects 100% of damage.
-While Arc doesn\'t chain between the copies, it\'s still possible to accidentally hit that clone and die. Therefore it\'s recommended to wear a Sibyl\'s Lament and use Soul of Yugul Pantheon against her. This includes her encounters in the Apex of Sacrifice, Alluring Abyss and Temple of Atzoatl.\n\n
+<big><b>Атзири:</b></big> У нее всегда 2% отражения урона, что может нанести урон даже при  средней экипировке для этого билда. Во время фазы раскола копия с зеркалом отражает 100% урона.\n
+В то время как Цепная молния не связывается между копиями, все еще возможно случайно ударить этого клона и умереть. Поэтому рекомендуется носить Стенания Сибелы и использовать против нее Душу Югула в Пантеоне. Это включает в себя ее встречи в Вершинах Жертвоприношений, Манящей Бездне и Храме Аццоатля.\n\n
 
-<big><b>Sirus:</b></big> There\'s no ways to gain flask charges during this long fight. The Granite- and Silver Flasks end up being rather useless, so it\'s better to replace them with additional Eternal Mana Flasks, preferably with Concentrated or Enduring prefix and switch to Soul of Ryslatha Pantheon.</string>
-    <string name="toast_back">Please click BACK again to exit</string>
-    <string name="settings_setup">Chose your text size here</string>
+<big><b>Сириус:</b></big> Во время этого долгого боя нет способов получить заряд фляг. Гранитные и Серебряные фляги оказываются довольно бесполезными, поэтому лучше заменить их на дополнительные фляги Вечной маны, предпочтительно с приставкой Средоточение или  Стойкости, и переключиться на Пантеон Душа Рюслаты.</string>
+    <string name="toast_back">Нажмите еще раз НАЗАД для выхода</string>
+    <string name="settings_setup">Выберите размер текста</string>
+    <string name="Mapmods">Моды на картах</string>
+    <string name="Bossfights">Бои с Боссами</string>
+    <string name="Mapping">Карты</string>
+    <string name="pros">Плюсы/Минусы</string>
+    <string name="main">Главные механики сборки</string>
+    <string name="about">Про сборку/приложение/авторов</string>
+    <string name="poba">Pastebin и браузерная версия</string>
+    <string name="pobd">POB загрузка</string>
+    <string name="youb">Youtube</string>
+    <string name="tw">Twitch</string>
+    <string name="before">Перед стартом</string>
+    <string name="fulllvl">Раздел полной прокачки</string>
+    <string name="lvl">Краткая версия прокачки</string>
+    <string name="pass">Пассивные умения</string>
+    <string name="asce">Восхождение</string>
+    <string name="pant">Пантеон</string>
+    <string name="allgem">Все связки камней</string>
+    <string name="gearlist">Предметы</string>
+    <string name="Jewel">Самоцветы</string>
+    <string name="Clust">Кластерные самоцветы</string>
+    <string name="Flask">Зелья</string>
+    <string name="upgrade">Порядок обновления</string>
 </resources>

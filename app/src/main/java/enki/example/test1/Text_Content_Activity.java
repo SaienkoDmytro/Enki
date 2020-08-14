@@ -1,4 +1,4 @@
-package com.example.test1;
+package enki.example.test1;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -14,9 +14,11 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import saenko.enki.R;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 public class Text_Content_Activity extends AppCompatActivity {
     private int category;
@@ -26,24 +28,26 @@ public class Text_Content_Activity extends AppCompatActivity {
     private TextView text_content, text_content1;
     private Typeface face1;
     private int position;
+    //using one Activity for all information, so made this with arrays. Big, strange, but dont know better option for now.
     private int [] array_video = {R.string.text_video, R.string.text_video1};
-    private String [] array_image = {"Youtube", "Twitch"};
+    private int [] array_image = {R.string.youb, R.string.tw};
     private int [] array_pob = {R.string.text_PB, R.string.text_PBD};
-    private String [] array_pob1 = {"Pastebin and Browser Version", "POB download"};
+    private int [] array_pob1 = {R.string.poba, R.string.pobd};
     private int [] array_about = {R.string.text_pros,R.string.text_mech, R.string.text_thanks};
-    private String [] array_about1 = {"Pros/Cons", "Main Mechanics in this Build", "About this Build, App and Thanks"};
+    private int [] array_about1 = {R.string.pros, R.string.main, R.string.about};
     private int [] array_lvl = {R.string.text_lvl1,R.string.text_lvl2, R.string.text_lvl3};
-    private String [] array_lvl1 = {"Before you start", "Full Leveling Section", "Leveling Section"};
+    private int [] array_lvl1 = {R.string.before, R.string.fulllvl, R.string.lvl};
     private int [] array_asc = {R.string.text_asc1,R.string.text_asc2, R.string.text_asc3};
-    private String [] array_asc1 = {"Passives", "Ascendancy", "Pantheon"};
+    private int [] array_asc1 = {R.string.pass, R.string.asce, R.string.pant};
     private int [] array_gem = {R.string.text_gem1};
-    private String [] array_gem1 = {"Main"};
+    private int [] array_gem1 = {R.string.allgem};
     private int [] array_gear = {R.string.text_gear1, R.string.text_gear2, R.string.text_gear3, R.string.text_gear4, R.string.text_gear5};
-    private String [] array_gear1 = {"Gear", "Jewels", "Cluster Jewels", "Flasks", "Upgrade Order"};
+    private int [] array_gear1 = {R.string.gearlist, R.string.Jewel, R.string.Clust, R.string.Flask, R.string.upgrade};
     private int [] array_map = {R.string.text_mapping, R.string.text_mapmods,R.string.text_boss};
-    private String [] array_map1 = {"Mapping", "Mapmods", "Bossfights"};
+    private int [] array_map1 = {R.string.Mapping, R.string.Mapmods, R.string.Bossfights};
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
+        //fill first content on open
         super.onCreate(savedInstanceState);
         setContentView(R.layout.text_content);
         text_content = findViewById(R.id.text_youtube);
@@ -52,6 +56,8 @@ public class Text_Content_Activity extends AppCompatActivity {
         text_content1.setMovementMethod(LinkMovementMethod.getInstance());
         reciveIntent();
         init();
+        //this AdMob dont want to work another way WTF
+        MobileAds.initialize(this, "ca-app-pub-5317923605482922~1688114550");
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
@@ -90,6 +96,7 @@ public class Text_Content_Activity extends AppCompatActivity {
         });
     }
     private void reciveIntent() {
+        //made category and position for fullfill arrays
 Intent i = getIntent();
 if (i != null){
 category = i.getIntExtra("category", 0);
@@ -131,6 +138,7 @@ text_content1.setText(array_about1[position]);
 }
     }
     private void init(){
+        //lets change text and size here
         def_pref = PreferenceManager.getDefaultSharedPreferences(this);
         text_content = findViewById(R.id.text_youtube);
         text_content1 = findViewById(R.id.array_name);

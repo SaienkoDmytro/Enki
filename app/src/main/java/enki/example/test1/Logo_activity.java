@@ -1,4 +1,4 @@
-package com.example.test1;
+package enki.example.test1;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.annotation.Nullable;
+
+import saenko.enki.R;
 
 public class Logo_activity extends Activity {
     private Animation logoAnim, buttonLogoAnim;
@@ -30,7 +32,7 @@ public class Logo_activity extends Activity {
         logoImage.startAnimation(logoAnim);
         bAnim.startAnimation(buttonLogoAnim);
     }
-
+//start App on START button click
     public void onClickStart(View view) {
         Intent i = new Intent(Logo_activity.this,MainActivity.class);
         startActivity(i);
@@ -41,6 +43,7 @@ public class Logo_activity extends Activity {
         super.onDestroy();
         finish();
     }
+    //auto start App after 3sec
     private void startMainActiv(){
      new Thread(new Runnable() {
          @Override
